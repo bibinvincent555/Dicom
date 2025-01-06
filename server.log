@@ -1,0 +1,672 @@
+2025-01-06 19:28:30,868 INFO  -> (main) [org.jboss.ws.server.ServiceEndpointManager] WebServices: jbossws-1.0.3.SP1 (date=200609291417)
+2025-01-06 19:28:32,843 INFO  -> (main) [org.apache.catalina.startup.Embedded] Catalina naming disabled
+2025-01-06 19:28:32,870 INFO  -> (main) [org.apache.catalina.startup.ClusterRuleSetFactory] Unable to find a cluster rule set in the classpath. Will load the default rule set.
+2025-01-06 19:28:32,871 INFO  -> (main) [org.apache.catalina.startup.ClusterRuleSetFactory] Unable to find a cluster rule set in the classpath. Will load the default rule set.
+2025-01-06 19:28:33,055 INFO  -> (main) [org.apache.coyote.http11.Http11BaseProtocol] Initializing Coyote HTTP/1.1 on http-0.0.0.0-8080
+2025-01-06 19:28:33,057 INFO  -> (main) [org.apache.catalina.startup.Catalina] Initialization processed in 186 ms
+2025-01-06 19:28:33,057 INFO  -> (main) [org.jboss.web.tomcat.tc5.StandardService] Starting service jboss.web
+2025-01-06 19:28:33,060 INFO  -> (main) [org.apache.catalina.core.StandardEngine] Starting Servlet Engine: Apache Tomcat/5.5.20
+2025-01-06 19:28:33,092 INFO  -> (main) [org.apache.catalina.core.StandardHost] XML validation disabled
+2025-01-06 19:28:33,116 INFO  -> (main) [org.apache.catalina.startup.Catalina] Server startup in 59 ms
+2025-01-06 19:28:33,226 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/invoker, warUrl=.../deploy/http-invoker.sar/invoker.war/
+2025-01-06 19:28:33,384 INFO  -> (main) [org.apache.catalina.loader.WebappLoader] Dual registration of jndi stream handler: factory already defined
+2025-01-06 19:28:33,567 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/, warUrl=.../deploy/jbossweb-tomcat55.sar/ROOT.war/
+2025-01-06 19:28:33,643 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/jbossws, warUrl=.../tmp/deploy/tmp4479990764237672424jbossws-context-exp.war/
+2025-01-06 19:28:33,710 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/jbossmq-httpil, warUrl=.../deploy/jms/jbossmq-httpil.sar/jbossmq-httpil.war/
+2025-01-06 19:28:34,129 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/web-console, warUrl=.../deploy/management/console-mgr.sar/web-console.war/
+2025-01-06 19:28:34,463 INFO  -> (main) [org.jboss.mail.MailService] Mail Service bound to java:/Mail
+2025-01-06 19:28:34,540 INFO  -> (main) [org.jboss.resource.deployment.RARDeployment] Required license terms exist, view META-INF/ra.xml in .../deploy/jboss-ha-local-jdbc.rar
+2025-01-06 19:28:34,561 INFO  -> (main) [org.jboss.resource.deployment.RARDeployment] Required license terms exist, view META-INF/ra.xml in .../deploy/jboss-ha-xa-jdbc.rar
+2025-01-06 19:28:34,573 INFO  -> (main) [org.jboss.resource.deployment.RARDeployment] Required license terms exist, view META-INF/ra.xml in .../deploy/jboss-local-jdbc.rar
+2025-01-06 19:28:34,588 INFO  -> (main) [org.jboss.resource.deployment.RARDeployment] Required license terms exist, view META-INF/ra.xml in .../deploy/jboss-xa-jdbc.rar
+2025-01-06 19:28:34,606 INFO  -> (main) [org.jboss.resource.deployment.RARDeployment] Required license terms exist, view META-INF/ra.xml in .../deploy/jms/jms-ra.rar
+2025-01-06 19:28:34,623 INFO  -> (main) [org.jboss.resource.deployment.RARDeployment] Required license terms exist, view META-INF/ra.xml in .../deploy/mail-ra.rar
+2025-01-06 19:28:35,180 INFO  -> (main) [org.jboss.resource.adapter.jdbc.remote.WrapperDataSourceService] Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' to JNDI name 'java:DefaultDS'
+2025-01-06 19:28:35,367 INFO  -> (main) [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] Bound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' to JNDI name 'java:JmsXA'
+2025-01-06 19:28:35,435 INFO  -> (main) [org.jboss.resource.adapter.jdbc.remote.WrapperDataSourceService] Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=MySqlDS' to JNDI name 'java:MySqlDS'
+2025-01-06 19:28:40,337 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.ExportManager] Bound to JNDI name: queue/ExportManager
+2025-01-06 19:28:40,369 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.FileCopy] Bound to JNDI name: queue/FileCopy
+2025-01-06 19:28:40,403 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.PurgeStudy] Bound to JNDI name: queue/PurgeStudy
+2025-01-06 19:28:40,438 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.IANScu] Bound to JNDI name: queue/IANScu
+2025-01-06 19:28:40,473 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.MCMScu] Bound to JNDI name: queue/MCMScu
+2025-01-06 19:28:40,509 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.MoveScu] Bound to JNDI name: queue/MoveScu
+2025-01-06 19:28:40,541 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.MPPSScu] Bound to JNDI name: queue/MPPSScu
+2025-01-06 19:28:40,575 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.PPSExceptionMgt] Bound to JNDI name: queue/PPSExceptionMgt
+2025-01-06 19:28:40,609 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.PPSScu] Bound to JNDI name: queue/PPSScu
+2025-01-06 19:28:40,642 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.Sendmail] Bound to JNDI name: queue/Sendmail
+2025-01-06 19:28:40,674 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.StgCmtScuScp] Bound to JNDI name: queue/StgCmtScuScp
+2025-01-06 19:28:40,706 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.StudyMgtScu] Bound to JNDI name: queue/StudyMgtScu
+2025-01-06 19:28:40,737 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.A] Bound to JNDI name: queue/A
+2025-01-06 19:28:40,768 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.B] Bound to JNDI name: queue/B
+2025-01-06 19:28:40,800 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.C] Bound to JNDI name: queue/C
+2025-01-06 19:28:40,832 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.D] Bound to JNDI name: queue/D
+2025-01-06 19:28:40,864 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.ex] Bound to JNDI name: queue/ex
+2025-01-06 19:28:40,944 INFO  -> (main) [org.jboss.mq.il.uil2.UILServerILService] JBossMQ UIL service available at : /0.0.0.0:8093
+2025-01-06 19:28:40,984 INFO  -> (main) [org.jboss.mq.server.jmx.Topic.testTopic] Bound to JNDI name: topic/testTopic
+2025-01-06 19:28:40,986 INFO  -> (main) [org.jboss.mq.server.jmx.Topic.securedTopic] Bound to JNDI name: topic/securedTopic
+2025-01-06 19:28:40,987 INFO  -> (main) [org.jboss.mq.server.jmx.Topic.testDurableTopic] Bound to JNDI name: topic/testDurableTopic
+2025-01-06 19:28:41,018 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.testQueue] Bound to JNDI name: queue/testQueue
+2025-01-06 19:28:41,049 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.DLQ] Bound to JNDI name: queue/DLQ
+2025-01-06 19:28:41,169 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying AuditRecord
+2025-01-06 19:28:41,219 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying QueryAuditRecord
+2025-01-06 19:28:41,227 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying StoreAuditRecord
+2025-01-06 19:28:41,613 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'AuditRecord' to jndi 'ejb/AuditRecord'
+2025-01-06 19:28:41,628 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'QueryAuditRecord' to jndi 'ejb/QueryAuditRecord'
+2025-01-06 19:28:41,639 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'StoreAuditRecord' to jndi 'ejb/StoreAuditRecord'
+2025-01-06 19:28:41,651 INFO  -> (Thread-7) [org.dcm4cheri.server.UDPServerImpl] Started UDP Server listening on 0.0.0.0/0.0.0.0:4000
+2025-01-06 19:28:41,920 INFO  -> (main) [org.dcm4chex.arr.ejb.session.StoreAuditRecordBean] Store AuditRecord[type=ActorStartStop, host=atvdi, timestamp=2025-01-06 19:28:41.92]
+2025-01-06 19:28:42,029 INFO  -> (main) [org.jboss.ejb.EJBDeployer] Deployed: file:/home/ahis/AmritaPACS/jboss-4.0.5.GA/server/apacs/deploy/dcm4chee-arr-ejb.jar
+2025-01-06 19:28:42,283 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying MWLItem
+2025-01-06 19:28:42,286 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Device
+2025-01-06 19:28:42,290 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying AE
+2025-01-06 19:28:42,293 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Study
+2025-01-06 19:28:42,296 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Series
+2025-01-06 19:28:42,299 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying HPDefinition
+2025-01-06 19:28:42,302 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying MPPS
+2025-01-06 19:28:42,305 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying File
+2025-01-06 19:28:42,308 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying GPSPSRequest
+2025-01-06 19:28:42,313 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying GPSPS
+2025-01-06 19:28:42,316 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying FileSystem
+2025-01-06 19:28:42,319 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Instance
+2025-01-06 19:28:42,322 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying PrivateSeries
+2025-01-06 19:28:42,327 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying SeriesRequest
+2025-01-06 19:28:42,330 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Patient
+2025-01-06 19:28:42,336 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying HP
+2025-01-06 19:28:42,338 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying PrivatePatient
+2025-01-06 19:28:42,342 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying StudyOnFileSystem
+2025-01-06 19:28:42,345 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Media
+2025-01-06 19:28:42,348 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying PrivateInstance
+2025-01-06 19:28:42,351 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying PrivateStudy
+2025-01-06 19:28:42,354 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying GPSPSPerformer
+2025-01-06 19:28:42,357 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Code
+2025-01-06 19:28:42,360 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying GPPPS
+2025-01-06 19:28:42,363 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying PrivateFile
+2025-01-06 19:28:42,366 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying GPPPSManager
+2025-01-06 19:28:42,371 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying HPStorage
+2025-01-06 19:28:42,374 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying PrivateManager
+2025-01-06 19:28:42,377 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying ConsistencyCheck
+2025-01-06 19:28:42,379 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying CheckStudyPatient
+2025-01-06 19:28:42,382 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying StudyReconciliation
+2025-01-06 19:28:42,384 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying ContentManager
+2025-01-06 19:28:42,387 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying UserManager
+2025-01-06 19:28:42,389 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying FixPatientAttributes
+2025-01-06 19:28:42,392 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying StudyMgt
+2025-01-06 19:28:42,394 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying AEManager
+2025-01-06 19:28:42,397 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying CodeToDeviceMapping
+2025-01-06 19:28:42,399 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying PatientUpdate
+2025-01-06 19:28:42,403 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying MPPSManager
+2025-01-06 19:28:42,408 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying MPPSEmulator
+2025-01-06 19:28:42,412 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying ContentEdit
+2025-01-06 19:28:42,416 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying MediaComposer
+2025-01-06 19:28:42,420 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying FileSystemMgt
+2025-01-06 19:28:42,424 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Storage
+2025-01-06 19:28:42,428 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying MWLManager
+2025-01-06 19:28:42,432 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying GPWLManager
+2025-01-06 19:28:42,825 DEBUG -> (main) [MWLItem] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=MWLItem]]
+2025-01-06 19:28:42,825 DEBUG -> (main) [MWLItem] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=MWLItem]]
+2025-01-06 19:28:42,827 DEBUG -> (main) [Study] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=Study]]
+2025-01-06 19:28:42,827 DEBUG -> (main) [Study] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=Study]]
+2025-01-06 19:28:42,829 DEBUG -> (main) [Series] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=Series]]
+2025-01-06 19:28:42,829 DEBUG -> (main) [Series] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=Series]]
+2025-01-06 19:28:42,830 DEBUG -> (main) [MPPS] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=MPPS]]
+2025-01-06 19:28:42,830 DEBUG -> (main) [MPPS] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=MPPS]]
+2025-01-06 19:28:42,831 DEBUG -> (main) [File] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=File]]
+2025-01-06 19:28:42,834 DEBUG -> (main) [Instance] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=Instance]]
+2025-01-06 19:28:42,834 DEBUG -> (main) [Instance] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=Instance]]
+2025-01-06 19:28:42,835 DEBUG -> (main) [Patient] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=Patient]]
+2025-01-06 19:28:42,835 DEBUG -> (main) [Patient] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=Patient]]
+2025-01-06 19:28:42,837 DEBUG -> (main) [Media] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=Media]]
+2025-01-06 19:28:42,837 DEBUG -> (main) [Media] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=Media]]
+2025-01-06 19:28:42,839 DEBUG -> (main) [GPPPS] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=GPPPS]]
+2025-01-06 19:28:42,839 DEBUG -> (main) [GPPPS] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=GPPPS]]
+2025-01-06 19:28:43,390 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'MWLItem' to jndi 'ejb/MWLItem'
+2025-01-06 19:28:43,402 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'Device' to jndi 'ejb/Device'
+2025-01-06 19:28:43,413 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'AE' to jndi 'ejb/AE'
+2025-01-06 19:28:43,429 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'Study' to jndi 'ejb/Study'
+2025-01-06 19:28:43,447 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'Series' to jndi 'ejb/Series'
+2025-01-06 19:28:43,458 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'HPDefinition' to jndi 'ejb/HPDefinition'
+2025-01-06 19:28:43,471 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'MPPS' to jndi 'ejb/MPPS'
+2025-01-06 19:28:43,483 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'File' to jndi 'ejb/File'
+2025-01-06 19:28:43,496 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'GPSPSRequest' to jndi 'ejb/GPSPSRequest'
+2025-01-06 19:28:43,509 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'GPSPS' to jndi 'ejb/GPSPS'
+2025-01-06 19:28:43,521 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'FileSystem' to jndi 'ejb/FileSystem'
+2025-01-06 19:28:43,534 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'Instance' to jndi 'ejb/Instance'
+2025-01-06 19:28:43,546 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'PrivateSeries' to jndi 'ejb/PrivateSeries'
+2025-01-06 19:28:43,561 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'SeriesRequest' to jndi 'ejb/SeriesRequest'
+2025-01-06 19:28:43,576 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'Patient' to jndi 'ejb/Patient'
+2025-01-06 19:28:43,602 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'HP' to jndi 'ejb/HP'
+2025-01-06 19:28:43,619 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'PrivatePatient' to jndi 'ejb/PrivatePatient'
+2025-01-06 19:28:43,638 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'StudyOnFileSystem' to jndi 'ejb/StudyOnFileSystem'
+2025-01-06 19:28:43,656 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'Media' to jndi 'ejb/Media'
+2025-01-06 19:28:43,676 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'PrivateInstance' to jndi 'ejb/PrivateInstance'
+2025-01-06 19:28:43,689 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'PrivateStudy' to jndi 'ejb/PrivateStudy'
+2025-01-06 19:28:43,700 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'GPSPSPerformer' to jndi 'ejb/GPSPSPerformer'
+2025-01-06 19:28:43,710 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'Code' to jndi 'ejb/Code'
+2025-01-06 19:28:43,722 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'GPPPS' to jndi 'ejb/GPPPS'
+2025-01-06 19:28:43,734 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'PrivateFile' to jndi 'ejb/PrivateFile'
+2025-01-06 19:28:43,755 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'GPPPSManager' to jndi 'ejb/GPPPSManager'
+2025-01-06 19:28:43,769 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'HPStorage' to jndi 'ejb/HPStorage'
+2025-01-06 19:28:43,784 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'PrivateManager' to jndi 'ejb/PrivateManager'
+2025-01-06 19:28:43,800 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'ConsistencyCheck' to jndi 'ejb/ConsistencyCheck'
+2025-01-06 19:28:43,816 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'CheckStudyPatient' to jndi 'CheckStudyPatientLocal'
+2025-01-06 19:28:43,821 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'CheckStudyPatient' to jndi 'ejb/CheckStudyPatient'
+2025-01-06 19:28:43,837 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'StudyReconciliation' to jndi 'ejb/StudyReconciliation'
+2025-01-06 19:28:43,870 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'ContentManager' to jndi 'ejb/ContentManager'
+2025-01-06 19:28:43,884 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'UserManager' to jndi 'ejb/UserManager'
+2025-01-06 19:28:43,899 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'FixPatientAttributes' to jndi 'ejb/FixPatientAttributes'
+2025-01-06 19:28:43,913 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'StudyMgt' to jndi 'ejb/StudyMgt'
+2025-01-06 19:28:43,928 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'AEManager' to jndi 'ejb/AEManager'
+2025-01-06 19:28:43,945 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'CodeToDeviceMapping' to jndi 'ejb/CodeToDeviceMapping'
+2025-01-06 19:28:43,957 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'PatientUpdate' to jndi 'PatientUpdateLocal'
+2025-01-06 19:28:43,962 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'PatientUpdate' to jndi 'ejb/PatientUpdate'
+2025-01-06 19:28:43,977 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'MPPSManager' to jndi 'ejb/MPPSManager'
+2025-01-06 19:28:43,989 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'MPPSEmulator' to jndi 'ejb/MPPSEmulator'
+2025-01-06 19:28:44,002 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'ContentEdit' to jndi 'ContentEditLocal'
+2025-01-06 19:28:44,007 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'ContentEdit' to jndi 'ejb/ContentEdit'
+2025-01-06 19:28:44,022 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'MediaComposer' to jndi 'ejb/MediaComposer'
+2025-01-06 19:28:44,042 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'FileSystemMgt' to jndi 'ejb/FileSystemMgt'
+2025-01-06 19:28:44,051 INFO  -> (main) [org.dcm4chex.archive.mbean.SchedulerService] Start Scheduler CheckFreeDiskSpace with period of 300000ms in 1 s.
+2025-01-06 19:28:44,053 INFO  -> (main) [org.dcm4chex.archive.mbean.SchedulerService] Start Scheduler CheckFilesToPurge with period of 60000ms in 1 s.
+2025-01-06 19:28:44,063 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'Storage' to jndi 'ejb/Storage'
+2025-01-06 19:28:44,079 WARN  -> (main) [org.jboss.system.ServiceController] Problem starting service dcm4chee.archive:service=DcmServer
+java.lang.NoClassDefFoundError: org/amma/aitf/services/util/HisAppConf
+	at org.dcm4chex.archive.util.AuthVerify.verifyLic(AuthVerify.java:30)
+	at org.dcm4chex.archive.dcm.DcmServerService.startService(DcmServerService.java:221)
+	at org.jboss.system.ServiceMBeanSupport.jbossInternalStart(ServiceMBeanSupport.java:289)
+	at org.jboss.system.ServiceMBeanSupport.jbossInternalLifecycle(ServiceMBeanSupport.java:245)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.interceptor.AbstractInterceptor.invoke(AbstractInterceptor.java:133)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.interceptor.ModelMBeanOperationInterceptor.invoke(ModelMBeanOperationInterceptor.java:142)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.system.ServiceController$ServiceProxy.invoke(ServiceController.java:978)
+	at $Proxy0.start(Unknown Source)
+	at org.jboss.system.ServiceController.start(ServiceController.java:417)
+	at org.jboss.system.ServiceController.start(ServiceController.java:435)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:86)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.mx.util.MBeanProxyExt.invoke(MBeanProxyExt.java:210)
+	at $Proxy62.start(Unknown Source)
+	at org.jboss.ejb.EjbModule.startService(EjbModule.java:429)
+	at org.jboss.system.ServiceMBeanSupport.jbossInternalStart(ServiceMBeanSupport.java:289)
+	at org.jboss.system.ServiceMBeanSupport.jbossInternalLifecycle(ServiceMBeanSupport.java:245)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:86)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.system.ServiceController$ServiceProxy.invoke(ServiceController.java:978)
+	at $Proxy0.start(Unknown Source)
+	at org.jboss.system.ServiceController.start(ServiceController.java:417)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:86)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.mx.util.MBeanProxyExt.invoke(MBeanProxyExt.java:210)
+	at $Proxy24.start(Unknown Source)
+	at org.jboss.ejb.EJBDeployer.start(EJBDeployer.java:662)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.interceptor.AbstractInterceptor.invoke(AbstractInterceptor.java:133)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.interceptor.ModelMBeanOperationInterceptor.invoke(ModelMBeanOperationInterceptor.java:142)
+	at org.jboss.mx.interceptor.DynamicInterceptor.invoke(DynamicInterceptor.java:97)
+	at org.jboss.system.InterceptorServiceMBeanSupport.invokeNext(InterceptorServiceMBeanSupport.java:238)
+	at org.jboss.ws.integration.jboss.DeployerInterceptor.start(DeployerInterceptor.java:92)
+	at org.jboss.deployment.SubDeployerInterceptorSupport$XMBeanInterceptor.start(SubDeployerInterceptorSupport.java:188)
+	at org.jboss.deployment.SubDeployerInterceptor.invoke(SubDeployerInterceptor.java:95)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.mx.util.MBeanProxyExt.invoke(MBeanProxyExt.java:210)
+	at $Proxy25.start(Unknown Source)
+	at org.jboss.deployment.MainDeployer.start(MainDeployer.java:1025)
+	at org.jboss.deployment.MainDeployer.deploy(MainDeployer.java:819)
+	at org.jboss.deployment.MainDeployer.deploy(MainDeployer.java:782)
+	at sun.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.interceptor.AbstractInterceptor.invoke(AbstractInterceptor.java:133)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.interceptor.ModelMBeanOperationInterceptor.invoke(ModelMBeanOperationInterceptor.java:142)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.mx.util.MBeanProxyExt.invoke(MBeanProxyExt.java:210)
+	at $Proxy8.deploy(Unknown Source)
+	at org.jboss.deployment.scanner.URLDeploymentScanner.deploy(URLDeploymentScanner.java:421)
+	at org.jboss.deployment.scanner.URLDeploymentScanner.scan(URLDeploymentScanner.java:634)
+	at org.jboss.deployment.scanner.AbstractDeploymentScanner$ScannerThread.doScan(AbstractDeploymentScanner.java:263)
+	at org.jboss.deployment.scanner.AbstractDeploymentScanner.startService(AbstractDeploymentScanner.java:336)
+	at org.jboss.system.ServiceMBeanSupport.jbossInternalStart(ServiceMBeanSupport.java:289)
+	at org.jboss.system.ServiceMBeanSupport.jbossInternalLifecycle(ServiceMBeanSupport.java:245)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:86)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.system.ServiceController$ServiceProxy.invoke(ServiceController.java:978)
+	at $Proxy0.start(Unknown Source)
+	at org.jboss.system.ServiceController.start(ServiceController.java:417)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:86)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.mx.util.MBeanProxyExt.invoke(MBeanProxyExt.java:210)
+	at $Proxy4.start(Unknown Source)
+	at org.jboss.deployment.SARDeployer.start(SARDeployer.java:302)
+	at org.jboss.deployment.MainDeployer.start(MainDeployer.java:1025)
+	at org.jboss.deployment.MainDeployer.deploy(MainDeployer.java:819)
+	at org.jboss.deployment.MainDeployer.deploy(MainDeployer.java:782)
+	at org.jboss.deployment.MainDeployer.deploy(MainDeployer.java:766)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.interceptor.AbstractInterceptor.invoke(AbstractInterceptor.java:133)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.interceptor.ModelMBeanOperationInterceptor.invoke(ModelMBeanOperationInterceptor.java:142)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.mx.util.MBeanProxyExt.invoke(MBeanProxyExt.java:210)
+	at $Proxy5.deploy(Unknown Source)
+	at org.jboss.system.server.ServerImpl.doStart(ServerImpl.java:482)
+	at org.jboss.system.server.ServerImpl.start(ServerImpl.java:362)
+	at org.jboss.Main.boot(Main.java:200)
+	at org.jboss.Main$1.run(Main.java:490)
+	at java.lang.Thread.run(Thread.java:595)
+2025-01-06 19:28:44,094 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'MWLManager' to jndi 'ejb/MWLManager'
+2025-01-06 19:28:44,109 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'GPWLManager' to jndi 'ejb/GPWLManager'
+2025-01-06 19:28:44,118 INFO  -> (main) [org.jboss.ejb.EJBDeployer] Deployed: file:/home/ahis/AmritaPACS/jboss-4.0.5.GA/server/apacs/deploy/dcm4chee-ejb-mysql.jar
+2025-01-06 19:28:44,172 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/dcm4chee-arr, warUrl=.../tmp/deploy/tmp6348425929190007055dcm4chee-arr-exp.war/
+2025-01-06 19:28:44,309 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/dcm4chee-web, warUrl=.../tmp/deploy/tmp499145674704578151dcm4chee-web-exp.war/
+2025-01-06 19:28:44,343 INFO  -> (main) [org.infohazard.maverick.Dispatcher] Starting configuration load
+2025-01-06 19:28:44,344 INFO  -> (main) [org.infohazard.maverick.Dispatcher] Loading config from jndi:/localhost/dcm4chee-web/WEB-INF/maverick.xml
+2025-01-06 19:28:44,380 INFO  -> (main) [org.infohazard.maverick.flow.MasterFactory] Transform factory for "document" is org.infohazard.maverick.transform.DocumentTransformFactory
+2025-01-06 19:28:44,381 INFO  -> (main) [org.infohazard.maverick.flow.MasterFactory] Transform factory for "xslt" is org.infohazard.maverick.transform.XSLTransformFactory
+2025-01-06 19:28:44,381 INFO  -> (main) [org.infohazard.maverick.flow.MasterFactory] View factory for "document" is org.infohazard.maverick.view.DocumentViewFactory
+2025-01-06 19:28:44,382 INFO  -> (main) [org.infohazard.maverick.flow.MasterFactory] View factory for "redirect" is org.infohazard.maverick.view.RedirectViewFactory
+2025-01-06 19:28:44,382 INFO  -> (main) [org.infohazard.maverick.flow.MasterFactory] View factory for "trivial" is org.infohazard.maverick.view.TrivialViewFactory
+2025-01-06 19:28:44,383 INFO  -> (main) [org.infohazard.maverick.flow.MasterFactory] View factory for "null" is org.infohazard.maverick.view.NullViewFactory
+2025-01-06 19:28:44,407 INFO  -> (main) [org.infohazard.maverick.flow.MasterFactory] View factory for "domify" is org.infohazard.maverick.opt.view.DomifyViewFactory
+2025-01-06 19:28:44,409 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Using shunt factory org.dcm4chex.archive.web.maverick.shunt.LanguageShuntFactory
+2025-01-06 19:28:44,640 ERROR -> (main) [STDERR] SystemId Unknown; Line #653; Column #62; Extra illegal tokens: 'esentationDescription'
+2025-01-06 19:28:44,658 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  folder
+2025-01-06 19:28:44,663 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  folder
+2025-01-06 19:28:44,664 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  logout
+2025-01-06 19:28:44,669 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  foldersubmit
+2025-01-06 19:28:44,670 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  folder
+2025-01-06 19:28:44,671 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  merge
+2025-01-06 19:28:44,683 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  worklist
+2025-01-06 19:28:44,693 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  logout
+2025-01-06 19:28:44,693 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  exportSelector
+2025-01-06 19:28:44,697 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  xdsi_export
+2025-01-06 19:28:44,697 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandPat
+2025-01-06 19:28:44,698 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,699 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandStudy
+2025-01-06 19:28:44,700 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,701 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandSeries
+2025-01-06 19:28:44,701 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,701 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandInstance
+2025-01-06 19:28:44,702 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,702 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  patientEdit
+2025-01-06 19:28:44,703 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,714 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  patientUpdate
+2025-01-06 19:28:44,715 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,716 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-06 19:28:44,716 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  patientMerge
+2025-01-06 19:28:44,717 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,717 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  mpps_link
+2025-01-06 19:28:44,717 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-06 19:28:44,717 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  studyEdit
+2025-01-06 19:28:44,717 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,731 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  studyView
+2025-01-06 19:28:44,732 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,741 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  select
+2025-01-06 19:28:44,742 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  koView
+2025-01-06 19:28:44,743 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,747 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  addWorklist
+2025-01-06 19:28:44,748 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,758 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  cancel
+2025-01-06 19:28:44,758 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  folder
+2025-01-06 19:28:44,758 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  studyUpdate
+2025-01-06 19:28:44,759 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,760 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  seriesEdit
+2025-01-06 19:28:44,761 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,772 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  seriesUpdate
+2025-01-06 19:28:44,773 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,774 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  trashfolder
+2025-01-06 19:28:44,775 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  trash
+2025-01-06 19:28:44,775 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  folder
+2025-01-06 19:28:44,775 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  logout
+2025-01-06 19:28:44,775 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandTrashPatient
+2025-01-06 19:28:44,776 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,776 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandTrashStudy
+2025-01-06 19:28:44,777 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,777 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandTrashSeries
+2025-01-06 19:28:44,777 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,778 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandTrashInstance
+2025-01-06 19:28:44,778 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,778 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  ae
+2025-01-06 19:28:44,779 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,789 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  aeedit
+2025-01-06 19:28:44,791 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,800 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  failed
+2025-01-06 19:28:44,800 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-06 19:28:44,801 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  aeeditsubmit
+2025-01-06 19:28:44,801 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,802 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  failed
+2025-01-06 19:28:44,802 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-06 19:28:44,802 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  aenew
+2025-01-06 19:28:44,802 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,812 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  failed
+2025-01-06 19:28:44,813 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-06 19:28:44,813 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  aenewsubmit
+2025-01-06 19:28:44,814 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,814 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  failed
+2025-01-06 19:28:44,814 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-06 19:28:44,815 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  aedelete
+2025-01-06 19:28:44,815 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,815 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-06 19:28:44,816 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  aeecho
+2025-01-06 19:28:44,816 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  echoresult
+2025-01-06 19:28:44,819 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-06 19:28:44,819 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  mcm_console
+2025-01-06 19:28:44,820 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,836 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  mwl_console
+2025-01-06 19:28:44,837 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,861 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  cancelLink
+2025-01-06 19:28:44,861 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  linkDone
+2025-01-06 19:28:44,862 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  mergePatient
+2025-01-06 19:28:44,871 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  inspect
+2025-01-06 19:28:44,871 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  mpps_console
+2025-01-06 19:28:44,872 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,886 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-06 19:28:44,901 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  link
+2025-01-06 19:28:44,901 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  inspect
+2025-01-06 19:28:44,901 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  gpwl_console
+2025-01-06 19:28:44,902 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,915 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  linkDone
+2025-01-06 19:28:44,916 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  inspect
+2025-01-06 19:28:44,916 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  gppps_console
+2025-01-06 19:28:44,917 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,929 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  link
+2025-01-06 19:28:44,930 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  inspect
+2025-01-06 19:28:44,930 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  useradmin_console
+2025-01-06 19:28:44,931 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  userlist
+2025-01-06 19:28:44,932 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  chgpwd
+2025-01-06 19:28:44,932 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  user_list
+2025-01-06 19:28:44,933 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,949 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  user_chgpwd
+2025-01-06 19:28:44,951 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,961 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  user_chgpwdsubmit
+2025-01-06 19:28:44,962 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,962 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  chgpwd_error
+2025-01-06 19:28:44,963 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-06 19:28:44,963 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  user_edit
+2025-01-06 19:28:44,963 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,970 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-06 19:28:44,971 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  user_editsubmit
+2025-01-06 19:28:44,972 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,972 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  passwd_mismatch
+2025-01-06 19:28:44,972 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-06 19:28:44,972 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  user_new
+2025-01-06 19:28:44,973 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,984 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-06 19:28:44,984 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  user_delete
+2025-01-06 19:28:44,985 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:44,986 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-06 19:28:44,986 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  tfSelector
+2025-01-06 19:28:44,987 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  tfselect
+2025-01-06 19:28:44,998 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-06 19:28:45,009 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:45,010 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  cancel
+2025-01-06 19:28:45,010 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  xdsiExport
+2025-01-06 19:28:45,012 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  xdsi_export
+2025-01-06 19:28:45,023 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-06 19:28:45,033 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:45,033 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  cancel
+2025-01-06 19:28:45,033 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  arr
+2025-01-06 19:28:45,034 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-06 19:28:45,044 INFO  -> (main) [org.infohazard.maverick.Dispatcher] Finished configuration load
+2025-01-06 19:28:45,053 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check available Disk Space
+2025-01-06 19:28:45,084 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/jmx-console, warUrl=.../deploy/jmx-console.war/
+2025-01-06 19:28:45,123 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Free Disk Space: try to release 100.0MB of DiskSpace
+2025-01-06 19:28:45,148 ERROR -> (main) [org.jboss.deployment.scanner.URLDeploymentScanner] Incomplete Deployment listing:
+
+--- Packages waiting for a deployer ---
+org.jboss.deployment.DeploymentInfo@3d118221 { url=file:/home/ahis/AmritaPACS/jboss-4.0.5.GA/server/apacs/deploy/jms/hsqldb-jdbc2-service.xmlREMOVED }
+  deployer: null
+  status: null
+  state: INIT_WAITING_DEPLOYER
+  watch: file:/home/ahis/AmritaPACS/jboss-4.0.5.GA/server/apacs/deploy/jms/hsqldb-jdbc2-service.xmlREMOVED
+  altDD: null
+  lastDeployed: 1736171925148
+  lastModified: 1736171925000
+  mbeans:
+
+--- Incompletely deployed packages ---
+org.jboss.deployment.DeploymentInfo@3d118221 { url=file:/home/ahis/AmritaPACS/jboss-4.0.5.GA/server/apacs/deploy/jms/hsqldb-jdbc2-service.xmlREMOVED }
+  deployer: null
+  status: null
+  state: INIT_WAITING_DEPLOYER
+  watch: file:/home/ahis/AmritaPACS/jboss-4.0.5.GA/server/apacs/deploy/jms/hsqldb-jdbc2-service.xmlREMOVED
+  altDD: null
+  lastDeployed: 1736171925148
+  lastModified: 1736171925000
+  mbeans:
+
+--- MBeans waiting for other MBeans ---
+ObjectName: dcm4chex:service=ApacsTarRetriever
+  State: CONFIGURED
+  I Depend On:
+    dcm4chex:service=DcmServer
+    dcm4chex:service=FileSystemMgt
+
+ObjectName: dcm4chee.archive:service=DcmServer
+  State: FAILED
+  Reason: java.lang.NoClassDefFoundError: org/amma/aitf/services/util/HisAppConf
+  I Depend On:
+    jboss.j2ee:service=EJB,jndiName=ejb/Storage
+    jboss.j2ee:service=EJB,jndiName=ejb/FileSystemMgt
+    dcm4chee.archive:service=TLSConfig
+  Depends On Me:
+    dcm4chee.archive:service=GPWLScp
+    dcm4chee.archive:service=HPScp
+    dcm4chee.archive:service=MPPSScp
+    dcm4chee.archive:service=MWLFindScp
+    dcm4chee.archive:service=QueryRetrieveScp
+    dcm4chee.archive:service=StgCmtScuScp
+    dcm4chee.archive:service=StoreScp
+    dcm4chee.archive:service=StudyMgtScp
+
+ObjectName: dcm4chee.archive:service=XDS-I
+  State: CONFIGURED
+  I Depend On:
+    dcm4chee.archive:service=AuditLogger
+    dcm4chee.archive:service=HL7Send
+    dcm4chee.archive:service=IANScu
+    dcm4chee.archive:service=KeyObjectService
+
+--- MBEANS THAT ARE THE ROOT CAUSE OF THE PROBLEM ---
+ObjectName: dcm4chee.archive:service=HL7Send
+  State: NOTYETINSTALLED
+  Depends On Me:
+    dcm4chee.archive:service=XDS-I
+
+ObjectName: dcm4chex:service=DcmServer
+  State: NOTYETINSTALLED
+  Depends On Me:
+    dcm4chex:service=ApacsTarRetriever
+
+ObjectName: dcm4chee.archive:service=DcmServer
+  State: FAILED
+  Reason: java.lang.NoClassDefFoundError: org/amma/aitf/services/util/HisAppConf
+  I Depend On:
+    jboss.j2ee:service=EJB,jndiName=ejb/Storage
+    jboss.j2ee:service=EJB,jndiName=ejb/FileSystemMgt
+    dcm4chee.archive:service=TLSConfig
+  Depends On Me:
+    dcm4chee.archive:service=GPWLScp
+    dcm4chee.archive:service=HPScp
+    dcm4chee.archive:service=MPPSScp
+    dcm4chee.archive:service=MWLFindScp
+    dcm4chee.archive:service=QueryRetrieveScp
+    dcm4chee.archive:service=StgCmtScuScp
+    dcm4chee.archive:service=StoreScp
+    dcm4chee.archive:service=StudyMgtScp
+
+
+2025-01-06 19:28:45,158 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Released 0.0MB of DiskSpace
+2025-01-06 19:28:45,159 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check for unreferenced private files to delete
+2025-01-06 19:28:45,192 INFO  -> (main) [org.apache.coyote.http11.Http11BaseProtocol] Starting Coyote HTTP/1.1 on http-0.0.0.0-8080
+2025-01-06 19:28:45,237 INFO  -> (main) [org.apache.jk.common.ChannelSocket] JK: ajp13 listening on /0.0.0.0:18009
+2025-01-06 19:28:45,245 INFO  -> (main) [org.apache.jk.server.JkMain] Jk running ID=0 time=0/24  config=null
+2025-01-06 19:28:45,253 INFO  -> (main) [org.jboss.system.server.Server] JBoss (MX MicroKernel) [4.0.5.GA (build: CVSTag=Branch_4_0 date=200610162339)] Started in 17s:339ms
+2025-01-06 19:29:11,721 INFO  -> (Thread-7) [org.dcm4chex.arr.ejb.session.StoreAuditRecordBean] Store AuditRecord[type=UserAuthenticated, host=atvdi, timestamp=2025-01-06 19:29:11.0]
+2025-01-06 19:29:11,793 INFO  -> (http-0.0.0.0-8080-1) [org.dcm4chex.archive.web.maverick.admin.perm.FolderPermissionsPropertyFactory] read permission properties from file: /home/ahis/AmritaPACS/jboss-4.0.5.GA/server/apacs/conf/dcm4chee-web/folder.permissions
+2025-01-06 19:29:19,837 ERROR -> (http-0.0.0.0-8080-1) [org.dcm4chex.archive.mbean.EchoService] Echo dicom://APACS@localhost:104 failed!
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:367)
+	at java.net.Socket.connect(Socket.java:524)
+	at java.net.Socket.connect(Socket.java:474)
+	at java.net.Socket.<init>(Socket.java:371)
+	at java.net.Socket.<init>(Socket.java:184)
+	at org.dcm4chex.archive.mbean.TLSConfigDelegate.createSocket(TLSConfigDelegate.java:169)
+	at org.dcm4chex.archive.mbean.EchoService.openAssoc(EchoService.java:228)
+	at org.dcm4chex.archive.mbean.EchoService.echo(EchoService.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.interceptor.AbstractInterceptor.invoke(AbstractInterceptor.java:133)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.interceptor.ModelMBeanOperationInterceptor.invoke(ModelMBeanOperationInterceptor.java:142)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.dcm4chex.archive.web.maverick.ae.AEDelegate.echo(AEDelegate.java:162)
+	at org.dcm4chex.archive.web.maverick.ae.AEEchoCtrl.perform(AEEchoCtrl.java:75)
+	at org.dcm4chex.archive.web.maverick.Dcm4cheeFormController.go(Dcm4cheeFormController.java:115)
+	at org.infohazard.maverick.ctl.Throwaway2.go(Throwaway2.java:47)
+	at org.infohazard.maverick.flow.ThrowawayControllerAdapter.go(ThrowawayControllerAdapter.java:54)
+	at org.infohazard.maverick.flow.CommandBase.go(CommandBase.java:66)
+	at org.infohazard.maverick.Dispatcher.service(Dispatcher.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:202)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:175)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:524)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:74)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.jboss.web.tomcat.tc5.jca.CachedConnectionValve.invoke(CachedConnectionValve.java:156)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:869)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:664)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:527)
+	at org.apache.tomcat.util.net.MasterSlaveWorkerThread.run(MasterSlaveWorkerThread.java:112)
+	at java.lang.Thread.run(Thread.java:595)
+2025-01-06 19:29:32,690 ERROR -> (http-0.0.0.0-8080-1) [org.dcm4chex.archive.mbean.EchoService] Echo dicom://APACS@192.168.180.203:104 failed!
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:367)
+	at java.net.Socket.connect(Socket.java:524)
+	at java.net.Socket.connect(Socket.java:474)
+	at java.net.Socket.<init>(Socket.java:371)
+	at java.net.Socket.<init>(Socket.java:184)
+	at org.dcm4chex.archive.mbean.TLSConfigDelegate.createSocket(TLSConfigDelegate.java:169)
+	at org.dcm4chex.archive.mbean.EchoService.openAssoc(EchoService.java:228)
+	at org.dcm4chex.archive.mbean.EchoService.echo(EchoService.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.interceptor.AbstractInterceptor.invoke(AbstractInterceptor.java:133)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.interceptor.ModelMBeanOperationInterceptor.invoke(ModelMBeanOperationInterceptor.java:142)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.dcm4chex.archive.web.maverick.ae.AEDelegate.echo(AEDelegate.java:162)
+	at org.dcm4chex.archive.web.maverick.ae.AEEchoCtrl.perform(AEEchoCtrl.java:75)
+	at org.dcm4chex.archive.web.maverick.Dcm4cheeFormController.go(Dcm4cheeFormController.java:115)
+	at org.infohazard.maverick.ctl.Throwaway2.go(Throwaway2.java:47)
+	at org.infohazard.maverick.flow.ThrowawayControllerAdapter.go(ThrowawayControllerAdapter.java:54)
+	at org.infohazard.maverick.flow.CommandBase.go(CommandBase.java:66)
+	at org.infohazard.maverick.Dispatcher.service(Dispatcher.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:202)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:175)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:524)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:74)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.jboss.web.tomcat.tc5.jca.CachedConnectionValve.invoke(CachedConnectionValve.java:156)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:869)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:664)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:527)
+	at org.apache.tomcat.util.net.MasterSlaveWorkerThread.run(MasterSlaveWorkerThread.java:112)
+	at java.lang.Thread.run(Thread.java:595)
+2025-01-06 19:29:45,185 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check for unreferenced private files to delete
+2025-01-06 19:30:45,213 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check for unreferenced private files to delete
