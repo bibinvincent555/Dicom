@@ -1,0 +1,1619 @@
+2025-01-07 09:59:50,222 INFO  -> (main) [org.jboss.ws.server.ServiceEndpointManager] WebServices: jbossws-1.0.3.SP1 (date=200609291417)
+2025-01-07 09:59:52,439 INFO  -> (main) [org.apache.catalina.startup.Embedded] Catalina naming disabled
+2025-01-07 09:59:52,469 INFO  -> (main) [org.apache.catalina.startup.ClusterRuleSetFactory] Unable to find a cluster rule set in the classpath. Will load the default rule set.
+2025-01-07 09:59:52,471 INFO  -> (main) [org.apache.catalina.startup.ClusterRuleSetFactory] Unable to find a cluster rule set in the classpath. Will load the default rule set.
+2025-01-07 09:59:52,645 INFO  -> (main) [org.apache.coyote.http11.Http11BaseProtocol] Initializing Coyote HTTP/1.1 on http-0.0.0.0-8080
+2025-01-07 09:59:52,646 INFO  -> (main) [org.apache.catalina.startup.Catalina] Initialization processed in 175 ms
+2025-01-07 09:59:52,646 INFO  -> (main) [org.jboss.web.tomcat.tc5.StandardService] Starting service jboss.web
+2025-01-07 09:59:52,648 INFO  -> (main) [org.apache.catalina.core.StandardEngine] Starting Servlet Engine: Apache Tomcat/5.5.20
+2025-01-07 09:59:52,671 INFO  -> (main) [org.apache.catalina.core.StandardHost] XML validation disabled
+2025-01-07 09:59:52,689 INFO  -> (main) [org.apache.catalina.startup.Catalina] Server startup in 43 ms
+2025-01-07 09:59:52,792 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/invoker, warUrl=.../deploy/http-invoker.sar/invoker.war/
+2025-01-07 09:59:52,923 INFO  -> (main) [org.apache.catalina.loader.WebappLoader] Dual registration of jndi stream handler: factory already defined
+2025-01-07 09:59:53,107 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/, warUrl=.../deploy/jbossweb-tomcat55.sar/ROOT.war/
+2025-01-07 09:59:53,181 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/jbossws, warUrl=.../tmp/deploy/tmp128192533677962995jbossws-context-exp.war/
+2025-01-07 09:59:53,243 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/jbossmq-httpil, warUrl=.../deploy/jms/jbossmq-httpil.sar/jbossmq-httpil.war/
+2025-01-07 09:59:53,614 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/web-console, warUrl=.../deploy/management/console-mgr.sar/web-console.war/
+2025-01-07 09:59:53,900 INFO  -> (main) [org.jboss.mail.MailService] Mail Service bound to java:/Mail
+2025-01-07 09:59:53,976 INFO  -> (main) [org.jboss.resource.deployment.RARDeployment] Required license terms exist, view META-INF/ra.xml in .../deploy/jboss-ha-local-jdbc.rar
+2025-01-07 09:59:53,995 INFO  -> (main) [org.jboss.resource.deployment.RARDeployment] Required license terms exist, view META-INF/ra.xml in .../deploy/jboss-ha-xa-jdbc.rar
+2025-01-07 09:59:54,005 INFO  -> (main) [org.jboss.resource.deployment.RARDeployment] Required license terms exist, view META-INF/ra.xml in .../deploy/jboss-local-jdbc.rar
+2025-01-07 09:59:54,017 INFO  -> (main) [org.jboss.resource.deployment.RARDeployment] Required license terms exist, view META-INF/ra.xml in .../deploy/jboss-xa-jdbc.rar
+2025-01-07 09:59:54,032 INFO  -> (main) [org.jboss.resource.deployment.RARDeployment] Required license terms exist, view META-INF/ra.xml in .../deploy/jms/jms-ra.rar
+2025-01-07 09:59:54,049 INFO  -> (main) [org.jboss.resource.deployment.RARDeployment] Required license terms exist, view META-INF/ra.xml in .../deploy/mail-ra.rar
+2025-01-07 09:59:54,440 INFO  -> (main) [org.jboss.resource.adapter.jdbc.remote.WrapperDataSourceService] Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' to JNDI name 'java:DefaultDS'
+2025-01-07 09:59:54,643 INFO  -> (main) [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] Bound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' to JNDI name 'java:JmsXA'
+2025-01-07 09:59:54,697 INFO  -> (main) [org.jboss.resource.adapter.jdbc.remote.WrapperDataSourceService] Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=MySqlDS' to JNDI name 'java:MySqlDS'
+2025-01-07 09:59:59,596 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.ExportManager] Bound to JNDI name: queue/ExportManager
+2025-01-07 09:59:59,633 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.FileCopy] Bound to JNDI name: queue/FileCopy
+2025-01-07 09:59:59,671 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.PurgeStudy] Bound to JNDI name: queue/PurgeStudy
+2025-01-07 09:59:59,715 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.IANScu] Bound to JNDI name: queue/IANScu
+2025-01-07 09:59:59,756 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.MCMScu] Bound to JNDI name: queue/MCMScu
+2025-01-07 09:59:59,792 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.MoveScu] Bound to JNDI name: queue/MoveScu
+2025-01-07 09:59:59,830 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.MPPSScu] Bound to JNDI name: queue/MPPSScu
+2025-01-07 09:59:59,869 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.PPSExceptionMgt] Bound to JNDI name: queue/PPSExceptionMgt
+2025-01-07 09:59:59,900 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.PPSScu] Bound to JNDI name: queue/PPSScu
+2025-01-07 09:59:59,932 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.Sendmail] Bound to JNDI name: queue/Sendmail
+2025-01-07 09:59:59,972 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.StgCmtScuScp] Bound to JNDI name: queue/StgCmtScuScp
+2025-01-07 10:00:00,008 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.StudyMgtScu] Bound to JNDI name: queue/StudyMgtScu
+2025-01-07 10:00:00,043 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.A] Bound to JNDI name: queue/A
+2025-01-07 10:00:00,073 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.B] Bound to JNDI name: queue/B
+2025-01-07 10:00:00,106 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.C] Bound to JNDI name: queue/C
+2025-01-07 10:00:00,136 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.D] Bound to JNDI name: queue/D
+2025-01-07 10:00:00,171 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.ex] Bound to JNDI name: queue/ex
+2025-01-07 10:00:00,240 INFO  -> (main) [org.jboss.mq.il.uil2.UILServerILService] JBossMQ UIL service available at : /0.0.0.0:8093
+2025-01-07 10:00:00,275 INFO  -> (main) [org.jboss.mq.server.jmx.Topic.testTopic] Bound to JNDI name: topic/testTopic
+2025-01-07 10:00:00,276 INFO  -> (main) [org.jboss.mq.server.jmx.Topic.securedTopic] Bound to JNDI name: topic/securedTopic
+2025-01-07 10:00:00,277 INFO  -> (main) [org.jboss.mq.server.jmx.Topic.testDurableTopic] Bound to JNDI name: topic/testDurableTopic
+2025-01-07 10:00:00,308 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.testQueue] Bound to JNDI name: queue/testQueue
+2025-01-07 10:00:00,339 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.DLQ] Bound to JNDI name: queue/DLQ
+2025-01-07 10:00:00,439 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying AuditRecord
+2025-01-07 10:00:00,485 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying QueryAuditRecord
+2025-01-07 10:00:00,493 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying StoreAuditRecord
+2025-01-07 10:00:01,164 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'AuditRecord' to jndi 'ejb/AuditRecord'
+2025-01-07 10:00:01,183 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'QueryAuditRecord' to jndi 'ejb/QueryAuditRecord'
+2025-01-07 10:00:01,195 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'StoreAuditRecord' to jndi 'ejb/StoreAuditRecord'
+2025-01-07 10:00:01,209 INFO  -> (Thread-7) [org.dcm4cheri.server.UDPServerImpl] Started UDP Server listening on 0.0.0.0/0.0.0.0:4000
+2025-01-07 10:00:01,251 INFO  -> (main) [org.dcm4chex.arr.ejb.session.StoreAuditRecordBean] Store AuditRecord[type=ActorStartStop, host=atvdi, timestamp=2025-01-07 10:00:01.251]
+2025-01-07 10:00:01,355 INFO  -> (main) [org.jboss.ejb.EJBDeployer] Deployed: file:/home/ahis/AmritaPACS/jboss-4.0.5.GA/server/apacs/deploy/dcm4chee-arr-ejb.jar
+2025-01-07 10:00:01,618 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying MWLItem
+2025-01-07 10:00:01,623 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Device
+2025-01-07 10:00:01,627 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying AE
+2025-01-07 10:00:01,630 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Study
+2025-01-07 10:00:01,634 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Series
+2025-01-07 10:00:01,640 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying HPDefinition
+2025-01-07 10:00:01,644 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying MPPS
+2025-01-07 10:00:01,647 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying File
+2025-01-07 10:00:01,651 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying GPSPSRequest
+2025-01-07 10:00:01,655 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying GPSPS
+2025-01-07 10:00:01,660 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying FileSystem
+2025-01-07 10:00:01,665 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Instance
+2025-01-07 10:00:01,668 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying PrivateSeries
+2025-01-07 10:00:01,673 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying SeriesRequest
+2025-01-07 10:00:01,677 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Patient
+2025-01-07 10:00:01,682 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying HP
+2025-01-07 10:00:01,685 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying PrivatePatient
+2025-01-07 10:00:01,688 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying StudyOnFileSystem
+2025-01-07 10:00:01,693 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Media
+2025-01-07 10:00:01,696 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying PrivateInstance
+2025-01-07 10:00:01,700 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying PrivateStudy
+2025-01-07 10:00:01,703 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying GPSPSPerformer
+2025-01-07 10:00:01,706 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Code
+2025-01-07 10:00:01,709 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying GPPPS
+2025-01-07 10:00:01,712 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying PrivateFile
+2025-01-07 10:00:01,715 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying GPPPSManager
+2025-01-07 10:00:01,720 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying HPStorage
+2025-01-07 10:00:01,722 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying PrivateManager
+2025-01-07 10:00:01,725 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying ConsistencyCheck
+2025-01-07 10:00:01,727 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying CheckStudyPatient
+2025-01-07 10:00:01,730 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying StudyReconciliation
+2025-01-07 10:00:01,733 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying ContentManager
+2025-01-07 10:00:01,736 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying UserManager
+2025-01-07 10:00:01,740 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying FixPatientAttributes
+2025-01-07 10:00:01,746 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying StudyMgt
+2025-01-07 10:00:01,749 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying AEManager
+2025-01-07 10:00:01,753 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying CodeToDeviceMapping
+2025-01-07 10:00:01,756 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying PatientUpdate
+2025-01-07 10:00:01,760 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying MPPSManager
+2025-01-07 10:00:01,764 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying MPPSEmulator
+2025-01-07 10:00:01,767 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying ContentEdit
+2025-01-07 10:00:01,769 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying MediaComposer
+2025-01-07 10:00:01,772 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying FileSystemMgt
+2025-01-07 10:00:01,774 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Storage
+2025-01-07 10:00:01,777 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying MWLManager
+2025-01-07 10:00:01,779 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying GPWLManager
+2025-01-07 10:00:02,205 DEBUG -> (main) [MWLItem] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=MWLItem]]
+2025-01-07 10:00:02,206 DEBUG -> (main) [MWLItem] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=MWLItem]]
+2025-01-07 10:00:02,208 DEBUG -> (main) [Study] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=Study]]
+2025-01-07 10:00:02,208 DEBUG -> (main) [Study] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=Study]]
+2025-01-07 10:00:02,210 DEBUG -> (main) [Series] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=Series]]
+2025-01-07 10:00:02,210 DEBUG -> (main) [Series] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=Series]]
+2025-01-07 10:00:02,211 DEBUG -> (main) [MPPS] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=MPPS]]
+2025-01-07 10:00:02,211 DEBUG -> (main) [MPPS] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=MPPS]]
+2025-01-07 10:00:02,212 DEBUG -> (main) [File] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=File]]
+2025-01-07 10:00:02,214 DEBUG -> (main) [Instance] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=Instance]]
+2025-01-07 10:00:02,214 DEBUG -> (main) [Instance] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=Instance]]
+2025-01-07 10:00:02,216 DEBUG -> (main) [Patient] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=Patient]]
+2025-01-07 10:00:02,216 DEBUG -> (main) [Patient] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=Patient]]
+2025-01-07 10:00:02,218 DEBUG -> (main) [Media] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=Media]]
+2025-01-07 10:00:02,218 DEBUG -> (main) [Media] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=Media]]
+2025-01-07 10:00:02,220 DEBUG -> (main) [GPPPS] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=GPPPS]]
+2025-01-07 10:00:02,220 DEBUG -> (main) [GPPPS] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=GPPPS]]
+2025-01-07 10:00:02,819 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'MWLItem' to jndi 'ejb/MWLItem'
+2025-01-07 10:00:02,831 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'Device' to jndi 'ejb/Device'
+2025-01-07 10:00:02,848 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'AE' to jndi 'ejb/AE'
+2025-01-07 10:00:02,865 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'Study' to jndi 'ejb/Study'
+2025-01-07 10:00:02,882 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'Series' to jndi 'ejb/Series'
+2025-01-07 10:00:02,895 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'HPDefinition' to jndi 'ejb/HPDefinition'
+2025-01-07 10:00:02,909 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'MPPS' to jndi 'ejb/MPPS'
+2025-01-07 10:00:02,928 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'File' to jndi 'ejb/File'
+2025-01-07 10:00:02,952 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'GPSPSRequest' to jndi 'ejb/GPSPSRequest'
+2025-01-07 10:00:02,968 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'GPSPS' to jndi 'ejb/GPSPS'
+2025-01-07 10:00:02,980 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'FileSystem' to jndi 'ejb/FileSystem'
+2025-01-07 10:00:02,995 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'Instance' to jndi 'ejb/Instance'
+2025-01-07 10:00:03,009 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'PrivateSeries' to jndi 'ejb/PrivateSeries'
+2025-01-07 10:00:03,021 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'SeriesRequest' to jndi 'ejb/SeriesRequest'
+2025-01-07 10:00:03,033 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'Patient' to jndi 'ejb/Patient'
+2025-01-07 10:00:03,046 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'HP' to jndi 'ejb/HP'
+2025-01-07 10:00:03,059 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'PrivatePatient' to jndi 'ejb/PrivatePatient'
+2025-01-07 10:00:03,071 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'StudyOnFileSystem' to jndi 'ejb/StudyOnFileSystem'
+2025-01-07 10:00:03,082 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'Media' to jndi 'ejb/Media'
+2025-01-07 10:00:03,094 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'PrivateInstance' to jndi 'ejb/PrivateInstance'
+2025-01-07 10:00:03,106 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'PrivateStudy' to jndi 'ejb/PrivateStudy'
+2025-01-07 10:00:03,118 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'GPSPSPerformer' to jndi 'ejb/GPSPSPerformer'
+2025-01-07 10:00:03,131 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'Code' to jndi 'ejb/Code'
+2025-01-07 10:00:03,146 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'GPPPS' to jndi 'ejb/GPPPS'
+2025-01-07 10:00:03,169 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'PrivateFile' to jndi 'ejb/PrivateFile'
+2025-01-07 10:00:03,187 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'GPPPSManager' to jndi 'ejb/GPPPSManager'
+2025-01-07 10:00:03,201 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'HPStorage' to jndi 'ejb/HPStorage'
+2025-01-07 10:00:03,218 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'PrivateManager' to jndi 'ejb/PrivateManager'
+2025-01-07 10:00:03,232 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'ConsistencyCheck' to jndi 'ejb/ConsistencyCheck'
+2025-01-07 10:00:03,246 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'CheckStudyPatient' to jndi 'CheckStudyPatientLocal'
+2025-01-07 10:00:03,252 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'CheckStudyPatient' to jndi 'ejb/CheckStudyPatient'
+2025-01-07 10:00:03,290 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'StudyReconciliation' to jndi 'ejb/StudyReconciliation'
+2025-01-07 10:00:03,313 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'ContentManager' to jndi 'ejb/ContentManager'
+2025-01-07 10:00:03,327 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'UserManager' to jndi 'ejb/UserManager'
+2025-01-07 10:00:03,342 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'FixPatientAttributes' to jndi 'ejb/FixPatientAttributes'
+2025-01-07 10:00:03,357 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'StudyMgt' to jndi 'ejb/StudyMgt'
+2025-01-07 10:00:03,376 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'AEManager' to jndi 'ejb/AEManager'
+2025-01-07 10:00:03,390 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'CodeToDeviceMapping' to jndi 'ejb/CodeToDeviceMapping'
+2025-01-07 10:00:03,402 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'PatientUpdate' to jndi 'PatientUpdateLocal'
+2025-01-07 10:00:03,407 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'PatientUpdate' to jndi 'ejb/PatientUpdate'
+2025-01-07 10:00:03,429 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'MPPSManager' to jndi 'ejb/MPPSManager'
+2025-01-07 10:00:03,445 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'MPPSEmulator' to jndi 'ejb/MPPSEmulator'
+2025-01-07 10:00:03,459 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'ContentEdit' to jndi 'ContentEditLocal'
+2025-01-07 10:00:03,465 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'ContentEdit' to jndi 'ejb/ContentEdit'
+2025-01-07 10:00:03,482 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'MediaComposer' to jndi 'ejb/MediaComposer'
+2025-01-07 10:00:03,502 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'FileSystemMgt' to jndi 'ejb/FileSystemMgt'
+2025-01-07 10:00:03,510 INFO  -> (main) [org.dcm4chex.archive.mbean.SchedulerService] Start Scheduler CheckFreeDiskSpace with period of 300000ms in 1 s.
+2025-01-07 10:00:03,512 INFO  -> (main) [org.dcm4chex.archive.mbean.SchedulerService] Start Scheduler CheckFilesToPurge with period of 60000ms in 1 s.
+2025-01-07 10:00:03,519 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'Storage' to jndi 'ejb/Storage'
+2025-01-07 10:00:03,552 DEBUG -> (main) [org.amma.aitf.his.ResourceLoader] Trying to find [his_config/license.lic] using context classloader org.jboss.mx.loading.UnifiedClassLoader3@3cfa54fe{ url=null ,addedOrder=24}.
+2025-01-07 10:00:03,795 DEBUG -> (main) [org.amma.aitf.his.ResourceLoader] Trying to find [his_config/publicCerts.store] using context classloader org.jboss.mx.loading.UnifiedClassLoader3@3cfa54fe{ url=null ,addedOrder=24}.
+2025-01-07 10:00:03,817 INFO  -> (main) [STDOUT] install license certificate
+2025-01-07 10:00:03,822 DEBUG -> (main) [org.amma.aitf.his.ResourceLoader] Trying to find [his_config/publicCerts.store] using context classloader org.jboss.mx.loading.UnifiedClassLoader3@3cfa54fe{ url=null ,addedOrder=24}.
+2025-01-07 10:00:03,831 INFO  -> (main) [STDOUT] License for validity period is Present ............
+2025-01-07 10:00:03,870 INFO  -> (main) [STDOUT]  License present..... !!Mac address is 6a:50:f4:29:fb:81
+2025-01-07 10:00:03,871 INFO  -> (main) [STDOUT] LicenseServlet:: License valid till 6/2/2026
+2025-01-07 10:00:03,871 DEBUG -> (main) [org.amma.aitf.his.ResourceLoader] Trying to find [his_config/his-config.properties] using context classloader org.jboss.mx.loading.UnifiedClassLoader3@3cfa54fe{ url=null ,addedOrder=24}.
+2025-01-07 10:00:03,871 INFO  -> (main) [STDOUT] Loaded his-config.properties properties file from : /home/ahis/AmritaPACS/jboss-4.0.5.GA/server/apacs/conf/his_config/his-config.properties
+2025-01-07 10:00:03,872 INFO  -> (main) [org.amma.aitf.his.ResourceLoader] Loaded his-config.properties properties file from : /home/ahis/AmritaPACS/jboss-4.0.5.GA/server/apacs/conf/his_config/his-config.properties
+2025-01-07 10:00:03,877 INFO  -> (main) [STDOUT] License Present for all users ............
+2025-01-07 10:00:03,877 INFO  -> (main) [org.dcm4chex.archive.util.Util] License Present for Amrita PACS ............
+2025-01-07 10:00:03,878 INFO  -> (main) [org.dcm4cheri.server.ServerImpl] Start Server listening at port 104
+2025-01-07 10:00:03,906 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'MWLManager' to jndi 'ejb/MWLManager'
+2025-01-07 10:00:03,917 INFO  -> (main) [org.dcm4chex.archive.mbean.SchedulerService] Start Scheduler CheckPendingSeriesStored with period of 3600000ms in 1 s.
+2025-01-07 10:00:03,931 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'GPWLManager' to jndi 'ejb/GPWLManager'
+2025-01-07 10:00:03,940 INFO  -> (main) [org.jboss.ejb.EJBDeployer] Deployed: file:/home/ahis/AmritaPACS/jboss-4.0.5.GA/server/apacs/deploy/dcm4chee-ejb-mysql.jar
+2025-01-07 10:00:04,008 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/dcm4chee-arr, warUrl=.../tmp/deploy/tmp1165213847352693580dcm4chee-arr-exp.war/
+2025-01-07 10:00:04,174 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/dcm4chee-web, warUrl=.../tmp/deploy/tmp6168434457948029634dcm4chee-web-exp.war/
+2025-01-07 10:00:04,216 INFO  -> (main) [org.infohazard.maverick.Dispatcher] Starting configuration load
+2025-01-07 10:00:04,216 INFO  -> (main) [org.infohazard.maverick.Dispatcher] Loading config from jndi:/localhost/dcm4chee-web/WEB-INF/maverick.xml
+2025-01-07 10:00:04,249 INFO  -> (main) [org.infohazard.maverick.flow.MasterFactory] Transform factory for "document" is org.infohazard.maverick.transform.DocumentTransformFactory
+2025-01-07 10:00:04,250 INFO  -> (main) [org.infohazard.maverick.flow.MasterFactory] Transform factory for "xslt" is org.infohazard.maverick.transform.XSLTransformFactory
+2025-01-07 10:00:04,251 INFO  -> (main) [org.infohazard.maverick.flow.MasterFactory] View factory for "document" is org.infohazard.maverick.view.DocumentViewFactory
+2025-01-07 10:00:04,251 INFO  -> (main) [org.infohazard.maverick.flow.MasterFactory] View factory for "redirect" is org.infohazard.maverick.view.RedirectViewFactory
+2025-01-07 10:00:04,252 INFO  -> (main) [org.infohazard.maverick.flow.MasterFactory] View factory for "trivial" is org.infohazard.maverick.view.TrivialViewFactory
+2025-01-07 10:00:04,252 INFO  -> (main) [org.infohazard.maverick.flow.MasterFactory] View factory for "null" is org.infohazard.maverick.view.NullViewFactory
+2025-01-07 10:00:04,262 INFO  -> (main) [org.infohazard.maverick.flow.MasterFactory] View factory for "domify" is org.infohazard.maverick.opt.view.DomifyViewFactory
+2025-01-07 10:00:04,263 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Using shunt factory org.dcm4chex.archive.web.maverick.shunt.LanguageShuntFactory
+2025-01-07 10:00:04,508 ERROR -> (main) [STDERR] SystemId Unknown; Line #653; Column #62; Extra illegal tokens: 'esentationDescription'
+2025-01-07 10:00:04,510 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check available Disk Space
+2025-01-07 10:00:04,519 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  folder
+2025-01-07 10:00:04,522 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  folder
+2025-01-07 10:00:04,523 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  logout
+2025-01-07 10:00:04,528 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  foldersubmit
+2025-01-07 10:00:04,529 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  folder
+2025-01-07 10:00:04,529 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  merge
+2025-01-07 10:00:04,540 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  worklist
+2025-01-07 10:00:04,550 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  logout
+2025-01-07 10:00:04,550 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  exportSelector
+2025-01-07 10:00:04,551 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  xdsi_export
+2025-01-07 10:00:04,551 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandPat
+2025-01-07 10:00:04,552 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,553 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandStudy
+2025-01-07 10:00:04,553 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,554 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandSeries
+2025-01-07 10:00:04,554 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,554 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandInstance
+2025-01-07 10:00:04,555 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,555 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  patientEdit
+2025-01-07 10:00:04,555 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,565 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  patientUpdate
+2025-01-07 10:00:04,566 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,566 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-07 10:00:04,566 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  patientMerge
+2025-01-07 10:00:04,567 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,567 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  mpps_link
+2025-01-07 10:00:04,567 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-07 10:00:04,567 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  studyEdit
+2025-01-07 10:00:04,568 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,579 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  studyView
+2025-01-07 10:00:04,580 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,587 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  select
+2025-01-07 10:00:04,587 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  koView
+2025-01-07 10:00:04,588 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,593 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  addWorklist
+2025-01-07 10:00:04,594 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,605 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  cancel
+2025-01-07 10:00:04,606 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  folder
+2025-01-07 10:00:04,606 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  studyUpdate
+2025-01-07 10:00:04,607 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,607 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  seriesEdit
+2025-01-07 10:00:04,608 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,609 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Free Disk Space: try to release 4.166666MB of DiskSpace
+2025-01-07 10:00:04,621 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  seriesUpdate
+2025-01-07 10:00:04,622 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,622 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  trashfolder
+2025-01-07 10:00:04,623 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  trash
+2025-01-07 10:00:04,623 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  folder
+2025-01-07 10:00:04,623 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  logout
+2025-01-07 10:00:04,623 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandTrashPatient
+2025-01-07 10:00:04,624 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,624 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandTrashStudy
+2025-01-07 10:00:04,625 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,625 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandTrashSeries
+2025-01-07 10:00:04,626 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,626 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandTrashInstance
+2025-01-07 10:00:04,626 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,627 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  ae
+2025-01-07 10:00:04,628 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,638 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  aeedit
+2025-01-07 10:00:04,639 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,650 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  failed
+2025-01-07 10:00:04,650 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-07 10:00:04,651 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  aeeditsubmit
+2025-01-07 10:00:04,651 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,652 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  failed
+2025-01-07 10:00:04,652 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-07 10:00:04,652 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  aenew
+2025-01-07 10:00:04,653 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,664 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  failed
+2025-01-07 10:00:04,664 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-07 10:00:04,665 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  aenewsubmit
+2025-01-07 10:00:04,665 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,666 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  failed
+2025-01-07 10:00:04,666 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-07 10:00:04,666 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  aedelete
+2025-01-07 10:00:04,667 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Released 0.0MB of DiskSpace
+2025-01-07 10:00:04,667 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check for unreferenced private files to delete
+2025-01-07 10:00:04,667 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,667 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-07 10:00:04,667 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  aeecho
+2025-01-07 10:00:04,668 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  echoresult
+2025-01-07 10:00:04,672 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-07 10:00:04,673 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  mcm_console
+2025-01-07 10:00:04,674 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,691 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  mwl_console
+2025-01-07 10:00:04,693 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,712 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  cancelLink
+2025-01-07 10:00:04,712 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  linkDone
+2025-01-07 10:00:04,712 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  mergePatient
+2025-01-07 10:00:04,721 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  inspect
+2025-01-07 10:00:04,721 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  mpps_console
+2025-01-07 10:00:04,722 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,769 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-07 10:00:04,785 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  link
+2025-01-07 10:00:04,785 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  inspect
+2025-01-07 10:00:04,785 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  gpwl_console
+2025-01-07 10:00:04,789 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,800 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  linkDone
+2025-01-07 10:00:04,801 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  inspect
+2025-01-07 10:00:04,801 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  gppps_console
+2025-01-07 10:00:04,802 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,818 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  link
+2025-01-07 10:00:04,818 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  inspect
+2025-01-07 10:00:04,818 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  useradmin_console
+2025-01-07 10:00:04,822 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  userlist
+2025-01-07 10:00:04,822 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  chgpwd
+2025-01-07 10:00:04,822 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  user_list
+2025-01-07 10:00:04,823 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,833 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  user_chgpwd
+2025-01-07 10:00:04,835 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,846 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  user_chgpwdsubmit
+2025-01-07 10:00:04,850 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,851 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  chgpwd_error
+2025-01-07 10:00:04,851 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-07 10:00:04,851 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  user_edit
+2025-01-07 10:00:04,852 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,865 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-07 10:00:04,865 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  user_editsubmit
+2025-01-07 10:00:04,867 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,867 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  passwd_mismatch
+2025-01-07 10:00:04,867 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-07 10:00:04,867 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  user_new
+2025-01-07 10:00:04,869 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,880 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-07 10:00:04,881 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  user_delete
+2025-01-07 10:00:04,882 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,882 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-07 10:00:04,882 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  tfSelector
+2025-01-07 10:00:04,884 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  tfselect
+2025-01-07 10:00:04,899 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-07 10:00:04,912 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,912 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  cancel
+2025-01-07 10:00:04,913 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  xdsiExport
+2025-01-07 10:00:04,914 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  xdsi_export
+2025-01-07 10:00:04,917 INFO  -> (Timer-2) [org.dcm4chex.archive.dcm.storescp.StoreScpService] Check for Pending Series Stored
+2025-01-07 10:00:04,926 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-07 10:00:04,932 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,932 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  cancel
+2025-01-07 10:00:04,933 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  arr
+2025-01-07 10:00:04,933 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-07 10:00:04,940 INFO  -> (main) [org.infohazard.maverick.Dispatcher] Finished configuration load
+2025-01-07 10:00:04,971 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/jmx-console, warUrl=.../deploy/jmx-console.war/
+2025-01-07 10:00:05,045 ERROR -> (main) [org.jboss.deployment.scanner.URLDeploymentScanner] Incomplete Deployment listing:
+
+--- Packages waiting for a deployer ---
+org.jboss.deployment.DeploymentInfo@3d118221 { url=file:/home/ahis/AmritaPACS/jboss-4.0.5.GA/server/apacs/deploy/jms/hsqldb-jdbc2-service.xmlREMOVED }
+  deployer: null
+  status: null
+  state: INIT_WAITING_DEPLOYER
+  watch: file:/home/ahis/AmritaPACS/jboss-4.0.5.GA/server/apacs/deploy/jms/hsqldb-jdbc2-service.xmlREMOVED
+  altDD: null
+  lastDeployed: 1736224205044
+  lastModified: 1736224205000
+  mbeans:
+
+--- Incompletely deployed packages ---
+org.jboss.deployment.DeploymentInfo@3d118221 { url=file:/home/ahis/AmritaPACS/jboss-4.0.5.GA/server/apacs/deploy/jms/hsqldb-jdbc2-service.xmlREMOVED }
+  deployer: null
+  status: null
+  state: INIT_WAITING_DEPLOYER
+  watch: file:/home/ahis/AmritaPACS/jboss-4.0.5.GA/server/apacs/deploy/jms/hsqldb-jdbc2-service.xmlREMOVED
+  altDD: null
+  lastDeployed: 1736224205044
+  lastModified: 1736224205000
+  mbeans:
+
+--- MBeans waiting for other MBeans ---
+ObjectName: dcm4chex:service=ApacsTarRetriever
+  State: CONFIGURED
+  I Depend On:
+    dcm4chex:service=DcmServer
+    dcm4chex:service=FileSystemMgt
+
+ObjectName: dcm4chee.archive:service=XDS-I
+  State: CONFIGURED
+  I Depend On:
+    dcm4chee.archive:service=AuditLogger
+    dcm4chee.archive:service=HL7Send
+    dcm4chee.archive:service=IANScu
+    dcm4chee.archive:service=KeyObjectService
+
+--- MBEANS THAT ARE THE ROOT CAUSE OF THE PROBLEM ---
+ObjectName: dcm4chee.archive:service=HL7Send
+  State: NOTYETINSTALLED
+  Depends On Me:
+    dcm4chee.archive:service=XDS-I
+
+ObjectName: dcm4chex:service=DcmServer
+  State: NOTYETINSTALLED
+  Depends On Me:
+    dcm4chex:service=ApacsTarRetriever
+
+
+2025-01-07 10:00:05,080 INFO  -> (main) [org.apache.coyote.http11.Http11BaseProtocol] Starting Coyote HTTP/1.1 on http-0.0.0.0-8080
+2025-01-07 10:00:05,139 INFO  -> (main) [org.apache.jk.common.ChannelSocket] JK: ajp13 listening on /0.0.0.0:18009
+2025-01-07 10:00:05,148 INFO  -> (main) [org.apache.jk.server.JkMain] Jk running ID=0 time=0/22  config=null
+2025-01-07 10:00:05,156 INFO  -> (main) [org.jboss.system.server.Server] JBoss (MX MicroKernel) [4.0.5.GA (build: CVSTag=Branch_4_0 date=200610162339)] Started in 18s:1ms
+2025-01-07 10:01:04,698 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check for unreferenced private files to delete
+2025-01-07 10:01:15,797 INFO  -> (TCPServer-1) [org.dcm4cheri.server.ServerImpl] handle - Socket[addr=/192.168.180.203,port=47707,localport=104]
+2025-01-07 10:01:15,829 INFO  -> (TCPServer-1) [org.dcm4cheri.net.FsmImpl] Socket[addr=/192.168.180.203,port=47707,localport=104]
+2025-01-07 10:01:15,845 INFO  DCMSND->APACS (TCPServer-1) [org.dcm4cheri.net.FsmImpl] received AAssociateRQ
+	appCtxName:	1.2.840.10008.3.1.1.1/DICOM Application Context Name
+	implClass:	1.2.40.0.13.1.1
+	implVersion:	dcm4che-1.3.22
+	calledAET:	APACS
+	callingAET:	DCMSND
+	maxPDULen:	16352
+	asyncOpsWindow:	maxOpsInvoked=0, maxOpsPerformed=1
+	pc-5:	as=1.2.840.10008.5.1.4.1.1.1/Computed Radiography Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-3:	as=1.2.840.10008.5.1.1.30/Hardcopy Color Image Storage SOP Class
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-59:	as=1.2.840.10008.5.1.4.1.1.77.1.2/VL Microscopic Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-1:	as=1.2.840.10008.5.1.1.29/Hardcopy Grayscale Image Storage SOP Class
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-57:	as=1.2.840.10008.5.1.4.1.1.77.1.1/VL Endoscopic Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-55:	as=1.2.840.10008.5.1.4.1.1.77.2/VL Multi-frame Image Storage (Retired)
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-53:	as=1.2.840.10008.5.1.4.1.1.77.1/VL Image Storage (Retired)
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-255:	as=1.2.840.10008.1.9/Basic Study Content Notification SOP Class
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-51:	as=1.2.840.10008.5.1.4.1.1.20/Nuclear Medicine Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-49:	as=1.2.840.10008.5.1.4.1.1.12.3/X-Ray Angiographic Bi-Plane Image Storage (Retired)
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-47:	as=1.2.840.10008.5.1.4.1.1.12.2/X-Ray Radiofluoroscopic Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-45:	as=1.2.840.10008.5.1.4.1.1.12.1/X-Ray Angiographic Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-43:	as=1.2.840.10008.5.1.4.1.1.7.4/Multi-frame True Color Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-245:	as=1.2.840.10008.5.1.4.1.1.104.1/Encapsulated PDF Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-41:	as=1.2.840.10008.5.1.4.1.1.7.3/Multi-frame Grayscale Word Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-243:	as=1.2.840.10008.5.1.4.38.1/Hanging Protocol Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-241:	as=1.2.840.10008.5.1.4.1.1.9.1.1/12-lead ECG Waveform Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-39:	as=1.2.840.10008.5.1.4.1.1.7.2/Multi-frame Grayscale Byte Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-37:	as=1.2.840.10008.5.1.4.1.1.7.1/Multi-frame Single Bit Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-239:	as=1.2.840.10008.5.1.4.1.1.9.2.1/Hemodynamic Waveform Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-35:	as=1.2.840.10008.5.1.4.1.1.7/Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-237:	as=1.2.840.10008.5.1.4.1.1.9.1.2/General ECG Waveform Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-33:	as=1.2.840.10008.5.1.4.1.1.6.1/Ultrasound Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-235:	as=1.2.840.10008.5.1.4.1.1.9.3.1/Cardiac Electrophysiology Waveform Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-31:	as=1.2.840.10008.5.1.4.1.1.6/Ultrasound Image Storage (Retired)
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-233:	as=1.2.840.10008.5.1.4.1.1.9.4.1/Basic Voice Audio Waveform Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-231:	as=1.2.840.10008.5.1.4.1.1.9.1.3/Ambulatory ECG Waveform Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-199:	as=1.2.840.10008.5.1.4.1.1.7/Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.4.80/JPEG-LS Lossless Image Compression
+	pc-197:	as=1.2.840.10008.5.1.4.1.1.6.1/Ultrasound Image Storage
+		ts=1.2.840.10008.1.2.4.80/JPEG-LS Lossless Image Compression
+	pc-195:	as=1.2.840.10008.5.1.4.1.1.4/MR Image Storage
+		ts=1.2.840.10008.1.2.4.80/JPEG-LS Lossless Image Compression
+	pc-193:	as=1.2.840.10008.5.1.4.1.1.3.1/Ultrasound Multi-frame Image Storage
+		ts=1.2.840.10008.1.2.4.80/JPEG-LS Lossless Image Compression
+	pc-191:	as=1.2.840.10008.5.1.4.1.1.2/CT Image Storage
+		ts=1.2.840.10008.1.2.4.80/JPEG-LS Lossless Image Compression
+	pc-29:	as=1.2.840.10008.5.1.4.1.1.5/Nuclear Medicine Image Storage (Retired)
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-27:	as=1.2.840.10008.5.1.4.1.1.4.1/Enhanced MR Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-229:	as=1.2.840.10008.5.1.4.1.1.77.1.4.1/Video Photographic Image Storage
+		ts=1.2.840.10008.1.2.4.100/MPEG2 Main Profile @ Main Level
+	pc-25:	as=1.2.840.10008.5.1.4.1.1.4/MR Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-227:	as=1.2.840.10008.5.1.4.1.1.77.1.2.1/Video Microscopic Image Storage
+		ts=1.2.840.10008.1.2.4.100/MPEG2 Main Profile @ Main Level
+	pc-23:	as=1.2.840.10008.5.1.4.1.1.3.1/Ultrasound Multi-frame Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-225:	as=1.2.840.10008.5.1.4.1.1.77.1.1.1/Video Endoscopic Image Storage
+		ts=1.2.840.10008.1.2.4.100/MPEG2 Main Profile @ Main Level
+	pc-21:	as=1.2.840.10008.5.1.4.1.1.3/Ultrasound Multi-frame Image Storage (Retired)
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-223:	as=1.2.840.10008.5.1.4.1.1.7/Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.5/RLE Lossless
+	pc-221:	as=1.2.840.10008.5.1.4.1.1.6.1/Ultrasound Image Storage
+		ts=1.2.840.10008.1.2.5/RLE Lossless
+	pc-189:	as=1.2.840.10008.5.1.4.1.1.1/Computed Radiography Image Storage
+		ts=1.2.840.10008.1.2.4.80/JPEG-LS Lossless Image Compression
+	pc-187:	as=1.2.840.10008.5.1.4.1.1.7/Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.4.91/JPEG 2000 Lossy Image Compression
+	pc-185:	as=1.2.840.10008.5.1.4.1.1.6.1/Ultrasound Image Storage
+		ts=1.2.840.10008.1.2.4.91/JPEG 2000 Lossy Image Compression
+	pc-183:	as=1.2.840.10008.5.1.4.1.1.4/MR Image Storage
+		ts=1.2.840.10008.1.2.4.91/JPEG 2000 Lossy Image Compression
+	pc-181:	as=1.2.840.10008.5.1.4.1.1.3.1/Ultrasound Multi-frame Image Storage
+		ts=1.2.840.10008.1.2.4.91/JPEG 2000 Lossy Image Compression
+	pc-19:	as=1.2.840.10008.5.1.4.1.1.2/CT Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-17:	as=1.2.840.10008.5.1.4.1.1.1.3.1/Digital Intra-oral X-Ray Image Storage - For Processing
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-219:	as=1.2.840.10008.5.1.4.1.1.4/MR Image Storage
+		ts=1.2.840.10008.1.2.5/RLE Lossless
+	pc-15:	as=1.2.840.10008.5.1.4.1.1.1.3/Digital Intra-oral X-Ray Image Storage - For Presentation
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-217:	as=1.2.840.10008.5.1.4.1.1.3.1/Ultrasound Multi-frame Image Storage
+		ts=1.2.840.10008.1.2.5/RLE Lossless
+	pc-13:	as=1.2.840.10008.5.1.4.1.1.1.2.1/Digital Mammography X-Ray Image Storage - For Processing
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-215:	as=1.2.840.10008.5.1.4.1.1.2/CT Image Storage
+		ts=1.2.840.10008.1.2.5/RLE Lossless
+	pc-11:	as=1.2.840.10008.5.1.4.1.1.1.2/Digital Mammography X-Ray Image Storage - For Presentation
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-213:	as=1.2.840.10008.5.1.4.1.1.1/Computed Radiography Image Storage
+		ts=1.2.840.10008.1.2.5/RLE Lossless
+	pc-211:	as=1.2.840.10008.5.1.4.1.1.7/Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.4.90/JPEG 2000 Lossless Image Compression
+	pc-179:	as=1.2.840.10008.5.1.4.1.1.2/CT Image Storage
+		ts=1.2.840.10008.1.2.4.91/JPEG 2000 Lossy Image Compression
+	pc-177:	as=1.2.840.10008.5.1.4.1.1.1/Computed Radiography Image Storage
+		ts=1.2.840.10008.1.2.4.91/JPEG 2000 Lossy Image Compression
+	pc-175:	as=1.2.840.10008.5.1.4.1.1.7/Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.4.81/JPEG-LS Lossy (Near-Lossless) Image Compression
+	pc-173:	as=1.2.840.10008.5.1.4.1.1.6.1/Ultrasound Image Storage
+		ts=1.2.840.10008.1.2.4.81/JPEG-LS Lossy (Near-Lossless) Image Compression
+	pc-171:	as=1.2.840.10008.5.1.4.1.1.4/MR Image Storage
+		ts=1.2.840.10008.1.2.4.81/JPEG-LS Lossy (Near-Lossless) Image Compression
+	pc-209:	as=1.2.840.10008.5.1.4.1.1.6.1/Ultrasound Image Storage
+		ts=1.2.840.10008.1.2.4.90/JPEG 2000 Lossless Image Compression
+	pc-207:	as=1.2.840.10008.5.1.4.1.1.4/MR Image Storage
+		ts=1.2.840.10008.1.2.4.90/JPEG 2000 Lossless Image Compression
+	pc-205:	as=1.2.840.10008.5.1.4.1.1.3.1/Ultrasound Multi-frame Image Storage
+		ts=1.2.840.10008.1.2.4.90/JPEG 2000 Lossless Image Compression
+	pc-203:	as=1.2.840.10008.5.1.4.1.1.2/CT Image Storage
+		ts=1.2.840.10008.1.2.4.90/JPEG 2000 Lossless Image Compression
+	pc-201:	as=1.2.840.10008.5.1.4.1.1.1/Computed Radiography Image Storage
+		ts=1.2.840.10008.1.2.4.90/JPEG 2000 Lossless Image Compression
+	pc-169:	as=1.2.840.10008.5.1.4.1.1.3.1/Ultrasound Multi-frame Image Storage
+		ts=1.2.840.10008.1.2.4.81/JPEG-LS Lossy (Near-Lossless) Image Compression
+	pc-167:	as=1.2.840.10008.5.1.4.1.1.2/CT Image Storage
+		ts=1.2.840.10008.1.2.4.81/JPEG-LS Lossy (Near-Lossless) Image Compression
+	pc-165:	as=1.2.840.10008.5.1.4.1.1.1/Computed Radiography Image Storage
+		ts=1.2.840.10008.1.2.4.81/JPEG-LS Lossy (Near-Lossless) Image Compression
+	pc-163:	as=1.2.840.10008.5.1.4.1.1.7/Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.4.51/JPEG Extended (Process 2 & 4)
+	pc-161:	as=1.2.840.10008.5.1.4.1.1.4/MR Image Storage
+		ts=1.2.840.10008.1.2.4.51/JPEG Extended (Process 2 & 4)
+	pc-159:	as=1.2.840.10008.5.1.4.1.1.2/CT Image Storage
+		ts=1.2.840.10008.1.2.4.51/JPEG Extended (Process 2 & 4)
+	pc-157:	as=1.2.840.10008.5.1.4.1.1.1/Computed Radiography Image Storage
+		ts=1.2.840.10008.1.2.4.51/JPEG Extended (Process 2 & 4)
+	pc-155:	as=1.2.840.10008.5.1.4.1.1.12.1/X-Ray Angiographic Image Storage
+		ts=1.2.840.10008.1.2.4.50/JPEG Baseline (Process 1)
+	pc-153:	as=1.2.840.10008.5.1.4.1.1.7.4/Multi-frame True Color Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.4.50/JPEG Baseline (Process 1)
+	pc-151:	as=1.2.840.10008.5.1.4.1.1.7.2/Multi-frame Grayscale Byte Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.4.50/JPEG Baseline (Process 1)
+	pc-149:	as=1.2.840.10008.5.1.4.1.1.7/Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.4.50/JPEG Baseline (Process 1)
+	pc-147:	as=1.2.840.10008.5.1.4.1.1.6.1/Ultrasound Image Storage
+		ts=1.2.840.10008.1.2.4.50/JPEG Baseline (Process 1)
+	pc-145:	as=1.2.840.10008.5.1.4.1.1.3.1/Ultrasound Multi-frame Image Storage
+		ts=1.2.840.10008.1.2.4.50/JPEG Baseline (Process 1)
+	pc-143:	as=1.2.840.10008.5.1.4.1.1.481.1/RT Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-141:	as=1.2.840.10008.5.1.4.1.1.128/Positron Emission Tomography Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-99:	as=1.2.840.10008.5.1.4.1.1.1.1.1/Digital X-Ray Image Storage - For Processing
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-139:	as=1.2.840.10008.5.1.4.1.1.77.1.4/VL Photographic Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-97:	as=1.2.840.10008.5.1.4.1.1.1.1/Digital X-Ray Image Storage - For Presentation
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-137:	as=1.2.840.10008.5.1.4.1.1.77.1.3/VL Slide-Coordinates Microscopic Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-95:	as=1.2.840.10008.5.1.4.1.1.1/Computed Radiography Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-135:	as=1.2.840.10008.5.1.4.1.1.77.1.2/VL Microscopic Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-93:	as=1.2.840.10008.5.1.4.1.1.66/Raw Data Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-133:	as=1.2.840.10008.5.1.4.1.1.77.1.1/VL Endoscopic Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-91:	as=1.2.840.10008.5.1.4.1.1.481.7/RT Treatment Summary Record Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-131:	as=1.2.840.10008.5.1.4.1.1.20/Nuclear Medicine Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-89:	as=1.2.840.10008.5.1.4.1.1.481.6/RT Brachy Treatment Record Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-129:	as=1.2.840.10008.5.1.4.1.1.12.2/X-Ray Radiofluoroscopic Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-87:	as=1.2.840.10008.5.1.4.1.1.481.5/RT Plan Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-127:	as=1.2.840.10008.5.1.4.1.1.12.1/X-Ray Angiographic Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-85:	as=1.2.840.10008.5.1.4.1.1.481.4/RT Beams Treatment Record Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-125:	as=1.2.840.10008.5.1.4.1.1.7.4/Multi-frame True Color Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-83:	as=1.2.840.10008.5.1.4.1.1.481.3/RT Structure Set Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-123:	as=1.2.840.10008.5.1.4.1.1.7.3/Multi-frame Grayscale Word Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-81:	as=1.2.840.10008.5.1.4.1.1.481.2/RT Dose Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-121:	as=1.2.840.10008.5.1.4.1.1.7.2/Multi-frame Grayscale Byte Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-79:	as=1.2.840.10008.5.1.4.1.1.88.59/Key Object Selection Document
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-119:	as=1.2.840.10008.5.1.4.1.1.7/Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-77:	as=1.2.840.10008.5.1.4.1.1.11.1/Grayscale Softcopy Presentation State Storage SOP Class
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-117:	as=1.2.840.10008.5.1.4.1.1.6.1/Ultrasound Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-75:	as=1.2.840.10008.5.1.4.1.1.88.50/Mammography CAD SR
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-115:	as=1.2.840.10008.5.1.4.1.1.4.1/Enhanced MR Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-73:	as=1.2.840.10008.5.1.4.1.1.88.33/Comprehensive SR
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-113:	as=1.2.840.10008.5.1.4.1.1.4/MR Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-71:	as=1.2.840.10008.5.1.4.1.1.88.22/Enhanced SR
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-111:	as=1.2.840.10008.5.1.4.1.1.3.1/Ultrasound Multi-frame Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-69:	as=1.2.840.10008.5.1.4.1.1.88.11/Basic Text SR
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-109:	as=1.2.840.10008.5.1.4.1.1.2/CT Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-67:	as=1.2.840.10008.5.1.4.1.1.481.1/RT Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-107:	as=1.2.840.10008.5.1.4.1.1.1.3.1/Digital Intra-oral X-Ray Image Storage - For Processing
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-65:	as=1.2.840.10008.5.1.4.1.1.128/Positron Emission Tomography Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-105:	as=1.2.840.10008.5.1.4.1.1.1.3/Digital Intra-oral X-Ray Image Storage - For Presentation
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-63:	as=1.2.840.10008.5.1.4.1.1.77.1.4/VL Photographic Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-103:	as=1.2.840.10008.5.1.4.1.1.1.2.1/Digital Mammography X-Ray Image Storage - For Processing
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-61:	as=1.2.840.10008.5.1.4.1.1.77.1.3/VL Slide-Coordinates Microscopic Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-101:	as=1.2.840.10008.5.1.4.1.1.1.2/Digital Mammography X-Ray Image Storage - For Presentation
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-9:	as=1.2.840.10008.5.1.4.1.1.1.1.1/Digital X-Ray Image Storage - For Processing
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-7:	as=1.2.840.10008.5.1.4.1.1.1.1/Digital X-Ray Image Storage - For Presentation
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+2025-01-07 10:01:15,852 INFO  DCMSND->APACS (TCPServer-1) [org.dcm4cheri.net.FsmImpl] sending AAssociateAC
+	appCtxName:	1.2.840.10008.3.1.1.1/DICOM Application Context Name
+	implClass:	1.2.40.0.13.1.1
+	implVersion:	dcm4che-1.4.7
+	calledAET:	APACS
+	callingAET:	DCMSND
+	maxPDULen:	16352
+	asyncOpsWindow:	maxOpsInvoked=1, maxOpsPerformed=1
+	pc-5:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-3:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-59:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-1:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-57:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-55:	3 - abstract-syntax-not-supported
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-53:	3 - abstract-syntax-not-supported
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-255:	3 - abstract-syntax-not-supported
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-51:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-49:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-47:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-45:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-43:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-245:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-41:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-243:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-241:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-39:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-37:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-239:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-35:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-237:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-33:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-235:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-31:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-233:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-231:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-199:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.80/JPEG-LS Lossless Image Compression
+	pc-197:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.80/JPEG-LS Lossless Image Compression
+	pc-195:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.80/JPEG-LS Lossless Image Compression
+	pc-193:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.80/JPEG-LS Lossless Image Compression
+	pc-191:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.80/JPEG-LS Lossless Image Compression
+	pc-29:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-27:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-229:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.100/MPEG2 Main Profile @ Main Level
+	pc-25:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-227:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.100/MPEG2 Main Profile @ Main Level
+	pc-23:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-225:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.100/MPEG2 Main Profile @ Main Level
+	pc-21:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-223:	0 - acceptance
+		ts=1.2.840.10008.1.2.5/RLE Lossless
+	pc-221:	0 - acceptance
+		ts=1.2.840.10008.1.2.5/RLE Lossless
+	pc-189:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.80/JPEG-LS Lossless Image Compression
+	pc-187:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.91/JPEG 2000 Lossy Image Compression
+	pc-185:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.91/JPEG 2000 Lossy Image Compression
+	pc-183:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.91/JPEG 2000 Lossy Image Compression
+	pc-181:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.91/JPEG 2000 Lossy Image Compression
+	pc-19:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-17:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-219:	0 - acceptance
+		ts=1.2.840.10008.1.2.5/RLE Lossless
+	pc-15:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-217:	0 - acceptance
+		ts=1.2.840.10008.1.2.5/RLE Lossless
+	pc-13:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-215:	0 - acceptance
+		ts=1.2.840.10008.1.2.5/RLE Lossless
+	pc-11:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-213:	0 - acceptance
+		ts=1.2.840.10008.1.2.5/RLE Lossless
+	pc-211:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.90/JPEG 2000 Lossless Image Compression
+	pc-179:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.91/JPEG 2000 Lossy Image Compression
+	pc-177:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.91/JPEG 2000 Lossy Image Compression
+	pc-175:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.81/JPEG-LS Lossy (Near-Lossless) Image Compression
+	pc-173:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.81/JPEG-LS Lossy (Near-Lossless) Image Compression
+	pc-171:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.81/JPEG-LS Lossy (Near-Lossless) Image Compression
+	pc-209:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.90/JPEG 2000 Lossless Image Compression
+	pc-207:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.90/JPEG 2000 Lossless Image Compression
+	pc-205:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.90/JPEG 2000 Lossless Image Compression
+	pc-203:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.90/JPEG 2000 Lossless Image Compression
+	pc-201:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.90/JPEG 2000 Lossless Image Compression
+	pc-169:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.81/JPEG-LS Lossy (Near-Lossless) Image Compression
+	pc-167:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.81/JPEG-LS Lossy (Near-Lossless) Image Compression
+	pc-165:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.81/JPEG-LS Lossy (Near-Lossless) Image Compression
+	pc-163:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.51/JPEG Extended (Process 2 & 4)
+	pc-161:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.51/JPEG Extended (Process 2 & 4)
+	pc-159:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.51/JPEG Extended (Process 2 & 4)
+	pc-157:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.51/JPEG Extended (Process 2 & 4)
+	pc-155:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.50/JPEG Baseline (Process 1)
+	pc-153:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.50/JPEG Baseline (Process 1)
+	pc-151:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.50/JPEG Baseline (Process 1)
+	pc-149:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.50/JPEG Baseline (Process 1)
+	pc-147:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.50/JPEG Baseline (Process 1)
+	pc-145:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.50/JPEG Baseline (Process 1)
+	pc-143:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-141:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-99:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-139:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-97:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-137:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-95:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-135:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-93:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-133:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-91:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-131:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-89:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-129:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-87:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-127:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-85:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-125:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-83:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-123:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-81:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-121:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-79:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-119:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-77:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-117:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-75:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-115:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-73:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-113:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-71:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-111:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-69:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-109:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-67:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-107:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-65:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-105:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-63:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-103:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-61:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-101:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-9:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-7:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+2025-01-07 10:01:15,977 INFO  DCMSND->APACS (TCPServer-1) [org.dcm4cheri.net.FsmImpl] received [pc-35] 1:C_STORE_RQ with Dataset
+	class:	1.2.840.10008.5.1.4.1.1.7/Secondary Capture Image Storage
+	inst:	1.2.840.113619.2.311.348598911223243254722121341/?
+2025-01-07 10:01:16,164 WARN  DCMSND->APACS (TCPServer-1) [org.dcm4chex.archive.mbean.FileSystemMgtService] No writeable Storage Directory configured for retrieve AET APACS- initalize default FileSystem[pk=1, archive, aet=APACS, ONLINE, RW+, userinfo=null]
+2025-01-07 10:01:16,234 INFO  DCMSND->APACS (TCPServer-1) [org.dcm4chex.archive.mbean.FileSystemMgtService] Free disk space on /home/ahis/AmritaPACS/jboss-4.0.5.GA/server/apacs/archive: 11.543822GB
+2025-01-07 10:01:16,242 INFO  DCMSND->APACS (TCPServer-1) [org.dcm4chex.archive.dcm.storescp.StoreScpService] M-WRITE file:/home/ahis/AmritaPACS/jboss-4.0.5.GA/server/apacs/archive/2025/1/7/10/4635035B/AF7DC1E5/8296F859
+2025-01-07 10:01:16,258 INFO  DCMSND->APACS (TCPServer-1) [org.dcm4chex.archive.ejb.session.StorageBean] inserting instance FileMetaInfo[uid=1.2.840.113619.2.311.348598911223243254722121341
+	class=1.2.840.10008.5.1.4.1.1.7/Secondary Capture Image Storage
+	ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	impl=1.2.40.0.13.1.1-dcm4che-1.4.7]
+2025-01-07 10:01:16,328 INFO  DCMSND->APACS (TCPServer-1) [org.dcm4chex.archive.ejb.session.StorageBean] StorageBean ,before call to ApacsPersonNameFormatter
+2025-01-07 10:01:16,331 INFO  DCMSND->APACS (TCPServer-1) [org.dcm4chex.archive.ejb.session.StorageBean] StorageBean ,after call to ApacsPersonNameFormatter
+2025-01-07 10:01:16,331 INFO  DCMSND->APACS (TCPServer-1) [org.dcm4chex.archive.ejb.session.StorageBean] patientName after format >>BIBIN VINCENT^^^^
+2025-01-07 10:01:16,387 INFO  DCMSND->APACS (TCPServer-1) [org.dcm4chex.archive.ejb.entity.PatientBean] Created Patient[pk=1, pid=50, name=BIBIN VINCENT^^^^]
+2025-01-07 10:01:16,415 INFO  DCMSND->APACS (TCPServer-1) [org.dcm4chex.archive.ejb.entity.StudyBean] Created Study[pk=1, uid=1.2.826.0.1.3680043.2.1006.20240205234315333, patient->ejb/Patient:1]
+2025-01-07 10:01:16,482 INFO  DCMSND->APACS (TCPServer-1) [org.dcm4chex.archive.ejb.entity.SeriesRequestBean] Created SeriesRequestAttribute[pk=1, rpid=RPD-260, spsid=260, service=null, phys=null, series->ejb/Series:1]
+2025-01-07 10:01:16,483 INFO  DCMSND->APACS (TCPServer-1) [org.dcm4chex.archive.ejb.entity.SeriesBean] Created Series[pk=1, uid=1.2.826.0.1.3680043.2.1006.202215435344211432112, study->ejb/Study:1]
+2025-01-07 10:01:16,502 INFO  DCMSND->APACS (TCPServer-1) [org.dcm4chex.archive.ejb.entity.InstanceBean] Created Instance[pk=1, iuid=1.2.840.113619.2.311.348598911223243254722121341, cuid=1.2.840.10008.5.1.4.1.1.7, series->ejb/Series:1]
+2025-01-07 10:01:16,531 INFO  DCMSND->APACS (TCPServer-1) [org.dcm4chex.archive.ejb.entity.FileBean] Created File[pk=1, filepath=2025/1/7/10/4635035B/AF7DC1E5/8296F859, tsuid=1.2.840.10008.1.2.1, filesystem->ejb/FileSystem:1, inst->ejb/Instance:1]
+2025-01-07 10:01:16,532 INFO  DCMSND->APACS (TCPServer-1) [org.dcm4chex.archive.ejb.session.StorageBean] inserted records for instance[uid=1.2.840.113619.2.311.348598911223243254722121341]
+2025-01-07 10:01:16,703 INFO  DCMSND->APACS (TCPServer-1) [org.dcm4cheri.net.FsmImpl] sending [pc-35] 1:C_STORE_RSP
+	class:	1.2.840.10008.5.1.4.1.1.7/Secondary Capture Image Storage
+	inst:	1.2.840.113619.2.311.348598911223243254722121341/?
+	status:	0
+2025-01-07 10:01:16,708 INFO  DCMSND->APACS (TCPServer-1) [org.dcm4cheri.net.FsmImpl] received A-RELEASE-RQ
+2025-01-07 10:01:16,709 INFO  DCMSND->APACS (TCPServer-1) [org.dcm4cheri.net.FsmImpl] sending A-RELEASE-RP
+2025-01-07 10:01:17,245 INFO  -> (Thread-7) [org.dcm4chex.arr.ejb.session.StoreAuditRecordBean] Store AuditRecord[type=InstancesStored, host=atvdi, timestamp=2025-01-07 10:01:17.0]
+2025-01-07 10:01:17,504 INFO  DCMSND->APACS (TCPServer-1) [org.dcm4cheri.net.FsmImpl] closing connection - Socket[addr=192.168.180.203/192.168.180.203,port=47707,localport=104]
+2025-01-07 10:01:17,504 INFO  -> (TCPServer-1) [org.dcm4cheri.server.ServerImpl] finished - Socket[addr=192.168.180.203/192.168.180.203,port=47707,localport=104]
+2025-01-07 10:01:35,459 INFO  -> (Thread-7) [org.dcm4chex.arr.ejb.session.StoreAuditRecordBean] Store AuditRecord[type=UserAuthenticated, host=atvdi, timestamp=2025-01-07 10:01:35.0]
+2025-01-07 10:01:35,536 INFO  -> (http-0.0.0.0-8080-2) [org.dcm4chex.archive.web.maverick.admin.perm.FolderPermissionsPropertyFactory] read permission properties from file: /home/ahis/AmritaPACS/jboss-4.0.5.GA/server/apacs/conf/dcm4chee-web/folder.permissions
+2025-01-07 10:02:04,722 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check for unreferenced private files to delete
+2025-01-07 10:03:04,775 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check for unreferenced private files to delete
+2025-01-07 10:04:04,831 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check for unreferenced private files to delete
+2025-01-07 10:05:04,668 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check available Disk Space
+2025-01-07 10:05:04,884 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check for unreferenced private files to delete
+2025-01-07 10:06:04,943 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check for unreferenced private files to delete
+2025-01-07 10:07:04,995 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check for unreferenced private files to delete
+2025-01-07 10:08:05,044 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check for unreferenced private files to delete
+2025-01-07 10:09:05,097 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check for unreferenced private files to delete
+2025-01-07 10:10:04,718 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check available Disk Space
+2025-01-07 10:10:05,148 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check for unreferenced private files to delete
+2025-01-07 10:11:05,214 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check for unreferenced private files to delete
+2025-01-07 10:12:05,267 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check for unreferenced private files to delete
+2025-01-07 10:12:32,559 INFO  -> (TCPServer-1-1) [org.dcm4cheri.server.ServerImpl] handle - Socket[addr=/192.168.180.203,port=33911,localport=104]
+2025-01-07 10:12:32,560 INFO  -> (TCPServer-1-1) [org.dcm4cheri.net.FsmImpl] Socket[addr=/192.168.180.203,port=33911,localport=104]
+2025-01-07 10:12:32,577 INFO  DCMSND->APACS (TCPServer-1-1) [org.dcm4cheri.net.FsmImpl] received AAssociateRQ
+	appCtxName:	1.2.840.10008.3.1.1.1/DICOM Application Context Name
+	implClass:	1.2.40.0.13.1.1
+	implVersion:	dcm4che-1.3.22
+	calledAET:	APACS
+	callingAET:	DCMSND
+	maxPDULen:	16352
+	asyncOpsWindow:	maxOpsInvoked=0, maxOpsPerformed=1
+	pc-5:	as=1.2.840.10008.5.1.4.1.1.1/Computed Radiography Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-3:	as=1.2.840.10008.5.1.1.30/Hardcopy Color Image Storage SOP Class
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-59:	as=1.2.840.10008.5.1.4.1.1.77.1.2/VL Microscopic Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-1:	as=1.2.840.10008.5.1.1.29/Hardcopy Grayscale Image Storage SOP Class
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-57:	as=1.2.840.10008.5.1.4.1.1.77.1.1/VL Endoscopic Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-55:	as=1.2.840.10008.5.1.4.1.1.77.2/VL Multi-frame Image Storage (Retired)
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-53:	as=1.2.840.10008.5.1.4.1.1.77.1/VL Image Storage (Retired)
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-255:	as=1.2.840.10008.1.9/Basic Study Content Notification SOP Class
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-51:	as=1.2.840.10008.5.1.4.1.1.20/Nuclear Medicine Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-49:	as=1.2.840.10008.5.1.4.1.1.12.3/X-Ray Angiographic Bi-Plane Image Storage (Retired)
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-47:	as=1.2.840.10008.5.1.4.1.1.12.2/X-Ray Radiofluoroscopic Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-45:	as=1.2.840.10008.5.1.4.1.1.12.1/X-Ray Angiographic Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-43:	as=1.2.840.10008.5.1.4.1.1.7.4/Multi-frame True Color Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-245:	as=1.2.840.10008.5.1.4.1.1.104.1/Encapsulated PDF Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-41:	as=1.2.840.10008.5.1.4.1.1.7.3/Multi-frame Grayscale Word Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-243:	as=1.2.840.10008.5.1.4.38.1/Hanging Protocol Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-241:	as=1.2.840.10008.5.1.4.1.1.9.1.1/12-lead ECG Waveform Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-39:	as=1.2.840.10008.5.1.4.1.1.7.2/Multi-frame Grayscale Byte Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-37:	as=1.2.840.10008.5.1.4.1.1.7.1/Multi-frame Single Bit Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-239:	as=1.2.840.10008.5.1.4.1.1.9.2.1/Hemodynamic Waveform Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-35:	as=1.2.840.10008.5.1.4.1.1.7/Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-237:	as=1.2.840.10008.5.1.4.1.1.9.1.2/General ECG Waveform Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-33:	as=1.2.840.10008.5.1.4.1.1.6.1/Ultrasound Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-235:	as=1.2.840.10008.5.1.4.1.1.9.3.1/Cardiac Electrophysiology Waveform Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-31:	as=1.2.840.10008.5.1.4.1.1.6/Ultrasound Image Storage (Retired)
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-233:	as=1.2.840.10008.5.1.4.1.1.9.4.1/Basic Voice Audio Waveform Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-231:	as=1.2.840.10008.5.1.4.1.1.9.1.3/Ambulatory ECG Waveform Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-199:	as=1.2.840.10008.5.1.4.1.1.7/Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.4.80/JPEG-LS Lossless Image Compression
+	pc-197:	as=1.2.840.10008.5.1.4.1.1.6.1/Ultrasound Image Storage
+		ts=1.2.840.10008.1.2.4.80/JPEG-LS Lossless Image Compression
+	pc-195:	as=1.2.840.10008.5.1.4.1.1.4/MR Image Storage
+		ts=1.2.840.10008.1.2.4.80/JPEG-LS Lossless Image Compression
+	pc-193:	as=1.2.840.10008.5.1.4.1.1.3.1/Ultrasound Multi-frame Image Storage
+		ts=1.2.840.10008.1.2.4.80/JPEG-LS Lossless Image Compression
+	pc-191:	as=1.2.840.10008.5.1.4.1.1.2/CT Image Storage
+		ts=1.2.840.10008.1.2.4.80/JPEG-LS Lossless Image Compression
+	pc-29:	as=1.2.840.10008.5.1.4.1.1.5/Nuclear Medicine Image Storage (Retired)
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-27:	as=1.2.840.10008.5.1.4.1.1.4.1/Enhanced MR Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-229:	as=1.2.840.10008.5.1.4.1.1.77.1.4.1/Video Photographic Image Storage
+		ts=1.2.840.10008.1.2.4.100/MPEG2 Main Profile @ Main Level
+	pc-25:	as=1.2.840.10008.5.1.4.1.1.4/MR Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-227:	as=1.2.840.10008.5.1.4.1.1.77.1.2.1/Video Microscopic Image Storage
+		ts=1.2.840.10008.1.2.4.100/MPEG2 Main Profile @ Main Level
+	pc-23:	as=1.2.840.10008.5.1.4.1.1.3.1/Ultrasound Multi-frame Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-225:	as=1.2.840.10008.5.1.4.1.1.77.1.1.1/Video Endoscopic Image Storage
+		ts=1.2.840.10008.1.2.4.100/MPEG2 Main Profile @ Main Level
+	pc-21:	as=1.2.840.10008.5.1.4.1.1.3/Ultrasound Multi-frame Image Storage (Retired)
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-223:	as=1.2.840.10008.5.1.4.1.1.7/Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.5/RLE Lossless
+	pc-221:	as=1.2.840.10008.5.1.4.1.1.6.1/Ultrasound Image Storage
+		ts=1.2.840.10008.1.2.5/RLE Lossless
+	pc-189:	as=1.2.840.10008.5.1.4.1.1.1/Computed Radiography Image Storage
+		ts=1.2.840.10008.1.2.4.80/JPEG-LS Lossless Image Compression
+	pc-187:	as=1.2.840.10008.5.1.4.1.1.7/Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.4.91/JPEG 2000 Lossy Image Compression
+	pc-185:	as=1.2.840.10008.5.1.4.1.1.6.1/Ultrasound Image Storage
+		ts=1.2.840.10008.1.2.4.91/JPEG 2000 Lossy Image Compression
+	pc-183:	as=1.2.840.10008.5.1.4.1.1.4/MR Image Storage
+		ts=1.2.840.10008.1.2.4.91/JPEG 2000 Lossy Image Compression
+	pc-181:	as=1.2.840.10008.5.1.4.1.1.3.1/Ultrasound Multi-frame Image Storage
+		ts=1.2.840.10008.1.2.4.91/JPEG 2000 Lossy Image Compression
+	pc-19:	as=1.2.840.10008.5.1.4.1.1.2/CT Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-17:	as=1.2.840.10008.5.1.4.1.1.1.3.1/Digital Intra-oral X-Ray Image Storage - For Processing
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-219:	as=1.2.840.10008.5.1.4.1.1.4/MR Image Storage
+		ts=1.2.840.10008.1.2.5/RLE Lossless
+	pc-15:	as=1.2.840.10008.5.1.4.1.1.1.3/Digital Intra-oral X-Ray Image Storage - For Presentation
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-217:	as=1.2.840.10008.5.1.4.1.1.3.1/Ultrasound Multi-frame Image Storage
+		ts=1.2.840.10008.1.2.5/RLE Lossless
+	pc-13:	as=1.2.840.10008.5.1.4.1.1.1.2.1/Digital Mammography X-Ray Image Storage - For Processing
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-215:	as=1.2.840.10008.5.1.4.1.1.2/CT Image Storage
+		ts=1.2.840.10008.1.2.5/RLE Lossless
+	pc-11:	as=1.2.840.10008.5.1.4.1.1.1.2/Digital Mammography X-Ray Image Storage - For Presentation
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-213:	as=1.2.840.10008.5.1.4.1.1.1/Computed Radiography Image Storage
+		ts=1.2.840.10008.1.2.5/RLE Lossless
+	pc-211:	as=1.2.840.10008.5.1.4.1.1.7/Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.4.90/JPEG 2000 Lossless Image Compression
+	pc-179:	as=1.2.840.10008.5.1.4.1.1.2/CT Image Storage
+		ts=1.2.840.10008.1.2.4.91/JPEG 2000 Lossy Image Compression
+	pc-177:	as=1.2.840.10008.5.1.4.1.1.1/Computed Radiography Image Storage
+		ts=1.2.840.10008.1.2.4.91/JPEG 2000 Lossy Image Compression
+	pc-175:	as=1.2.840.10008.5.1.4.1.1.7/Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.4.81/JPEG-LS Lossy (Near-Lossless) Image Compression
+	pc-173:	as=1.2.840.10008.5.1.4.1.1.6.1/Ultrasound Image Storage
+		ts=1.2.840.10008.1.2.4.81/JPEG-LS Lossy (Near-Lossless) Image Compression
+	pc-171:	as=1.2.840.10008.5.1.4.1.1.4/MR Image Storage
+		ts=1.2.840.10008.1.2.4.81/JPEG-LS Lossy (Near-Lossless) Image Compression
+	pc-209:	as=1.2.840.10008.5.1.4.1.1.6.1/Ultrasound Image Storage
+		ts=1.2.840.10008.1.2.4.90/JPEG 2000 Lossless Image Compression
+	pc-207:	as=1.2.840.10008.5.1.4.1.1.4/MR Image Storage
+		ts=1.2.840.10008.1.2.4.90/JPEG 2000 Lossless Image Compression
+	pc-205:	as=1.2.840.10008.5.1.4.1.1.3.1/Ultrasound Multi-frame Image Storage
+		ts=1.2.840.10008.1.2.4.90/JPEG 2000 Lossless Image Compression
+	pc-203:	as=1.2.840.10008.5.1.4.1.1.2/CT Image Storage
+		ts=1.2.840.10008.1.2.4.90/JPEG 2000 Lossless Image Compression
+	pc-201:	as=1.2.840.10008.5.1.4.1.1.1/Computed Radiography Image Storage
+		ts=1.2.840.10008.1.2.4.90/JPEG 2000 Lossless Image Compression
+	pc-169:	as=1.2.840.10008.5.1.4.1.1.3.1/Ultrasound Multi-frame Image Storage
+		ts=1.2.840.10008.1.2.4.81/JPEG-LS Lossy (Near-Lossless) Image Compression
+	pc-167:	as=1.2.840.10008.5.1.4.1.1.2/CT Image Storage
+		ts=1.2.840.10008.1.2.4.81/JPEG-LS Lossy (Near-Lossless) Image Compression
+	pc-165:	as=1.2.840.10008.5.1.4.1.1.1/Computed Radiography Image Storage
+		ts=1.2.840.10008.1.2.4.81/JPEG-LS Lossy (Near-Lossless) Image Compression
+	pc-163:	as=1.2.840.10008.5.1.4.1.1.7/Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.4.51/JPEG Extended (Process 2 & 4)
+	pc-161:	as=1.2.840.10008.5.1.4.1.1.4/MR Image Storage
+		ts=1.2.840.10008.1.2.4.51/JPEG Extended (Process 2 & 4)
+	pc-159:	as=1.2.840.10008.5.1.4.1.1.2/CT Image Storage
+		ts=1.2.840.10008.1.2.4.51/JPEG Extended (Process 2 & 4)
+	pc-157:	as=1.2.840.10008.5.1.4.1.1.1/Computed Radiography Image Storage
+		ts=1.2.840.10008.1.2.4.51/JPEG Extended (Process 2 & 4)
+	pc-155:	as=1.2.840.10008.5.1.4.1.1.12.1/X-Ray Angiographic Image Storage
+		ts=1.2.840.10008.1.2.4.50/JPEG Baseline (Process 1)
+	pc-153:	as=1.2.840.10008.5.1.4.1.1.7.4/Multi-frame True Color Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.4.50/JPEG Baseline (Process 1)
+	pc-151:	as=1.2.840.10008.5.1.4.1.1.7.2/Multi-frame Grayscale Byte Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.4.50/JPEG Baseline (Process 1)
+	pc-149:	as=1.2.840.10008.5.1.4.1.1.7/Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.4.50/JPEG Baseline (Process 1)
+	pc-147:	as=1.2.840.10008.5.1.4.1.1.6.1/Ultrasound Image Storage
+		ts=1.2.840.10008.1.2.4.50/JPEG Baseline (Process 1)
+	pc-145:	as=1.2.840.10008.5.1.4.1.1.3.1/Ultrasound Multi-frame Image Storage
+		ts=1.2.840.10008.1.2.4.50/JPEG Baseline (Process 1)
+	pc-143:	as=1.2.840.10008.5.1.4.1.1.481.1/RT Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-141:	as=1.2.840.10008.5.1.4.1.1.128/Positron Emission Tomography Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-99:	as=1.2.840.10008.5.1.4.1.1.1.1.1/Digital X-Ray Image Storage - For Processing
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-139:	as=1.2.840.10008.5.1.4.1.1.77.1.4/VL Photographic Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-97:	as=1.2.840.10008.5.1.4.1.1.1.1/Digital X-Ray Image Storage - For Presentation
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-137:	as=1.2.840.10008.5.1.4.1.1.77.1.3/VL Slide-Coordinates Microscopic Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-95:	as=1.2.840.10008.5.1.4.1.1.1/Computed Radiography Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-135:	as=1.2.840.10008.5.1.4.1.1.77.1.2/VL Microscopic Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-93:	as=1.2.840.10008.5.1.4.1.1.66/Raw Data Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-133:	as=1.2.840.10008.5.1.4.1.1.77.1.1/VL Endoscopic Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-91:	as=1.2.840.10008.5.1.4.1.1.481.7/RT Treatment Summary Record Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-131:	as=1.2.840.10008.5.1.4.1.1.20/Nuclear Medicine Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-89:	as=1.2.840.10008.5.1.4.1.1.481.6/RT Brachy Treatment Record Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-129:	as=1.2.840.10008.5.1.4.1.1.12.2/X-Ray Radiofluoroscopic Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-87:	as=1.2.840.10008.5.1.4.1.1.481.5/RT Plan Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-127:	as=1.2.840.10008.5.1.4.1.1.12.1/X-Ray Angiographic Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-85:	as=1.2.840.10008.5.1.4.1.1.481.4/RT Beams Treatment Record Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-125:	as=1.2.840.10008.5.1.4.1.1.7.4/Multi-frame True Color Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-83:	as=1.2.840.10008.5.1.4.1.1.481.3/RT Structure Set Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-123:	as=1.2.840.10008.5.1.4.1.1.7.3/Multi-frame Grayscale Word Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-81:	as=1.2.840.10008.5.1.4.1.1.481.2/RT Dose Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-121:	as=1.2.840.10008.5.1.4.1.1.7.2/Multi-frame Grayscale Byte Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-79:	as=1.2.840.10008.5.1.4.1.1.88.59/Key Object Selection Document
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-119:	as=1.2.840.10008.5.1.4.1.1.7/Secondary Capture Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-77:	as=1.2.840.10008.5.1.4.1.1.11.1/Grayscale Softcopy Presentation State Storage SOP Class
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-117:	as=1.2.840.10008.5.1.4.1.1.6.1/Ultrasound Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-75:	as=1.2.840.10008.5.1.4.1.1.88.50/Mammography CAD SR
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-115:	as=1.2.840.10008.5.1.4.1.1.4.1/Enhanced MR Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-73:	as=1.2.840.10008.5.1.4.1.1.88.33/Comprehensive SR
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-113:	as=1.2.840.10008.5.1.4.1.1.4/MR Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-71:	as=1.2.840.10008.5.1.4.1.1.88.22/Enhanced SR
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-111:	as=1.2.840.10008.5.1.4.1.1.3.1/Ultrasound Multi-frame Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-69:	as=1.2.840.10008.5.1.4.1.1.88.11/Basic Text SR
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-109:	as=1.2.840.10008.5.1.4.1.1.2/CT Image Storage
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-67:	as=1.2.840.10008.5.1.4.1.1.481.1/RT Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-107:	as=1.2.840.10008.5.1.4.1.1.1.3.1/Digital Intra-oral X-Ray Image Storage - For Processing
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-65:	as=1.2.840.10008.5.1.4.1.1.128/Positron Emission Tomography Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-105:	as=1.2.840.10008.5.1.4.1.1.1.3/Digital Intra-oral X-Ray Image Storage - For Presentation
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-63:	as=1.2.840.10008.5.1.4.1.1.77.1.4/VL Photographic Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-103:	as=1.2.840.10008.5.1.4.1.1.1.2.1/Digital Mammography X-Ray Image Storage - For Processing
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-61:	as=1.2.840.10008.5.1.4.1.1.77.1.3/VL Slide-Coordinates Microscopic Image Storage
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-101:	as=1.2.840.10008.5.1.4.1.1.1.2/Digital Mammography X-Ray Image Storage - For Presentation
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-9:	as=1.2.840.10008.5.1.4.1.1.1.1.1/Digital X-Ray Image Storage - For Processing
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+	pc-7:	as=1.2.840.10008.5.1.4.1.1.1.1/Digital X-Ray Image Storage - For Presentation
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+		ts=1.2.840.10008.1.2/Implicit VR Little Endian
+2025-01-07 10:12:32,598 INFO  DCMSND->APACS (TCPServer-1-1) [org.dcm4cheri.net.FsmImpl] sending AAssociateAC
+	appCtxName:	1.2.840.10008.3.1.1.1/DICOM Application Context Name
+	implClass:	1.2.40.0.13.1.1
+	implVersion:	dcm4che-1.4.7
+	calledAET:	APACS
+	callingAET:	DCMSND
+	maxPDULen:	16352
+	asyncOpsWindow:	maxOpsInvoked=1, maxOpsPerformed=1
+	pc-5:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-3:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-59:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-1:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-57:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-55:	3 - abstract-syntax-not-supported
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-53:	3 - abstract-syntax-not-supported
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-255:	3 - abstract-syntax-not-supported
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-51:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-49:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-47:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-45:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-43:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-245:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-41:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-243:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-241:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-39:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-37:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-239:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-35:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-237:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-33:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-235:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-31:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-233:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-231:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-199:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.80/JPEG-LS Lossless Image Compression
+	pc-197:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.80/JPEG-LS Lossless Image Compression
+	pc-195:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.80/JPEG-LS Lossless Image Compression
+	pc-193:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.80/JPEG-LS Lossless Image Compression
+	pc-191:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.80/JPEG-LS Lossless Image Compression
+	pc-29:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-27:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-229:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.100/MPEG2 Main Profile @ Main Level
+	pc-25:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-227:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.100/MPEG2 Main Profile @ Main Level
+	pc-23:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-225:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.100/MPEG2 Main Profile @ Main Level
+	pc-21:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-223:	0 - acceptance
+		ts=1.2.840.10008.1.2.5/RLE Lossless
+	pc-221:	0 - acceptance
+		ts=1.2.840.10008.1.2.5/RLE Lossless
+	pc-189:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.80/JPEG-LS Lossless Image Compression
+	pc-187:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.91/JPEG 2000 Lossy Image Compression
+	pc-185:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.91/JPEG 2000 Lossy Image Compression
+	pc-183:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.91/JPEG 2000 Lossy Image Compression
+	pc-181:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.91/JPEG 2000 Lossy Image Compression
+	pc-19:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-17:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-219:	0 - acceptance
+		ts=1.2.840.10008.1.2.5/RLE Lossless
+	pc-15:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-217:	0 - acceptance
+		ts=1.2.840.10008.1.2.5/RLE Lossless
+	pc-13:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-215:	0 - acceptance
+		ts=1.2.840.10008.1.2.5/RLE Lossless
+	pc-11:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-213:	0 - acceptance
+		ts=1.2.840.10008.1.2.5/RLE Lossless
+	pc-211:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.90/JPEG 2000 Lossless Image Compression
+	pc-179:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.91/JPEG 2000 Lossy Image Compression
+	pc-177:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.91/JPEG 2000 Lossy Image Compression
+	pc-175:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.81/JPEG-LS Lossy (Near-Lossless) Image Compression
+	pc-173:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.81/JPEG-LS Lossy (Near-Lossless) Image Compression
+	pc-171:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.81/JPEG-LS Lossy (Near-Lossless) Image Compression
+	pc-209:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.90/JPEG 2000 Lossless Image Compression
+	pc-207:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.90/JPEG 2000 Lossless Image Compression
+	pc-205:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.90/JPEG 2000 Lossless Image Compression
+	pc-203:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.90/JPEG 2000 Lossless Image Compression
+	pc-201:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.90/JPEG 2000 Lossless Image Compression
+	pc-169:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.81/JPEG-LS Lossy (Near-Lossless) Image Compression
+	pc-167:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.81/JPEG-LS Lossy (Near-Lossless) Image Compression
+	pc-165:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.81/JPEG-LS Lossy (Near-Lossless) Image Compression
+	pc-163:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.51/JPEG Extended (Process 2 & 4)
+	pc-161:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.51/JPEG Extended (Process 2 & 4)
+	pc-159:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.51/JPEG Extended (Process 2 & 4)
+	pc-157:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.51/JPEG Extended (Process 2 & 4)
+	pc-155:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.50/JPEG Baseline (Process 1)
+	pc-153:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.50/JPEG Baseline (Process 1)
+	pc-151:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.50/JPEG Baseline (Process 1)
+	pc-149:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.50/JPEG Baseline (Process 1)
+	pc-147:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.50/JPEG Baseline (Process 1)
+	pc-145:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.50/JPEG Baseline (Process 1)
+	pc-143:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-141:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-99:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-139:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-97:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-137:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-95:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-135:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-93:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-133:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-91:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-131:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-89:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-129:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-87:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-127:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-85:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-125:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-83:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-123:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-81:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-121:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-79:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-119:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-77:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-117:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-75:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-115:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-73:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-113:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-71:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-111:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-69:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-109:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-67:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-107:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-65:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-105:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-63:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-103:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-61:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-101:	0 - acceptance
+		ts=1.2.840.10008.1.2.4.70/JPEG Lossless, Non- Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])
+	pc-9:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	pc-7:	0 - acceptance
+		ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+2025-01-07 10:12:32,703 INFO  DCMSND->APACS (TCPServer-1-1) [org.dcm4cheri.net.FsmImpl] received [pc-35] 1:C_STORE_RQ with Dataset
+	class:	1.2.840.10008.5.1.4.1.1.7/Secondary Capture Image Storage
+	inst:	1.2.840.113619.2.311.34859891122324325472211/?
+2025-01-07 10:12:32,811 INFO  DCMSND->APACS (TCPServer-1-1) [org.dcm4chex.archive.mbean.FileSystemMgtService] Free disk space on /home/ahis/AmritaPACS/jboss-4.0.5.GA/server/apacs/archive: 11.541922GB
+2025-01-07 10:12:32,812 INFO  DCMSND->APACS (TCPServer-1-1) [org.dcm4chex.archive.dcm.storescp.StoreScpService] M-WRITE file:/home/ahis/AmritaPACS/jboss-4.0.5.GA/server/apacs/archive/2025/1/7/10/CD8692F4/47BA304D/18831939
+2025-01-07 10:12:32,818 INFO  DCMSND->APACS (TCPServer-1-1) [org.dcm4chex.archive.ejb.session.StorageBean] inserting instance FileMetaInfo[uid=1.2.840.113619.2.311.34859891122324325472211
+	class=1.2.840.10008.5.1.4.1.1.7/Secondary Capture Image Storage
+	ts=1.2.840.10008.1.2.1/Explicit VR Little Endian
+	impl=1.2.40.0.13.1.1-dcm4che-1.4.7]
+2025-01-07 10:12:32,897 INFO  DCMSND->APACS (TCPServer-1-1) [org.dcm4chex.archive.ejb.session.StorageBean] StorageBean ,before call to ApacsPersonNameFormatter
+2025-01-07 10:12:32,898 INFO  DCMSND->APACS (TCPServer-1-1) [org.dcm4chex.archive.ejb.session.StorageBean] StorageBean ,after call to ApacsPersonNameFormatter
+2025-01-07 10:12:32,898 INFO  DCMSND->APACS (TCPServer-1-1) [org.dcm4chex.archive.ejb.session.StorageBean] patientName after format >>DR MOHAN K ABRAHAM^^^^
+2025-01-07 10:12:32,931 INFO  DCMSND->APACS (TCPServer-1-1) [org.dcm4chex.archive.ejb.entity.PatientBean] Created Patient[pk=2, pid=47, name=DR MOHAN K ABRAHAM^^^^]
+2025-01-07 10:12:32,948 INFO  DCMSND->APACS (TCPServer-1-1) [org.dcm4chex.archive.ejb.entity.StudyBean] Created Study[pk=2, uid=1.2.826.0.1.3680043.2.1006.202301231511571324194, patient->ejb/Patient:2]
+2025-01-07 10:12:33,014 INFO  DCMSND->APACS (TCPServer-1-1) [org.dcm4chex.archive.ejb.entity.SeriesRequestBean] Created SeriesRequestAttribute[pk=2, rpid=RPD-220, spsid=220, service=null, phys=null, series->ejb/Series:2]
+2025-01-07 10:12:33,015 INFO  DCMSND->APACS (TCPServer-1-1) [org.dcm4chex.archive.ejb.entity.SeriesBean] Created Series[pk=2, uid=1.2.826.0.1.3680043.2.1006.20221543534421144212, study->ejb/Study:2]
+2025-01-07 10:12:33,033 INFO  DCMSND->APACS (TCPServer-1-1) [org.dcm4chex.archive.ejb.entity.InstanceBean] Created Instance[pk=2, iuid=1.2.840.113619.2.311.34859891122324325472211, cuid=1.2.840.10008.5.1.4.1.1.7, series->ejb/Series:2]
+2025-01-07 10:12:33,049 INFO  DCMSND->APACS (TCPServer-1-1) [org.dcm4chex.archive.ejb.entity.FileBean] Created File[pk=2, filepath=2025/1/7/10/CD8692F4/47BA304D/18831939, tsuid=1.2.840.10008.1.2.1, filesystem->ejb/FileSystem:1, inst->ejb/Instance:2]
+2025-01-07 10:12:33,049 INFO  DCMSND->APACS (TCPServer-1-1) [org.dcm4chex.archive.ejb.session.StorageBean] inserted records for instance[uid=1.2.840.113619.2.311.34859891122324325472211]
+2025-01-07 10:12:33,190 INFO  DCMSND->APACS (TCPServer-1-1) [org.dcm4cheri.net.FsmImpl] sending [pc-35] 1:C_STORE_RSP
+	class:	1.2.840.10008.5.1.4.1.1.7/Secondary Capture Image Storage
+	inst:	1.2.840.113619.2.311.34859891122324325472211/?
+	status:	0
+2025-01-07 10:12:33,196 INFO  DCMSND->APACS (TCPServer-1-1) [org.dcm4cheri.net.FsmImpl] received A-RELEASE-RQ
+2025-01-07 10:12:33,196 INFO  DCMSND->APACS (TCPServer-1-1) [org.dcm4cheri.net.FsmImpl] sending A-RELEASE-RP
+2025-01-07 10:12:33,728 INFO  -> (Thread-7) [org.dcm4chex.arr.ejb.session.StoreAuditRecordBean] Store AuditRecord[type=InstancesStored, host=atvdi, timestamp=2025-01-07 10:12:33.0]
+2025-01-07 10:12:33,954 INFO  DCMSND->APACS (TCPServer-1-1) [org.dcm4cheri.net.FsmImpl] closing connection - Socket[addr=192.168.180.203/192.168.180.203,port=33911,localport=104]
+2025-01-07 10:12:33,957 INFO  -> (TCPServer-1-1) [org.dcm4cheri.server.ServerImpl] finished - Socket[addr=192.168.180.203/192.168.180.203,port=33911,localport=104]
+2025-01-07 10:13:05,323 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check for unreferenced private files to delete
+2025-01-07 10:14:05,375 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check for unreferenced private files to delete
+2025-01-07 10:15:04,783 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check available Disk Space
+2025-01-07 10:15:05,430 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check for unreferenced private files to delete
+2025-01-07 10:16:05,480 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check for unreferenced private files to delete
+2025-01-07 10:17:05,532 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check for unreferenced private files to delete
+2025-01-07 10:18:05,588 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check for unreferenced private files to delete
