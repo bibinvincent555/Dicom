@@ -1,0 +1,87 @@
+
+#The following options will be passed to all MySQL clients
+        [client]
+                port                               = 3307
+                socket                           = /DB1/ahis_data/MySQL_5.7.35/mysql.sock
+
+
+# The MySQL server : All server level configuration needed in startup goes here
+        [mysqld]
+                #### General Server Configuration
+                skip-name-resolve
+                port                                   = 3307
+               #bind-address                  = 
+                transaction_isolation     = READ-COMMITTED
+                tmp_table_size               = 32M
+                socket                               = /DB1/ahis_data/MySQL_5.7.35/mysql.sock
+                pid-file                              = /DB1/ahis_data/MySQL_5.7.35/mysql.pid
+                datadir                              = /DB1/ahis_data/data/mysql_frmfiles
+                basedir                              = /usr/local/mysql5_7_3
+                federated
+                performance_schema     = OFF
+                thread_cache_size          = 40
+                sort_buffer_size              = 12M
+                read_buffer_size             = 8M
+                read_rnd_buffer_size     = 8M
+                join_buffer_size              = 12M
+                key_buffer_size              = 2M
+                max_connections            = 800
+                max_allowed_packet      = 256M
+                log-error                          = /DB1/ahis_data/MySQL_5.7.35/mysql_ahis_error.log
+                tmpdir                             = /DB1/ahis_data/MySQL_5.7.35/temp/mysql_temp
+                table_open_cache           =  8000
+                secure_file_priv              =  /DB1/ahis_data/mysql-files
+                sql_mode                         =  "NO_ENGINE_SUBSTITUTION,ALLOW_INVALID_DATES"
+                innodb_strict_mode        =  0
+                log_timestamps              = SYSTEM
+
+
+               #### Query Logging
+                long_query_time           = 10
+                slow_query_log            = ON
+                slow_query_log_file     = /DB1/ahis_data/log/mysql_asciilog/mysql_ahis-slow_queries.log
+
+
+                #### General log configuration
+                general_log                = 0
+                general_log_file        = /DB1/ahis_data/log/mysql_asciilog/mysql_all_query_ahis.log
+
+                #### Query Caching [Disabled]
+                query_cache_type        = 0
+                query_cache_size         = 0M
+
+
+                #### Innodb Configuration
+                innodb_data_home_dir                    = /DB1/ahis_data/data/mysql_ibdata
+                innodb_data_file_path                     = ibdata1:5120M:autoextend
+                innodb_log_group_home_dir          = /DB1/ahis_data/log/mysql_iblog
+                innodb_log_files_in_group              = 2
+                innodb_buffer_pool_size                 = 2096M
+                innodb_log_file_size                         = 1024M
+                innodb_log_buffer_size                    = 30M
+                innodb_flush_log_at_trx_commit   = 1
+                innodb_lock_wait_timeout              = 50
+                innodb_rollback_on_timeout          = 1
+                innodb_thread_concurrency           = 0
+                innodb_buffer_pool_instances        = 4
+                innodb_file_per_table                       = 1
+
+
+
+
+                #### Replication Configuration
+                server-id                                          = 10
+                max_binlog_size                            = 50M
+                log_bin                                              = /DB1/ahis_data/log/mysql_repl_log/mysql_ahis-lalithamba-mas-bin
+                log-bin-index                                    = /DB1/ahis_data/log/mysql_repl_log/mysql_ahis-lalithamba-mas-bin.index
+                binlog_format                                  = MIXED
+                sync_binlog                                      = 1
+                binlog_rows_query_log_events   = ON
+
+
+
+        [mysqldump]
+                quick
+                max_allowed_packet      = 256M
+                                                                                                                                                                                                                                                                                                                                                                                                          
+
