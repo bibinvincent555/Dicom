@@ -1,0 +1,1020 @@
+2025-01-22 16:36:36,959 INFO  -> (main) [org.jboss.ws.server.ServiceEndpointManager] WebServices: jbossws-1.0.3.SP1 (date=200609291417)
+2025-01-22 16:36:39,188 INFO  -> (main) [org.apache.catalina.startup.Embedded] Catalina naming disabled
+2025-01-22 16:36:39,212 INFO  -> (main) [org.apache.catalina.startup.ClusterRuleSetFactory] Unable to find a cluster rule set in the classpath. Will load the default rule set.
+2025-01-22 16:36:39,213 INFO  -> (main) [org.apache.catalina.startup.ClusterRuleSetFactory] Unable to find a cluster rule set in the classpath. Will load the default rule set.
+2025-01-22 16:36:39,356 INFO  -> (main) [org.apache.coyote.http11.Http11BaseProtocol] Initializing Coyote HTTP/1.1 on http-0.0.0.0-8180
+2025-01-22 16:36:39,357 INFO  -> (main) [org.apache.catalina.startup.Catalina] Initialization processed in 144 ms
+2025-01-22 16:36:39,358 INFO  -> (main) [org.jboss.web.tomcat.tc5.StandardService] Starting service jboss.web
+2025-01-22 16:36:39,360 INFO  -> (main) [org.apache.catalina.core.StandardEngine] Starting Servlet Engine: Apache Tomcat/5.5.20
+2025-01-22 16:36:39,380 INFO  -> (main) [org.apache.catalina.core.StandardHost] XML validation disabled
+2025-01-22 16:36:39,393 INFO  -> (main) [org.apache.catalina.startup.Catalina] Server startup in 35 ms
+2025-01-22 16:36:39,511 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/invoker, warUrl=.../deploy/http-invoker.sar/invoker.war/
+2025-01-22 16:36:39,637 INFO  -> (main) [org.apache.catalina.loader.WebappLoader] Dual registration of jndi stream handler: factory already defined
+2025-01-22 16:36:39,817 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/, warUrl=.../deploy/jbossweb-tomcat55.sar/ROOT.war/
+2025-01-22 16:36:39,882 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/jbossws, warUrl=.../tmp/deploy/tmp3851005642055334773jbossws-context-exp.war/
+2025-01-22 16:36:39,944 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/jbossmq-httpil, warUrl=.../deploy/jms/jbossmq-httpil.sar/jbossmq-httpil.war/
+2025-01-22 16:36:40,356 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/web-console, warUrl=.../deploy/management/console-mgr.sar/web-console.war/
+2025-01-22 16:36:40,592 INFO  -> (main) [org.jboss.mail.MailService] Mail Service bound to java:/Mail
+2025-01-22 16:36:40,654 INFO  -> (main) [org.jboss.resource.deployment.RARDeployment] Required license terms exist, view META-INF/ra.xml in .../deploy/jboss-ha-local-jdbc.rar
+2025-01-22 16:36:40,671 INFO  -> (main) [org.jboss.resource.deployment.RARDeployment] Required license terms exist, view META-INF/ra.xml in .../deploy/jboss-ha-xa-jdbc.rar
+2025-01-22 16:36:40,683 INFO  -> (main) [org.jboss.resource.deployment.RARDeployment] Required license terms exist, view META-INF/ra.xml in .../deploy/jboss-local-jdbc.rar
+2025-01-22 16:36:40,695 INFO  -> (main) [org.jboss.resource.deployment.RARDeployment] Required license terms exist, view META-INF/ra.xml in .../deploy/jboss-xa-jdbc.rar
+2025-01-22 16:36:40,709 INFO  -> (main) [org.jboss.resource.deployment.RARDeployment] Required license terms exist, view META-INF/ra.xml in .../deploy/jms/jms-ra.rar
+2025-01-22 16:36:40,721 INFO  -> (main) [org.jboss.resource.deployment.RARDeployment] Required license terms exist, view META-INF/ra.xml in .../deploy/mail-ra.rar
+2025-01-22 16:36:41,055 INFO  -> (main) [org.jboss.resource.adapter.jdbc.remote.WrapperDataSourceService] Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' to JNDI name 'java:DefaultDS'
+2025-01-22 16:36:41,219 INFO  -> (main) [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] Bound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' to JNDI name 'java:JmsXA'
+2025-01-22 16:36:41,267 INFO  -> (main) [org.jboss.resource.adapter.jdbc.remote.WrapperDataSourceService] Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=MySqlDS' to JNDI name 'java:MySqlDS'
+2025-01-22 16:36:41,746 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.ExportManager] Bound to JNDI name: queue/ExportManager
+2025-01-22 16:36:41,749 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.FileCopy] Bound to JNDI name: queue/FileCopy
+2025-01-22 16:36:41,751 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.PurgeStudy] Bound to JNDI name: queue/PurgeStudy
+2025-01-22 16:36:41,768 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.HL7Send] Bound to JNDI name: queue/HL7Send
+2025-01-22 16:36:41,770 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.IANScu] Bound to JNDI name: queue/IANScu
+2025-01-22 16:36:41,773 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.MCMScu] Bound to JNDI name: queue/MCMScu
+2025-01-22 16:36:41,776 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.MoveScu] Bound to JNDI name: queue/MoveScu
+2025-01-22 16:36:41,778 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.MPPSScu] Bound to JNDI name: queue/MPPSScu
+2025-01-22 16:36:41,781 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.PPSExceptionMgt] Bound to JNDI name: queue/PPSExceptionMgt
+2025-01-22 16:36:41,783 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.PPSScu] Bound to JNDI name: queue/PPSScu
+2025-01-22 16:36:41,785 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.Prefetch] Bound to JNDI name: queue/Prefetch
+2025-01-22 16:36:41,787 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.Sendmail] Bound to JNDI name: queue/Sendmail
+2025-01-22 16:36:41,789 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.StgCmtScuScp] Bound to JNDI name: queue/StgCmtScuScp
+2025-01-22 16:36:41,790 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.StudyMgtScu] Bound to JNDI name: queue/StudyMgtScu
+2025-01-22 16:36:41,793 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.A] Bound to JNDI name: queue/A
+2025-01-22 16:36:41,795 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.B] Bound to JNDI name: queue/B
+2025-01-22 16:36:41,796 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.C] Bound to JNDI name: queue/C
+2025-01-22 16:36:41,802 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.D] Bound to JNDI name: queue/D
+2025-01-22 16:36:41,805 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.ex] Bound to JNDI name: queue/ex
+2025-01-22 16:36:41,866 INFO  -> (main) [org.jboss.mq.il.uil2.UILServerILService] JBossMQ UIL service available at : /0.0.0.0:8093
+2025-01-22 16:36:41,897 INFO  -> (main) [org.jboss.mq.server.jmx.Topic.testTopic] Bound to JNDI name: topic/testTopic
+2025-01-22 16:36:41,898 INFO  -> (main) [org.jboss.mq.server.jmx.Topic.securedTopic] Bound to JNDI name: topic/securedTopic
+2025-01-22 16:36:41,899 INFO  -> (main) [org.jboss.mq.server.jmx.Topic.testDurableTopic] Bound to JNDI name: topic/testDurableTopic
+2025-01-22 16:36:41,903 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.testQueue] Bound to JNDI name: queue/testQueue
+2025-01-22 16:36:41,906 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.DLQ] Bound to JNDI name: queue/DLQ
+2025-01-22 16:36:42,004 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying AuditRecord
+2025-01-22 16:36:42,061 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying QueryAuditRecord
+2025-01-22 16:36:42,068 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying StoreAuditRecord
+2025-01-22 16:36:42,460 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'AuditRecord' to jndi 'ejb/AuditRecord'
+2025-01-22 16:36:42,468 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'QueryAuditRecord' to jndi 'ejb/QueryAuditRecord'
+2025-01-22 16:36:42,474 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'StoreAuditRecord' to jndi 'ejb/StoreAuditRecord'
+2025-01-22 16:36:42,481 INFO  -> (Thread-7) [org.dcm4cheri.server.UDPServerImpl] Started UDP Server listening on 0.0.0.0/0.0.0.0:4000
+2025-01-22 16:36:42,508 INFO  -> (main) [org.dcm4chex.arr.ejb.session.StoreAuditRecordBean] Store AuditRecord[type=ActorStartStop, host=atvdi, timestamp=2025-01-22 16:36:42.508]
+2025-01-22 16:36:42,522 ERROR -> (main) [org.jboss.ejb.plugins.LogInterceptor] TransactionRolledbackLocalException in method: public abstract org.dcm4chex.arr.ejb.entity.AuditRecordLocal org.dcm4chex.arr.ejb.entity.AuditRecordLocalHome.create(java.lang.String,java.lang.String,java.sql.Timestamp,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws javax.ejb.CreateException, causedBy:
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.ejb.plugins.cmp.jdbc.keygen.JDBCMySQLCreateCommand.executeInsert(JDBCMySQLCreateCommand.java:135)
+	at org.jboss.ejb.plugins.cmp.jdbc.JDBCAbstractCreateCommand.performInsert(JDBCAbstractCreateCommand.java:321)
+	at org.jboss.ejb.plugins.cmp.jdbc.JDBCAbstractCreateCommand.execute(JDBCAbstractCreateCommand.java:151)
+	at org.jboss.ejb.plugins.cmp.jdbc.JDBCStoreManager.createEntity(JDBCStoreManager.java:587)
+	at org.jboss.ejb.plugins.CMPPersistenceManager.createEntity(CMPPersistenceManager.java:237)
+	at org.jboss.resource.connectionmanager.CachedConnectionInterceptor.createEntity(CachedConnectionInterceptor.java:225)
+	at org.jboss.ejb.EntityContainer.createLocalHome(EntityContainer.java:625)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.invocation.Invocation.performCall(Invocation.java:359)
+	at org.jboss.ejb.EntityContainer$ContainerInterceptor.invokeHome(EntityContainer.java:1126)
+	at org.jboss.ejb.plugins.AbstractInterceptor.invokeHome(AbstractInterceptor.java:105)
+	at org.jboss.ejb.plugins.EntitySynchronizationInterceptor.invokeHome(EntitySynchronizationInterceptor.java:203)
+	at org.jboss.resource.connectionmanager.CachedConnectionInterceptor.invokeHome(CachedConnectionInterceptor.java:189)
+	at org.jboss.ejb.plugins.AbstractInterceptor.invokeHome(AbstractInterceptor.java:105)
+	at org.jboss.ejb.plugins.EntityInstanceInterceptor.invokeHome(EntityInstanceInterceptor.java:134)
+	at org.jboss.ejb.plugins.EntityLockInterceptor.invokeHome(EntityLockInterceptor.java:76)
+	at org.jboss.ejb.plugins.EntityCreationInterceptor.invokeHome(EntityCreationInterceptor.java:43)
+	at org.jboss.ejb.plugins.CallValidationInterceptor.invokeHome(CallValidationInterceptor.java:56)
+	at org.jboss.ejb.plugins.AbstractTxInterceptor.invokeNext(AbstractTxInterceptor.java:125)
+	at org.jboss.ejb.plugins.TxInterceptorCMT.runWithTransactions(TxInterceptorCMT.java:350)
+	at org.jboss.ejb.plugins.TxInterceptorCMT.invokeHome(TxInterceptorCMT.java:161)
+	at org.jboss.ejb.plugins.SecurityInterceptor.invokeHome(SecurityInterceptor.java:145)
+	at org.jboss.ejb.plugins.LogInterceptor.invokeHome(LogInterceptor.java:132)
+	at org.jboss.ejb.plugins.ProxyFactoryFinderInterceptor.invokeHome(ProxyFactoryFinderInterceptor.java:107)
+	at org.jboss.ejb.EntityContainer.internalInvokeHome(EntityContainer.java:521)
+	at org.jboss.ejb.Container.invoke(Container.java:975)
+	at org.jboss.ejb.plugins.local.BaseLocalProxyFactory.invokeHome(BaseLocalProxyFactory.java:359)
+	at org.jboss.ejb.plugins.local.LocalHomeProxy.invoke(LocalHomeProxy.java:133)
+	at $Proxy56.create(Unknown Source)
+	at org.dcm4chex.arr.ejb.session.StoreAuditRecordBean.store(StoreAuditRecordBean.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.invocation.Invocation.performCall(Invocation.java:359)
+	at org.jboss.ejb.StatelessSessionContainer$ContainerInterceptor.invoke(StatelessSessionContainer.java:237)
+	at org.jboss.resource.connectionmanager.CachedConnectionInterceptor.invoke(CachedConnectionInterceptor.java:158)
+	at org.jboss.ejb.plugins.StatelessSessionInstanceInterceptor.invoke(StatelessSessionInstanceInterceptor.java:169)
+	at org.jboss.ejb.plugins.CallValidationInterceptor.invoke(CallValidationInterceptor.java:63)
+	at org.jboss.ejb.plugins.AbstractTxInterceptor.invokeNext(AbstractTxInterceptor.java:121)
+	at org.jboss.ejb.plugins.TxInterceptorCMT.runWithTransactions(TxInterceptorCMT.java:350)
+	at org.jboss.ejb.plugins.TxInterceptorCMT.invoke(TxInterceptorCMT.java:181)
+	at org.jboss.ejb.plugins.SecurityInterceptor.invoke(SecurityInterceptor.java:168)
+	at org.jboss.ejb.plugins.LogInterceptor.invoke(LogInterceptor.java:205)
+	at org.jboss.ejb.plugins.ProxyFactoryFinderInterceptor.invoke(ProxyFactoryFinderInterceptor.java:136)
+	at org.jboss.ejb.SessionContainer.internalInvoke(SessionContainer.java:648)
+	at org.jboss.ejb.Container.invoke(Container.java:954)
+	at org.jboss.ejb.plugins.local.BaseLocalProxyFactory.invoke(BaseLocalProxyFactory.java:430)
+	at org.jboss.ejb.plugins.local.StatelessSessionProxy.invoke(StatelessSessionProxy.java:103)
+	at $Proxy61.store(Unknown Source)
+	at org.dcm4chex.arr.mbean.ARRServer.store(ARRServer.java:130)
+	at org.dcm4chex.arr.mbean.ARRServer.startService(ARRServer.java:144)
+	at org.jboss.system.ServiceMBeanSupport.jbossInternalStart(ServiceMBeanSupport.java:289)
+	at org.jboss.system.ServiceMBeanSupport.jbossInternalLifecycle(ServiceMBeanSupport.java:245)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.interceptor.AbstractInterceptor.invoke(AbstractInterceptor.java:133)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.interceptor.ModelMBeanOperationInterceptor.invoke(ModelMBeanOperationInterceptor.java:142)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.system.ServiceController$ServiceProxy.invoke(ServiceController.java:978)
+	at $Proxy0.start(Unknown Source)
+	at org.jboss.system.ServiceController.start(ServiceController.java:417)
+	at org.jboss.system.ServiceController.start(ServiceController.java:435)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:86)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.mx.util.MBeanProxyExt.invoke(MBeanProxyExt.java:210)
+	at $Proxy52.start(Unknown Source)
+	at org.jboss.ejb.EjbModule.startService(EjbModule.java:429)
+	at org.jboss.system.ServiceMBeanSupport.jbossInternalStart(ServiceMBeanSupport.java:289)
+	at org.jboss.system.ServiceMBeanSupport.jbossInternalLifecycle(ServiceMBeanSupport.java:245)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:86)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.system.ServiceController$ServiceProxy.invoke(ServiceController.java:978)
+	at $Proxy0.start(Unknown Source)
+	at org.jboss.system.ServiceController.start(ServiceController.java:417)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:86)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.mx.util.MBeanProxyExt.invoke(MBeanProxyExt.java:210)
+	at $Proxy24.start(Unknown Source)
+	at org.jboss.ejb.EJBDeployer.start(EJBDeployer.java:662)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.interceptor.AbstractInterceptor.invoke(AbstractInterceptor.java:133)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.interceptor.ModelMBeanOperationInterceptor.invoke(ModelMBeanOperationInterceptor.java:142)
+	at org.jboss.mx.interceptor.DynamicInterceptor.invoke(DynamicInterceptor.java:97)
+	at org.jboss.system.InterceptorServiceMBeanSupport.invokeNext(InterceptorServiceMBeanSupport.java:238)
+	at org.jboss.ws.integration.jboss.DeployerInterceptor.start(DeployerInterceptor.java:92)
+	at org.jboss.deployment.SubDeployerInterceptorSupport$XMBeanInterceptor.start(SubDeployerInterceptorSupport.java:188)
+	at org.jboss.deployment.SubDeployerInterceptor.invoke(SubDeployerInterceptor.java:95)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.mx.util.MBeanProxyExt.invoke(MBeanProxyExt.java:210)
+	at $Proxy25.start(Unknown Source)
+	at org.jboss.deployment.MainDeployer.start(MainDeployer.java:1025)
+	at org.jboss.deployment.MainDeployer.deploy(MainDeployer.java:819)
+	at org.jboss.deployment.MainDeployer.deploy(MainDeployer.java:782)
+	at sun.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.interceptor.AbstractInterceptor.invoke(AbstractInterceptor.java:133)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.interceptor.ModelMBeanOperationInterceptor.invoke(ModelMBeanOperationInterceptor.java:142)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.mx.util.MBeanProxyExt.invoke(MBeanProxyExt.java:210)
+	at $Proxy8.deploy(Unknown Source)
+	at org.jboss.deployment.scanner.URLDeploymentScanner.deploy(URLDeploymentScanner.java:421)
+	at org.jboss.deployment.scanner.URLDeploymentScanner.scan(URLDeploymentScanner.java:634)
+	at org.jboss.deployment.scanner.AbstractDeploymentScanner$ScannerThread.doScan(AbstractDeploymentScanner.java:263)
+	at org.jboss.deployment.scanner.AbstractDeploymentScanner.startService(AbstractDeploymentScanner.java:336)
+	at org.jboss.system.ServiceMBeanSupport.jbossInternalStart(ServiceMBeanSupport.java:289)
+	at org.jboss.system.ServiceMBeanSupport.jbossInternalLifecycle(ServiceMBeanSupport.java:245)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:86)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.system.ServiceController$ServiceProxy.invoke(ServiceController.java:978)
+	at $Proxy0.start(Unknown Source)
+	at org.jboss.system.ServiceController.start(ServiceController.java:417)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:86)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.mx.util.MBeanProxyExt.invoke(MBeanProxyExt.java:210)
+	at $Proxy4.start(Unknown Source)
+	at org.jboss.deployment.SARDeployer.start(SARDeployer.java:302)
+	at org.jboss.deployment.MainDeployer.start(MainDeployer.java:1025)
+	at org.jboss.deployment.MainDeployer.deploy(MainDeployer.java:819)
+	at org.jboss.deployment.MainDeployer.deploy(MainDeployer.java:782)
+	at org.jboss.deployment.MainDeployer.deploy(MainDeployer.java:766)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.interceptor.AbstractInterceptor.invoke(AbstractInterceptor.java:133)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.interceptor.ModelMBeanOperationInterceptor.invoke(ModelMBeanOperationInterceptor.java:142)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.mx.util.MBeanProxyExt.invoke(MBeanProxyExt.java:210)
+	at $Proxy5.deploy(Unknown Source)
+	at org.jboss.system.server.ServerImpl.doStart(ServerImpl.java:482)
+	at org.jboss.system.server.ServerImpl.start(ServerImpl.java:362)
+	at org.jboss.Main.boot(Main.java:200)
+	at org.jboss.Main$1.run(Main.java:490)
+	at java.lang.Thread.run(Thread.java:595)
+Caused by: java.sql.SQLException: Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate() or Connection.prepareStatement().
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1078)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:989)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:975)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:920)
+	at com.mysql.jdbc.StatementImpl.getGeneratedKeys(StatementImpl.java:2030)
+	... 197 more
+2025-01-22 16:36:42,528 ERROR -> (main) [org.jboss.ejb.plugins.LogInterceptor] TransactionRolledbackLocalException in method: public abstract void org.dcm4chex.arr.ejb.session.StoreAuditRecordLocal.store(java.lang.String), causedBy:
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.ejb.plugins.cmp.jdbc.keygen.JDBCMySQLCreateCommand.executeInsert(JDBCMySQLCreateCommand.java:135)
+	at org.jboss.ejb.plugins.cmp.jdbc.JDBCAbstractCreateCommand.performInsert(JDBCAbstractCreateCommand.java:321)
+	at org.jboss.ejb.plugins.cmp.jdbc.JDBCAbstractCreateCommand.execute(JDBCAbstractCreateCommand.java:151)
+	at org.jboss.ejb.plugins.cmp.jdbc.JDBCStoreManager.createEntity(JDBCStoreManager.java:587)
+	at org.jboss.ejb.plugins.CMPPersistenceManager.createEntity(CMPPersistenceManager.java:237)
+	at org.jboss.resource.connectionmanager.CachedConnectionInterceptor.createEntity(CachedConnectionInterceptor.java:225)
+	at org.jboss.ejb.EntityContainer.createLocalHome(EntityContainer.java:625)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.invocation.Invocation.performCall(Invocation.java:359)
+	at org.jboss.ejb.EntityContainer$ContainerInterceptor.invokeHome(EntityContainer.java:1126)
+	at org.jboss.ejb.plugins.AbstractInterceptor.invokeHome(AbstractInterceptor.java:105)
+	at org.jboss.ejb.plugins.EntitySynchronizationInterceptor.invokeHome(EntitySynchronizationInterceptor.java:203)
+	at org.jboss.resource.connectionmanager.CachedConnectionInterceptor.invokeHome(CachedConnectionInterceptor.java:189)
+	at org.jboss.ejb.plugins.AbstractInterceptor.invokeHome(AbstractInterceptor.java:105)
+	at org.jboss.ejb.plugins.EntityInstanceInterceptor.invokeHome(EntityInstanceInterceptor.java:134)
+	at org.jboss.ejb.plugins.EntityLockInterceptor.invokeHome(EntityLockInterceptor.java:76)
+	at org.jboss.ejb.plugins.EntityCreationInterceptor.invokeHome(EntityCreationInterceptor.java:43)
+	at org.jboss.ejb.plugins.CallValidationInterceptor.invokeHome(CallValidationInterceptor.java:56)
+	at org.jboss.ejb.plugins.AbstractTxInterceptor.invokeNext(AbstractTxInterceptor.java:125)
+	at org.jboss.ejb.plugins.TxInterceptorCMT.runWithTransactions(TxInterceptorCMT.java:350)
+	at org.jboss.ejb.plugins.TxInterceptorCMT.invokeHome(TxInterceptorCMT.java:161)
+	at org.jboss.ejb.plugins.SecurityInterceptor.invokeHome(SecurityInterceptor.java:145)
+	at org.jboss.ejb.plugins.LogInterceptor.invokeHome(LogInterceptor.java:132)
+	at org.jboss.ejb.plugins.ProxyFactoryFinderInterceptor.invokeHome(ProxyFactoryFinderInterceptor.java:107)
+	at org.jboss.ejb.EntityContainer.internalInvokeHome(EntityContainer.java:521)
+	at org.jboss.ejb.Container.invoke(Container.java:975)
+	at org.jboss.ejb.plugins.local.BaseLocalProxyFactory.invokeHome(BaseLocalProxyFactory.java:359)
+	at org.jboss.ejb.plugins.local.LocalHomeProxy.invoke(LocalHomeProxy.java:133)
+	at $Proxy56.create(Unknown Source)
+	at org.dcm4chex.arr.ejb.session.StoreAuditRecordBean.store(StoreAuditRecordBean.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.invocation.Invocation.performCall(Invocation.java:359)
+	at org.jboss.ejb.StatelessSessionContainer$ContainerInterceptor.invoke(StatelessSessionContainer.java:237)
+	at org.jboss.resource.connectionmanager.CachedConnectionInterceptor.invoke(CachedConnectionInterceptor.java:158)
+	at org.jboss.ejb.plugins.StatelessSessionInstanceInterceptor.invoke(StatelessSessionInstanceInterceptor.java:169)
+	at org.jboss.ejb.plugins.CallValidationInterceptor.invoke(CallValidationInterceptor.java:63)
+	at org.jboss.ejb.plugins.AbstractTxInterceptor.invokeNext(AbstractTxInterceptor.java:121)
+	at org.jboss.ejb.plugins.TxInterceptorCMT.runWithTransactions(TxInterceptorCMT.java:350)
+	at org.jboss.ejb.plugins.TxInterceptorCMT.invoke(TxInterceptorCMT.java:181)
+	at org.jboss.ejb.plugins.SecurityInterceptor.invoke(SecurityInterceptor.java:168)
+	at org.jboss.ejb.plugins.LogInterceptor.invoke(LogInterceptor.java:205)
+	at org.jboss.ejb.plugins.ProxyFactoryFinderInterceptor.invoke(ProxyFactoryFinderInterceptor.java:136)
+	at org.jboss.ejb.SessionContainer.internalInvoke(SessionContainer.java:648)
+	at org.jboss.ejb.Container.invoke(Container.java:954)
+	at org.jboss.ejb.plugins.local.BaseLocalProxyFactory.invoke(BaseLocalProxyFactory.java:430)
+	at org.jboss.ejb.plugins.local.StatelessSessionProxy.invoke(StatelessSessionProxy.java:103)
+	at $Proxy61.store(Unknown Source)
+	at org.dcm4chex.arr.mbean.ARRServer.store(ARRServer.java:130)
+	at org.dcm4chex.arr.mbean.ARRServer.startService(ARRServer.java:144)
+	at org.jboss.system.ServiceMBeanSupport.jbossInternalStart(ServiceMBeanSupport.java:289)
+	at org.jboss.system.ServiceMBeanSupport.jbossInternalLifecycle(ServiceMBeanSupport.java:245)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.interceptor.AbstractInterceptor.invoke(AbstractInterceptor.java:133)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.interceptor.ModelMBeanOperationInterceptor.invoke(ModelMBeanOperationInterceptor.java:142)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.system.ServiceController$ServiceProxy.invoke(ServiceController.java:978)
+	at $Proxy0.start(Unknown Source)
+	at org.jboss.system.ServiceController.start(ServiceController.java:417)
+	at org.jboss.system.ServiceController.start(ServiceController.java:435)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:86)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.mx.util.MBeanProxyExt.invoke(MBeanProxyExt.java:210)
+	at $Proxy52.start(Unknown Source)
+	at org.jboss.ejb.EjbModule.startService(EjbModule.java:429)
+	at org.jboss.system.ServiceMBeanSupport.jbossInternalStart(ServiceMBeanSupport.java:289)
+	at org.jboss.system.ServiceMBeanSupport.jbossInternalLifecycle(ServiceMBeanSupport.java:245)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:86)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.system.ServiceController$ServiceProxy.invoke(ServiceController.java:978)
+	at $Proxy0.start(Unknown Source)
+	at org.jboss.system.ServiceController.start(ServiceController.java:417)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:86)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.mx.util.MBeanProxyExt.invoke(MBeanProxyExt.java:210)
+	at $Proxy24.start(Unknown Source)
+	at org.jboss.ejb.EJBDeployer.start(EJBDeployer.java:662)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.interceptor.AbstractInterceptor.invoke(AbstractInterceptor.java:133)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.interceptor.ModelMBeanOperationInterceptor.invoke(ModelMBeanOperationInterceptor.java:142)
+	at org.jboss.mx.interceptor.DynamicInterceptor.invoke(DynamicInterceptor.java:97)
+	at org.jboss.system.InterceptorServiceMBeanSupport.invokeNext(InterceptorServiceMBeanSupport.java:238)
+	at org.jboss.ws.integration.jboss.DeployerInterceptor.start(DeployerInterceptor.java:92)
+	at org.jboss.deployment.SubDeployerInterceptorSupport$XMBeanInterceptor.start(SubDeployerInterceptorSupport.java:188)
+	at org.jboss.deployment.SubDeployerInterceptor.invoke(SubDeployerInterceptor.java:95)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.mx.util.MBeanProxyExt.invoke(MBeanProxyExt.java:210)
+	at $Proxy25.start(Unknown Source)
+	at org.jboss.deployment.MainDeployer.start(MainDeployer.java:1025)
+	at org.jboss.deployment.MainDeployer.deploy(MainDeployer.java:819)
+	at org.jboss.deployment.MainDeployer.deploy(MainDeployer.java:782)
+	at sun.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.interceptor.AbstractInterceptor.invoke(AbstractInterceptor.java:133)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.interceptor.ModelMBeanOperationInterceptor.invoke(ModelMBeanOperationInterceptor.java:142)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.mx.util.MBeanProxyExt.invoke(MBeanProxyExt.java:210)
+	at $Proxy8.deploy(Unknown Source)
+	at org.jboss.deployment.scanner.URLDeploymentScanner.deploy(URLDeploymentScanner.java:421)
+	at org.jboss.deployment.scanner.URLDeploymentScanner.scan(URLDeploymentScanner.java:634)
+	at org.jboss.deployment.scanner.AbstractDeploymentScanner$ScannerThread.doScan(AbstractDeploymentScanner.java:263)
+	at org.jboss.deployment.scanner.AbstractDeploymentScanner.startService(AbstractDeploymentScanner.java:336)
+	at org.jboss.system.ServiceMBeanSupport.jbossInternalStart(ServiceMBeanSupport.java:289)
+	at org.jboss.system.ServiceMBeanSupport.jbossInternalLifecycle(ServiceMBeanSupport.java:245)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:86)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.system.ServiceController$ServiceProxy.invoke(ServiceController.java:978)
+	at $Proxy0.start(Unknown Source)
+	at org.jboss.system.ServiceController.start(ServiceController.java:417)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:86)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.mx.util.MBeanProxyExt.invoke(MBeanProxyExt.java:210)
+	at $Proxy4.start(Unknown Source)
+	at org.jboss.deployment.SARDeployer.start(SARDeployer.java:302)
+	at org.jboss.deployment.MainDeployer.start(MainDeployer.java:1025)
+	at org.jboss.deployment.MainDeployer.deploy(MainDeployer.java:819)
+	at org.jboss.deployment.MainDeployer.deploy(MainDeployer.java:782)
+	at org.jboss.deployment.MainDeployer.deploy(MainDeployer.java:766)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.interceptor.AbstractInterceptor.invoke(AbstractInterceptor.java:133)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.interceptor.ModelMBeanOperationInterceptor.invoke(ModelMBeanOperationInterceptor.java:142)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.mx.util.MBeanProxyExt.invoke(MBeanProxyExt.java:210)
+	at $Proxy5.deploy(Unknown Source)
+	at org.jboss.system.server.ServerImpl.doStart(ServerImpl.java:482)
+	at org.jboss.system.server.ServerImpl.start(ServerImpl.java:362)
+	at org.jboss.Main.boot(Main.java:200)
+	at org.jboss.Main$1.run(Main.java:490)
+	at java.lang.Thread.run(Thread.java:595)
+Caused by: java.sql.SQLException: Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate() or Connection.prepareStatement().
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1078)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:989)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:975)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:920)
+	at com.mysql.jdbc.StatementImpl.getGeneratedKeys(StatementImpl.java:2030)
+	... 197 more
+2025-01-22 16:36:42,531 WARN  -> (main) [org.jboss.system.ServiceController] Problem starting service dcm4chee.audit:service=AuditRecordRepository
+javax.ejb.TransactionRolledbackLocalException: Error extracting generated keys
+	at org.jboss.ejb.plugins.AbstractTxInterceptor.invokeNext(AbstractTxInterceptor.java:262)
+	at org.jboss.ejb.plugins.TxInterceptorCMT.runWithTransactions(TxInterceptorCMT.java:350)
+	at org.jboss.ejb.plugins.TxInterceptorCMT.invokeHome(TxInterceptorCMT.java:161)
+	at org.jboss.ejb.plugins.SecurityInterceptor.invokeHome(SecurityInterceptor.java:145)
+	at org.jboss.ejb.plugins.LogInterceptor.invokeHome(LogInterceptor.java:132)
+	at org.jboss.ejb.plugins.ProxyFactoryFinderInterceptor.invokeHome(ProxyFactoryFinderInterceptor.java:107)
+	at org.jboss.ejb.EntityContainer.internalInvokeHome(EntityContainer.java:521)
+	at org.jboss.ejb.Container.invoke(Container.java:975)
+	at org.jboss.ejb.plugins.local.BaseLocalProxyFactory.invokeHome(BaseLocalProxyFactory.java:359)
+	at org.jboss.ejb.plugins.local.LocalHomeProxy.invoke(LocalHomeProxy.java:133)
+	at $Proxy56.create(Unknown Source)
+	at org.dcm4chex.arr.ejb.session.StoreAuditRecordBean.store(StoreAuditRecordBean.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.invocation.Invocation.performCall(Invocation.java:359)
+	at org.jboss.ejb.StatelessSessionContainer$ContainerInterceptor.invoke(StatelessSessionContainer.java:237)
+	at org.jboss.resource.connectionmanager.CachedConnectionInterceptor.invoke(CachedConnectionInterceptor.java:158)
+	at org.jboss.ejb.plugins.StatelessSessionInstanceInterceptor.invoke(StatelessSessionInstanceInterceptor.java:169)
+	at org.jboss.ejb.plugins.CallValidationInterceptor.invoke(CallValidationInterceptor.java:63)
+	at org.jboss.ejb.plugins.AbstractTxInterceptor.invokeNext(AbstractTxInterceptor.java:121)
+	at org.jboss.ejb.plugins.TxInterceptorCMT.runWithTransactions(TxInterceptorCMT.java:350)
+	at org.jboss.ejb.plugins.TxInterceptorCMT.invoke(TxInterceptorCMT.java:181)
+	at org.jboss.ejb.plugins.SecurityInterceptor.invoke(SecurityInterceptor.java:168)
+	at org.jboss.ejb.plugins.LogInterceptor.invoke(LogInterceptor.java:205)
+	at org.jboss.ejb.plugins.ProxyFactoryFinderInterceptor.invoke(ProxyFactoryFinderInterceptor.java:136)
+	at org.jboss.ejb.SessionContainer.internalInvoke(SessionContainer.java:648)
+	at org.jboss.ejb.Container.invoke(Container.java:954)
+	at org.jboss.ejb.plugins.local.BaseLocalProxyFactory.invoke(BaseLocalProxyFactory.java:430)
+	at org.jboss.ejb.plugins.local.StatelessSessionProxy.invoke(StatelessSessionProxy.java:103)
+	at $Proxy61.store(Unknown Source)
+	at org.dcm4chex.arr.mbean.ARRServer.store(ARRServer.java:130)
+	at org.dcm4chex.arr.mbean.ARRServer.startService(ARRServer.java:144)
+	at org.jboss.system.ServiceMBeanSupport.jbossInternalStart(ServiceMBeanSupport.java:289)
+	at org.jboss.system.ServiceMBeanSupport.jbossInternalLifecycle(ServiceMBeanSupport.java:245)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.interceptor.AbstractInterceptor.invoke(AbstractInterceptor.java:133)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.interceptor.ModelMBeanOperationInterceptor.invoke(ModelMBeanOperationInterceptor.java:142)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.system.ServiceController$ServiceProxy.invoke(ServiceController.java:978)
+	at $Proxy0.start(Unknown Source)
+	at org.jboss.system.ServiceController.start(ServiceController.java:417)
+	at org.jboss.system.ServiceController.start(ServiceController.java:435)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:86)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.mx.util.MBeanProxyExt.invoke(MBeanProxyExt.java:210)
+	at $Proxy52.start(Unknown Source)
+	at org.jboss.ejb.EjbModule.startService(EjbModule.java:429)
+	at org.jboss.system.ServiceMBeanSupport.jbossInternalStart(ServiceMBeanSupport.java:289)
+	at org.jboss.system.ServiceMBeanSupport.jbossInternalLifecycle(ServiceMBeanSupport.java:245)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:86)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.system.ServiceController$ServiceProxy.invoke(ServiceController.java:978)
+	at $Proxy0.start(Unknown Source)
+	at org.jboss.system.ServiceController.start(ServiceController.java:417)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:86)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.mx.util.MBeanProxyExt.invoke(MBeanProxyExt.java:210)
+	at $Proxy24.start(Unknown Source)
+	at org.jboss.ejb.EJBDeployer.start(EJBDeployer.java:662)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.interceptor.AbstractInterceptor.invoke(AbstractInterceptor.java:133)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.interceptor.ModelMBeanOperationInterceptor.invoke(ModelMBeanOperationInterceptor.java:142)
+	at org.jboss.mx.interceptor.DynamicInterceptor.invoke(DynamicInterceptor.java:97)
+	at org.jboss.system.InterceptorServiceMBeanSupport.invokeNext(InterceptorServiceMBeanSupport.java:238)
+	at org.jboss.ws.integration.jboss.DeployerInterceptor.start(DeployerInterceptor.java:92)
+	at org.jboss.deployment.SubDeployerInterceptorSupport$XMBeanInterceptor.start(SubDeployerInterceptorSupport.java:188)
+	at org.jboss.deployment.SubDeployerInterceptor.invoke(SubDeployerInterceptor.java:95)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.mx.util.MBeanProxyExt.invoke(MBeanProxyExt.java:210)
+	at $Proxy25.start(Unknown Source)
+	at org.jboss.deployment.MainDeployer.start(MainDeployer.java:1025)
+	at org.jboss.deployment.MainDeployer.deploy(MainDeployer.java:819)
+	at org.jboss.deployment.MainDeployer.deploy(MainDeployer.java:782)
+	at sun.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.interceptor.AbstractInterceptor.invoke(AbstractInterceptor.java:133)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.interceptor.ModelMBeanOperationInterceptor.invoke(ModelMBeanOperationInterceptor.java:142)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.mx.util.MBeanProxyExt.invoke(MBeanProxyExt.java:210)
+	at $Proxy8.deploy(Unknown Source)
+	at org.jboss.deployment.scanner.URLDeploymentScanner.deploy(URLDeploymentScanner.java:421)
+	at org.jboss.deployment.scanner.URLDeploymentScanner.scan(URLDeploymentScanner.java:634)
+	at org.jboss.deployment.scanner.AbstractDeploymentScanner$ScannerThread.doScan(AbstractDeploymentScanner.java:263)
+	at org.jboss.deployment.scanner.AbstractDeploymentScanner.startService(AbstractDeploymentScanner.java:336)
+	at org.jboss.system.ServiceMBeanSupport.jbossInternalStart(ServiceMBeanSupport.java:289)
+	at org.jboss.system.ServiceMBeanSupport.jbossInternalLifecycle(ServiceMBeanSupport.java:245)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:86)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.system.ServiceController$ServiceProxy.invoke(ServiceController.java:978)
+	at $Proxy0.start(Unknown Source)
+	at org.jboss.system.ServiceController.start(ServiceController.java:417)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:86)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.mx.util.MBeanProxyExt.invoke(MBeanProxyExt.java:210)
+	at $Proxy4.start(Unknown Source)
+	at org.jboss.deployment.SARDeployer.start(SARDeployer.java:302)
+	at org.jboss.deployment.MainDeployer.start(MainDeployer.java:1025)
+	at org.jboss.deployment.MainDeployer.deploy(MainDeployer.java:819)
+	at org.jboss.deployment.MainDeployer.deploy(MainDeployer.java:782)
+	at org.jboss.deployment.MainDeployer.deploy(MainDeployer.java:766)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.interceptor.AbstractInterceptor.invoke(AbstractInterceptor.java:133)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.interceptor.ModelMBeanOperationInterceptor.invoke(ModelMBeanOperationInterceptor.java:142)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.mx.util.MBeanProxyExt.invoke(MBeanProxyExt.java:210)
+	at $Proxy5.deploy(Unknown Source)
+	at org.jboss.system.server.ServerImpl.doStart(ServerImpl.java:482)
+	at org.jboss.system.server.ServerImpl.start(ServerImpl.java:362)
+	at org.jboss.Main.boot(Main.java:200)
+	at org.jboss.Main$1.run(Main.java:490)
+	at java.lang.Thread.run(Thread.java:595)
+Caused by: javax.ejb.EJBException: Error extracting generated keys
+	at org.jboss.ejb.plugins.cmp.jdbc.keygen.JDBCMySQLCreateCommand.executeInsert(JDBCMySQLCreateCommand.java:149)
+	at org.jboss.ejb.plugins.cmp.jdbc.JDBCAbstractCreateCommand.performInsert(JDBCAbstractCreateCommand.java:321)
+	at org.jboss.ejb.plugins.cmp.jdbc.JDBCAbstractCreateCommand.execute(JDBCAbstractCreateCommand.java:151)
+	at org.jboss.ejb.plugins.cmp.jdbc.JDBCStoreManager.createEntity(JDBCStoreManager.java:587)
+	at org.jboss.ejb.plugins.CMPPersistenceManager.createEntity(CMPPersistenceManager.java:237)
+	at org.jboss.resource.connectionmanager.CachedConnectionInterceptor.createEntity(CachedConnectionInterceptor.java:225)
+	at org.jboss.ejb.EntityContainer.createLocalHome(EntityContainer.java:625)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.invocation.Invocation.performCall(Invocation.java:359)
+	at org.jboss.ejb.EntityContainer$ContainerInterceptor.invokeHome(EntityContainer.java:1126)
+	at org.jboss.ejb.plugins.AbstractInterceptor.invokeHome(AbstractInterceptor.java:105)
+	at org.jboss.ejb.plugins.EntitySynchronizationInterceptor.invokeHome(EntitySynchronizationInterceptor.java:203)
+	at org.jboss.resource.connectionmanager.CachedConnectionInterceptor.invokeHome(CachedConnectionInterceptor.java:189)
+	at org.jboss.ejb.plugins.AbstractInterceptor.invokeHome(AbstractInterceptor.java:105)
+	at org.jboss.ejb.plugins.EntityInstanceInterceptor.invokeHome(EntityInstanceInterceptor.java:134)
+	at org.jboss.ejb.plugins.EntityLockInterceptor.invokeHome(EntityLockInterceptor.java:76)
+	at org.jboss.ejb.plugins.EntityCreationInterceptor.invokeHome(EntityCreationInterceptor.java:43)
+	at org.jboss.ejb.plugins.CallValidationInterceptor.invokeHome(CallValidationInterceptor.java:56)
+	at org.jboss.ejb.plugins.AbstractTxInterceptor.invokeNext(AbstractTxInterceptor.java:125)
+	... 171 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.jboss.ejb.plugins.cmp.jdbc.keygen.JDBCMySQLCreateCommand.executeInsert(JDBCMySQLCreateCommand.java:135)
+	... 192 more
+Caused by: java.sql.SQLException: Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate() or Connection.prepareStatement().
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1078)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:989)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:975)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:920)
+	at com.mysql.jdbc.StatementImpl.getGeneratedKeys(StatementImpl.java:2030)
+	... 197 more
+2025-01-22 16:36:42,534 INFO  -> (main) [org.jboss.ejb.EJBDeployer] Deployed: file:/home/ahis/AmritaPACS_2/jboss-4.0.5.GA/server/apacs/deploy/dcm4chee-arr-ejb.jar
+2025-01-22 16:36:42,772 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying MWLItem
+2025-01-22 16:36:42,776 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Device
+2025-01-22 16:36:42,781 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying AE
+2025-01-22 16:36:42,785 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Study
+2025-01-22 16:36:42,788 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Series
+2025-01-22 16:36:42,830 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying HPDefinition
+2025-01-22 16:36:42,835 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying MPPS
+2025-01-22 16:36:42,840 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying File
+2025-01-22 16:36:42,846 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying GPSPSRequest
+2025-01-22 16:36:42,852 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying GPSPS
+2025-01-22 16:36:42,856 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying FileSystem
+2025-01-22 16:36:42,861 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Instance
+2025-01-22 16:36:42,864 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying PrivateSeries
+2025-01-22 16:36:42,869 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying SeriesRequest
+2025-01-22 16:36:42,872 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Patient
+2025-01-22 16:36:42,877 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying HP
+2025-01-22 16:36:42,880 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying PrivatePatient
+2025-01-22 16:36:42,883 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying StudyOnFileSystem
+2025-01-22 16:36:42,886 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Media
+2025-01-22 16:36:42,889 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying PrivateInstance
+2025-01-22 16:36:42,892 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying PrivateStudy
+2025-01-22 16:36:42,895 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying GPSPSPerformer
+2025-01-22 16:36:42,898 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Code
+2025-01-22 16:36:42,901 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying GPPPS
+2025-01-22 16:36:42,904 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying PrivateFile
+2025-01-22 16:36:42,907 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying GPPPSManager
+2025-01-22 16:36:42,912 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying HPStorage
+2025-01-22 16:36:42,915 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying PrivateManager
+2025-01-22 16:36:42,917 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying ConsistencyCheck
+2025-01-22 16:36:42,920 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying CheckStudyPatient
+2025-01-22 16:36:42,922 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying StudyReconciliation
+2025-01-22 16:36:42,925 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying ContentManager
+2025-01-22 16:36:42,927 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying UserManager
+2025-01-22 16:36:42,930 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying FixPatientAttributes
+2025-01-22 16:36:42,933 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying StudyMgt
+2025-01-22 16:36:42,936 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying AEManager
+2025-01-22 16:36:42,938 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying CodeToDeviceMapping
+2025-01-22 16:36:42,941 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying PatientUpdate
+2025-01-22 16:36:42,943 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying MPPSManager
+2025-01-22 16:36:42,946 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying MPPSEmulator
+2025-01-22 16:36:42,948 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying ContentEdit
+2025-01-22 16:36:42,951 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying MediaComposer
+2025-01-22 16:36:42,954 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying FileSystemMgt
+2025-01-22 16:36:42,956 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Storage
+2025-01-22 16:36:42,959 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying MWLManager
+2025-01-22 16:36:42,962 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying GPWLManager
+2025-01-22 16:36:43,345 DEBUG -> (main) [MWLItem] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=MWLItem]]
+2025-01-22 16:36:43,345 DEBUG -> (main) [MWLItem] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=MWLItem]]
+2025-01-22 16:36:43,348 DEBUG -> (main) [Study] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=Study]]
+2025-01-22 16:36:43,348 DEBUG -> (main) [Study] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=Study]]
+2025-01-22 16:36:43,350 DEBUG -> (main) [Series] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=Series]]
+2025-01-22 16:36:43,350 DEBUG -> (main) [Series] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=Series]]
+2025-01-22 16:36:43,351 DEBUG -> (main) [MPPS] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=MPPS]]
+2025-01-22 16:36:43,351 DEBUG -> (main) [MPPS] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=MPPS]]
+2025-01-22 16:36:43,351 DEBUG -> (main) [File] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=File]]
+2025-01-22 16:36:43,354 DEBUG -> (main) [Instance] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=Instance]]
+2025-01-22 16:36:43,354 DEBUG -> (main) [Instance] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=Instance]]
+2025-01-22 16:36:43,355 DEBUG -> (main) [Patient] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=Patient]]
+2025-01-22 16:36:43,355 DEBUG -> (main) [Patient] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=Patient]]
+2025-01-22 16:36:43,357 DEBUG -> (main) [Media] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=Media]]
+2025-01-22 16:36:43,357 DEBUG -> (main) [Media] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=Media]]
+2025-01-22 16:36:43,359 DEBUG -> (main) [GPPPS] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=GPPPS]]
+2025-01-22 16:36:43,359 DEBUG -> (main) [GPPPS] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=GPPPS]]
+2025-01-22 16:36:43,774 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'MWLItem' to jndi 'ejb/MWLItem'
+2025-01-22 16:36:43,779 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'Device' to jndi 'ejb/Device'
+2025-01-22 16:36:43,784 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'AE' to jndi 'ejb/AE'
+2025-01-22 16:36:43,792 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'Study' to jndi 'ejb/Study'
+2025-01-22 16:36:43,799 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'Series' to jndi 'ejb/Series'
+2025-01-22 16:36:43,803 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'HPDefinition' to jndi 'ejb/HPDefinition'
+2025-01-22 16:36:43,809 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'MPPS' to jndi 'ejb/MPPS'
+2025-01-22 16:36:43,814 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'File' to jndi 'ejb/File'
+2025-01-22 16:36:43,817 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'GPSPSRequest' to jndi 'ejb/GPSPSRequest'
+2025-01-22 16:36:43,822 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'GPSPS' to jndi 'ejb/GPSPS'
+2025-01-22 16:36:43,826 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'FileSystem' to jndi 'ejb/FileSystem'
+2025-01-22 16:36:43,832 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'Instance' to jndi 'ejb/Instance'
+2025-01-22 16:36:43,836 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'PrivateSeries' to jndi 'ejb/PrivateSeries'
+2025-01-22 16:36:43,840 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'SeriesRequest' to jndi 'ejb/SeriesRequest'
+2025-01-22 16:36:43,846 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'Patient' to jndi 'ejb/Patient'
+2025-01-22 16:36:43,851 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'HP' to jndi 'ejb/HP'
+2025-01-22 16:36:43,855 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'PrivatePatient' to jndi 'ejb/PrivatePatient'
+2025-01-22 16:36:43,859 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'StudyOnFileSystem' to jndi 'ejb/StudyOnFileSystem'
+2025-01-22 16:36:43,863 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'Media' to jndi 'ejb/Media'
+2025-01-22 16:36:43,867 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'PrivateInstance' to jndi 'ejb/PrivateInstance'
+2025-01-22 16:36:43,872 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'PrivateStudy' to jndi 'ejb/PrivateStudy'
+2025-01-22 16:36:43,876 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'GPSPSPerformer' to jndi 'ejb/GPSPSPerformer'
+2025-01-22 16:36:43,880 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'Code' to jndi 'ejb/Code'
+2025-01-22 16:36:43,884 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'GPPPS' to jndi 'ejb/GPPPS'
+2025-01-22 16:36:43,888 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'PrivateFile' to jndi 'ejb/PrivateFile'
+2025-01-22 16:36:43,897 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'GPPPSManager' to jndi 'ejb/GPPPSManager'
+2025-01-22 16:36:43,903 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'HPStorage' to jndi 'ejb/HPStorage'
+2025-01-22 16:36:43,913 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'PrivateManager' to jndi 'ejb/PrivateManager'
+2025-01-22 16:36:43,919 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'ConsistencyCheck' to jndi 'ejb/ConsistencyCheck'
+2025-01-22 16:36:43,923 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'CheckStudyPatient' to jndi 'CheckStudyPatientLocal'
+2025-01-22 16:36:43,927 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'CheckStudyPatient' to jndi 'ejb/CheckStudyPatient'
+2025-01-22 16:36:43,933 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'StudyReconciliation' to jndi 'ejb/StudyReconciliation'
+2025-01-22 16:36:43,945 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'ContentManager' to jndi 'ejb/ContentManager'
+2025-01-22 16:36:43,951 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'UserManager' to jndi 'ejb/UserManager'
+2025-01-22 16:36:43,958 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'FixPatientAttributes' to jndi 'ejb/FixPatientAttributes'
+2025-01-22 16:36:43,965 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'StudyMgt' to jndi 'ejb/StudyMgt'
+2025-01-22 16:36:43,972 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'AEManager' to jndi 'ejb/AEManager'
+2025-01-22 16:36:43,979 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'CodeToDeviceMapping' to jndi 'ejb/CodeToDeviceMapping'
+2025-01-22 16:36:43,985 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'PatientUpdate' to jndi 'PatientUpdateLocal'
+2025-01-22 16:36:43,988 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'PatientUpdate' to jndi 'ejb/PatientUpdate'
+2025-01-22 16:36:43,995 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'MPPSManager' to jndi 'ejb/MPPSManager'
+2025-01-22 16:36:44,004 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'MPPSEmulator' to jndi 'ejb/MPPSEmulator'
+2025-01-22 16:36:44,012 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'ContentEdit' to jndi 'ContentEditLocal'
+2025-01-22 16:36:44,018 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'ContentEdit' to jndi 'ejb/ContentEdit'
+2025-01-22 16:36:44,026 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'MediaComposer' to jndi 'ejb/MediaComposer'
+2025-01-22 16:36:44,035 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'FileSystemMgt' to jndi 'ejb/FileSystemMgt'
+2025-01-22 16:36:44,036 INFO  -> (main) [org.dcm4chex.archive.mbean.SchedulerService] Start Scheduler CheckFreeDiskSpace with period of 300000ms in 1 s.
+2025-01-22 16:36:44,038 INFO  -> (main) [org.dcm4chex.archive.mbean.SchedulerService] Start Scheduler CheckFilesToPurge with period of 60000ms in 1 s.
+2025-01-22 16:36:44,046 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'Storage' to jndi 'ejb/Storage'
+2025-01-22 16:36:44,079 DEBUG -> (main) [org.amma.aitf.his.ResourceLoader] Trying to find [his_config/license.lic] using context classloader org.jboss.mx.loading.UnifiedClassLoader3@11c0b8a0{ url=null ,addedOrder=24}.
+2025-01-22 16:36:44,281 DEBUG -> (main) [org.amma.aitf.his.ResourceLoader] Trying to find [his_config/publicCerts.store] using context classloader org.jboss.mx.loading.UnifiedClassLoader3@11c0b8a0{ url=null ,addedOrder=24}.
+2025-01-22 16:36:44,349 INFO  -> (main) [STDOUT] install license certificate
+2025-01-22 16:36:44,370 DEBUG -> (main) [org.amma.aitf.his.ResourceLoader] Trying to find [his_config/publicCerts.store] using context classloader org.jboss.mx.loading.UnifiedClassLoader3@11c0b8a0{ url=null ,addedOrder=24}.
+2025-01-22 16:36:44,398 INFO  -> (main) [STDOUT] License for validity period is Present ............
+2025-01-22 16:36:44,446 INFO  -> (main) [STDOUT]  License present..... !!Mac address is 6a:50:f4:29:fb:81
+2025-01-22 16:36:44,447 INFO  -> (main) [STDOUT] LicenseServlet:: License valid till 6/2/2026
+2025-01-22 16:36:44,447 DEBUG -> (main) [org.amma.aitf.his.ResourceLoader] Trying to find [his_config/his-config.properties] using context classloader org.jboss.mx.loading.UnifiedClassLoader3@11c0b8a0{ url=null ,addedOrder=24}.
+2025-01-22 16:36:44,447 INFO  -> (main) [STDOUT] Loaded his-config.properties properties file from : /home/ahis/AmritaPACS_2/jboss-4.0.5.GA/server/apacs/conf/his_config/his-config.properties
+2025-01-22 16:36:44,447 INFO  -> (main) [org.amma.aitf.his.ResourceLoader] Loaded his-config.properties properties file from : /home/ahis/AmritaPACS_2/jboss-4.0.5.GA/server/apacs/conf/his_config/his-config.properties
+2025-01-22 16:36:44,449 INFO  -> (main) [STDOUT] License Present for all users ............
+2025-01-22 16:36:44,450 INFO  -> (main) [org.dcm4chex.archive.util.Util] License Present for Amrita PACS ............
+2025-01-22 16:36:44,450 INFO  -> (main) [org.dcm4cheri.server.ServerImpl] Start Server listening at port 104
+2025-01-22 16:36:44,462 INFO  -> (main) [org.dcm4chex.archive.mbean.SchedulerService] Start Scheduler CheckSeriesWithoutMPPS with period of 30000ms in 1 s.
+2025-01-22 16:36:44,476 DEBUG -> (main) [org.amma.aitf.his.ResourceLoader] Trying to find [his_config/license.lic] using context classloader org.jboss.mx.loading.UnifiedClassLoader3@2602585e{ url=null ,addedOrder=25}.
+2025-01-22 16:36:44,495 DEBUG -> (main) [org.amma.aitf.his.ResourceLoader] Trying to find [his_config/publicCerts.store] using context classloader org.jboss.mx.loading.UnifiedClassLoader3@2602585e{ url=null ,addedOrder=25}.
+2025-01-22 16:36:44,501 INFO  -> (main) [STDOUT] install license certificate
+2025-01-22 16:36:44,517 DEBUG -> (main) [org.amma.aitf.his.ResourceLoader] Trying to find [his_config/publicCerts.store] using context classloader org.jboss.mx.loading.UnifiedClassLoader3@2602585e{ url=null ,addedOrder=25}.
+2025-01-22 16:36:44,524 INFO  -> (main) [STDOUT] License for validity period is Present ............
+2025-01-22 16:36:44,558 INFO  -> (main) [STDOUT]  License present..... !!Mac address is 6a:50:f4:29:fb:81
+2025-01-22 16:36:44,558 INFO  -> (main) [STDOUT] LicenseServlet:: License valid till 6/2/2026
+2025-01-22 16:36:44,558 INFO  -> (main) [STDOUT] License Present for all users ............
+2025-01-22 16:36:44,559 INFO  -> (main) [org.dcm4chex.archive.util.Util] License Present for Amrita PACS ............
+2025-01-22 16:36:44,559 INFO  -> (main) [org.dcm4cheri.server.ServerImpl] Start Server listening at port 3320
+2025-01-22 16:36:44,565 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'MWLManager' to jndi 'ejb/MWLManager'
+2025-01-22 16:36:44,567 INFO  -> (main) [org.dcm4cheri.server.ServerImpl] Start Server listening at port 2575
+2025-01-22 16:36:44,575 INFO  -> (main) [org.dcm4chex.archive.mbean.SchedulerService] Start Scheduler CheckPendingSeriesStored with period of 3600000ms in 1 s.
+2025-01-22 16:36:44,586 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'GPWLManager' to jndi 'ejb/GPWLManager'
+2025-01-22 16:36:44,588 INFO  -> (main) [org.jboss.ejb.EJBDeployer] Deployed: file:/home/ahis/AmritaPACS_2/jboss-4.0.5.GA/server/apacs/deploy/dcm4chee-ejb-mysql.jar
+2025-01-22 16:36:44,649 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/dcm4chee-arr, warUrl=.../tmp/deploy/tmp3858683585614696006dcm4chee-arr-exp.war/
+2025-01-22 16:36:44,806 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/dcm4chee-web, warUrl=.../tmp/deploy/tmp738441104129929261dcm4chee-web-exp.war/
+2025-01-22 16:36:44,845 INFO  -> (main) [org.infohazard.maverick.Dispatcher] Starting configuration load
+2025-01-22 16:36:44,852 INFO  -> (main) [org.infohazard.maverick.Dispatcher] Loading config from jndi:/localhost/dcm4chee-web/WEB-INF/maverick.xml
+2025-01-22 16:36:44,888 INFO  -> (main) [org.infohazard.maverick.flow.MasterFactory] Transform factory for "document" is org.infohazard.maverick.transform.DocumentTransformFactory
+2025-01-22 16:36:44,889 INFO  -> (main) [org.infohazard.maverick.flow.MasterFactory] Transform factory for "xslt" is org.infohazard.maverick.transform.XSLTransformFactory
+2025-01-22 16:36:44,890 INFO  -> (main) [org.infohazard.maverick.flow.MasterFactory] View factory for "document" is org.infohazard.maverick.view.DocumentViewFactory
+2025-01-22 16:36:44,890 INFO  -> (main) [org.infohazard.maverick.flow.MasterFactory] View factory for "redirect" is org.infohazard.maverick.view.RedirectViewFactory
+2025-01-22 16:36:44,891 INFO  -> (main) [org.infohazard.maverick.flow.MasterFactory] View factory for "trivial" is org.infohazard.maverick.view.TrivialViewFactory
+2025-01-22 16:36:44,892 INFO  -> (main) [org.infohazard.maverick.flow.MasterFactory] View factory for "null" is org.infohazard.maverick.view.NullViewFactory
+2025-01-22 16:36:44,903 INFO  -> (main) [org.infohazard.maverick.flow.MasterFactory] View factory for "domify" is org.infohazard.maverick.opt.view.DomifyViewFactory
+2025-01-22 16:36:44,904 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Using shunt factory org.dcm4chex.archive.web.maverick.shunt.LanguageShuntFactory
+2025-01-22 16:36:45,037 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check available Disk Space
+2025-01-22 16:36:45,112 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check for unreferenced private files to delete
+2025-01-22 16:36:45,173 ERROR -> (main) [STDERR] SystemId Unknown; Line #653; Column #62; Extra illegal tokens: 'esentationDescription'
+2025-01-22 16:36:45,182 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  folder
+2025-01-22 16:36:45,186 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  folder
+2025-01-22 16:36:45,187 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  logout
+2025-01-22 16:36:45,192 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  foldersubmit
+2025-01-22 16:36:45,194 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  folder
+2025-01-22 16:36:45,194 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  merge
+2025-01-22 16:36:45,208 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  worklist
+2025-01-22 16:36:45,220 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  logout
+2025-01-22 16:36:45,221 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  exportSelector
+2025-01-22 16:36:45,222 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  xdsi_export
+2025-01-22 16:36:45,223 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandPat
+2025-01-22 16:36:45,224 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,224 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandStudy
+2025-01-22 16:36:45,225 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,226 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandSeries
+2025-01-22 16:36:45,226 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,226 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandInstance
+2025-01-22 16:36:45,227 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,227 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  patientEdit
+2025-01-22 16:36:45,227 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,237 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  patientUpdate
+2025-01-22 16:36:45,238 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,238 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-22 16:36:45,238 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  patientMerge
+2025-01-22 16:36:45,238 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,239 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  mpps_link
+2025-01-22 16:36:45,239 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-22 16:36:45,239 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  studyEdit
+2025-01-22 16:36:45,239 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,249 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  studyView
+2025-01-22 16:36:45,250 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,255 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  select
+2025-01-22 16:36:45,255 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  koView
+2025-01-22 16:36:45,256 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,262 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  addWorklist
+2025-01-22 16:36:45,263 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,274 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  cancel
+2025-01-22 16:36:45,274 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  folder
+2025-01-22 16:36:45,274 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  studyUpdate
+2025-01-22 16:36:45,275 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,275 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  seriesEdit
+2025-01-22 16:36:45,276 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,288 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  seriesUpdate
+2025-01-22 16:36:45,290 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,290 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  trashfolder
+2025-01-22 16:36:45,291 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  trash
+2025-01-22 16:36:45,291 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  folder
+2025-01-22 16:36:45,291 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  logout
+2025-01-22 16:36:45,291 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandTrashPatient
+2025-01-22 16:36:45,292 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,292 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandTrashStudy
+2025-01-22 16:36:45,293 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,293 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandTrashSeries
+2025-01-22 16:36:45,293 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,293 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandTrashInstance
+2025-01-22 16:36:45,294 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,294 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  ae
+2025-01-22 16:36:45,295 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,305 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  aeedit
+2025-01-22 16:36:45,306 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,317 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  failed
+2025-01-22 16:36:45,317 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-22 16:36:45,318 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  aeeditsubmit
+2025-01-22 16:36:45,318 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,318 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  failed
+2025-01-22 16:36:45,319 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-22 16:36:45,319 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  aenew
+2025-01-22 16:36:45,319 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,330 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  failed
+2025-01-22 16:36:45,330 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-22 16:36:45,330 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  aenewsubmit
+2025-01-22 16:36:45,331 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,331 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  failed
+2025-01-22 16:36:45,332 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-22 16:36:45,332 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  aedelete
+2025-01-22 16:36:45,332 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,332 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-22 16:36:45,332 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  aeecho
+2025-01-22 16:36:45,333 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  echoresult
+2025-01-22 16:36:45,336 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-22 16:36:45,336 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  mcm_console
+2025-01-22 16:36:45,337 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,350 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  mwl_console
+2025-01-22 16:36:45,351 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,367 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  cancelLink
+2025-01-22 16:36:45,368 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  linkDone
+2025-01-22 16:36:45,368 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  mergePatient
+2025-01-22 16:36:45,375 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  inspect
+2025-01-22 16:36:45,376 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  mpps_console
+2025-01-22 16:36:45,376 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,391 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-22 16:36:45,409 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  link
+2025-01-22 16:36:45,409 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  inspect
+2025-01-22 16:36:45,409 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  gpwl_console
+2025-01-22 16:36:45,410 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,426 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  linkDone
+2025-01-22 16:36:45,426 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  inspect
+2025-01-22 16:36:45,426 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  gppps_console
+2025-01-22 16:36:45,427 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,442 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  link
+2025-01-22 16:36:45,442 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  inspect
+2025-01-22 16:36:45,442 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  useradmin_console
+2025-01-22 16:36:45,444 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  userlist
+2025-01-22 16:36:45,444 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  chgpwd
+2025-01-22 16:36:45,444 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  user_list
+2025-01-22 16:36:45,444 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,454 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  user_chgpwd
+2025-01-22 16:36:45,455 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,462 INFO  -> (Timer-2) [org.dcm4chex.archive.dcm.mppsscu.MPPSEmulatorService] Check for received series without MPPS
+2025-01-22 16:36:45,463 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  user_chgpwdsubmit
+2025-01-22 16:36:45,464 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,464 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  chgpwd_error
+2025-01-22 16:36:45,464 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-22 16:36:45,465 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  user_edit
+2025-01-22 16:36:45,466 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,479 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-22 16:36:45,479 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  user_editsubmit
+2025-01-22 16:36:45,480 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,480 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  passwd_mismatch
+2025-01-22 16:36:45,480 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-22 16:36:45,480 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  user_new
+2025-01-22 16:36:45,481 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,490 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-22 16:36:45,490 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  user_delete
+2025-01-22 16:36:45,491 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,491 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-22 16:36:45,491 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  tfSelector
+2025-01-22 16:36:45,492 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  tfselect
+2025-01-22 16:36:45,504 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-22 16:36:45,519 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,520 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  cancel
+2025-01-22 16:36:45,520 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  xdsiExport
+2025-01-22 16:36:45,521 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  xdsi_export
+2025-01-22 16:36:45,532 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-22 16:36:45,546 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,546 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  cancel
+2025-01-22 16:36:45,546 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  arr
+2025-01-22 16:36:45,547 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-22 16:36:45,555 INFO  -> (main) [org.infohazard.maverick.Dispatcher] Finished configuration load
+2025-01-22 16:36:45,575 INFO  -> (Timer-2) [org.dcm4chex.archive.dcm.storescp.StoreScpService] Check for Pending Series Stored
+2025-01-22 16:36:45,600 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/jmx-console, warUrl=.../deploy/jmx-console.war/
+2025-01-22 16:36:45,661 ERROR -> (main) [org.jboss.deployment.scanner.URLDeploymentScanner] Incomplete Deployment listing:
+
+--- MBeans waiting for other MBeans ---
+ObjectName: dcm4chee.audit:service=AuditRecordRepository
+  State: FAILED
+  Reason: javax.ejb.TransactionRolledbackLocalException: Error extracting generated keys
+  I Depend On:
+    jboss.j2ee:service=EJB,jndiName=ejb/AuditRecord
+    jboss.j2ee:service=EJB,jndiName=ejb/StoreAuditRecord
+
+--- MBEANS THAT ARE THE ROOT CAUSE OF THE PROBLEM ---
+ObjectName: dcm4chee.audit:service=AuditRecordRepository
+  State: FAILED
+  Reason: javax.ejb.TransactionRolledbackLocalException: Error extracting generated keys
+  I Depend On:
+    jboss.j2ee:service=EJB,jndiName=ejb/AuditRecord
+    jboss.j2ee:service=EJB,jndiName=ejb/StoreAuditRecord
+
+
+2025-01-22 16:36:45,700 INFO  -> (main) [org.apache.coyote.http11.Http11BaseProtocol] Starting Coyote HTTP/1.1 on http-0.0.0.0-8180
+2025-01-22 16:36:45,760 INFO  -> (main) [org.apache.jk.common.ChannelSocket] JK: ajp13 listening on /0.0.0.0:18009
+2025-01-22 16:36:45,767 INFO  -> (main) [org.apache.jk.server.JkMain] Jk running ID=0 time=0/23  config=null
+2025-01-22 16:36:45,776 INFO  -> (main) [org.jboss.system.server.Server] JBoss (MX MicroKernel) [4.0.5.GA (build: CVSTag=Branch_4_0 date=200610162339)] Started in 11s:985ms
+2025-01-22 16:37:15,472 INFO  -> (Timer-2) [org.dcm4chex.archive.dcm.mppsscu.MPPSEmulatorService] Check for received series without MPPS
+2025-01-22 16:37:45,132 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check for unreferenced private files to delete
+2025-01-22 16:37:45,478 INFO  -> (Timer-2) [org.dcm4chex.archive.dcm.mppsscu.MPPSEmulatorService] Check for received series without MPPS
+2025-01-22 16:38:15,486 INFO  -> (Timer-2) [org.dcm4chex.archive.dcm.mppsscu.MPPSEmulatorService] Check for received series without MPPS
+2025-01-22 16:38:45,142 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check for unreferenced private files to delete
+2025-01-22 16:38:45,495 INFO  -> (Timer-2) [org.dcm4chex.archive.dcm.mppsscu.MPPSEmulatorService] Check for received series without MPPS
+2025-01-22 16:39:15,501 INFO  -> (Timer-2) [org.dcm4chex.archive.dcm.mppsscu.MPPSEmulatorService] Check for received series without MPPS
+2025-01-22 16:39:45,149 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check for unreferenced private files to delete
+2025-01-22 16:39:45,515 INFO  -> (Timer-2) [org.dcm4chex.archive.dcm.mppsscu.MPPSEmulatorService] Check for received series without MPPS
+2025-01-22 16:40:15,520 INFO  -> (Timer-2) [org.dcm4chex.archive.dcm.mppsscu.MPPSEmulatorService] Check for received series without MPPS
+2025-01-22 16:40:45,163 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check for unreferenced private files to delete
+2025-01-22 16:40:45,528 INFO  -> (Timer-2) [org.dcm4chex.archive.dcm.mppsscu.MPPSEmulatorService] Check for received series without MPPS
+2025-01-22 16:41:15,540 INFO  -> (Timer-2) [org.dcm4chex.archive.dcm.mppsscu.MPPSEmulatorService] Check for received series without MPPS
+2025-01-22 16:41:45,112 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check available Disk Space
+2025-01-22 16:41:45,178 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check for unreferenced private files to delete
+2025-01-22 16:41:45,551 INFO  -> (Timer-2) [org.dcm4chex.archive.dcm.mppsscu.MPPSEmulatorService] Check for received series without MPPS
