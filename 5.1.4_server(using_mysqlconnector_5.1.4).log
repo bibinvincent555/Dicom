@@ -1,0 +1,362 @@
+2025-01-23 14:14:16,470 INFO  -> (main) [org.jboss.ws.server.ServiceEndpointManager] WebServices: jbossws-1.0.3.SP1 (date=200609291417)
+2025-01-23 14:14:19,165 INFO  -> (main) [org.apache.catalina.startup.Embedded] Catalina naming disabled
+2025-01-23 14:14:19,197 INFO  -> (main) [org.apache.catalina.startup.ClusterRuleSetFactory] Unable to find a cluster rule set in the classpath. Will load the default rule set.
+2025-01-23 14:14:19,198 INFO  -> (main) [org.apache.catalina.startup.ClusterRuleSetFactory] Unable to find a cluster rule set in the classpath. Will load the default rule set.
+2025-01-23 14:14:19,350 INFO  -> (main) [org.apache.coyote.http11.Http11BaseProtocol] Initializing Coyote HTTP/1.1 on http-0.0.0.0-8180
+2025-01-23 14:14:19,352 INFO  -> (main) [org.apache.catalina.startup.Catalina] Initialization processed in 153 ms
+2025-01-23 14:14:19,352 INFO  -> (main) [org.jboss.web.tomcat.tc5.StandardService] Starting service jboss.web
+2025-01-23 14:14:19,355 INFO  -> (main) [org.apache.catalina.core.StandardEngine] Starting Servlet Engine: Apache Tomcat/5.5.20
+2025-01-23 14:14:19,377 INFO  -> (main) [org.apache.catalina.core.StandardHost] XML validation disabled
+2025-01-23 14:14:19,393 INFO  -> (main) [org.apache.catalina.startup.Catalina] Server startup in 41 ms
+2025-01-23 14:14:19,595 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/invoker, warUrl=.../deploy/http-invoker.sar/invoker.war/
+2025-01-23 14:14:19,832 INFO  -> (main) [org.apache.catalina.loader.WebappLoader] Dual registration of jndi stream handler: factory already defined
+2025-01-23 14:14:20,150 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/, warUrl=.../deploy/jbossweb-tomcat55.sar/ROOT.war/
+2025-01-23 14:14:20,251 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/jbossws, warUrl=.../tmp/deploy/tmp2927092073298581289jbossws-context-exp.war/
+2025-01-23 14:14:20,383 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/jbossmq-httpil, warUrl=.../deploy/jms/jbossmq-httpil.sar/jbossmq-httpil.war/
+2025-01-23 14:14:20,940 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/web-console, warUrl=.../deploy/management/console-mgr.sar/web-console.war/
+2025-01-23 14:14:21,424 INFO  -> (main) [org.jboss.mail.MailService] Mail Service bound to java:/Mail
+2025-01-23 14:14:21,510 INFO  -> (main) [org.jboss.resource.deployment.RARDeployment] Required license terms exist, view META-INF/ra.xml in .../deploy/jboss-ha-local-jdbc.rar
+2025-01-23 14:14:21,531 INFO  -> (main) [org.jboss.resource.deployment.RARDeployment] Required license terms exist, view META-INF/ra.xml in .../deploy/jboss-ha-xa-jdbc.rar
+2025-01-23 14:14:21,545 INFO  -> (main) [org.jboss.resource.deployment.RARDeployment] Required license terms exist, view META-INF/ra.xml in .../deploy/jboss-local-jdbc.rar
+2025-01-23 14:14:21,560 INFO  -> (main) [org.jboss.resource.deployment.RARDeployment] Required license terms exist, view META-INF/ra.xml in .../deploy/jboss-xa-jdbc.rar
+2025-01-23 14:14:21,582 INFO  -> (main) [org.jboss.resource.deployment.RARDeployment] Required license terms exist, view META-INF/ra.xml in .../deploy/jms/jms-ra.rar
+2025-01-23 14:14:21,599 INFO  -> (main) [org.jboss.resource.deployment.RARDeployment] Required license terms exist, view META-INF/ra.xml in .../deploy/mail-ra.rar
+2025-01-23 14:14:21,941 INFO  -> (main) [org.jboss.resource.adapter.jdbc.remote.WrapperDataSourceService] Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' to JNDI name 'java:DefaultDS'
+2025-01-23 14:14:22,250 INFO  -> (main) [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] Bound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' to JNDI name 'java:JmsXA'
+2025-01-23 14:14:22,300 INFO  -> (main) [org.jboss.resource.adapter.jdbc.remote.WrapperDataSourceService] Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=MySqlDS' to JNDI name 'java:MySqlDS'
+2025-01-23 14:14:22,594 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.ExportManager] Bound to JNDI name: queue/ExportManager
+2025-01-23 14:14:22,596 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.FileCopy] Bound to JNDI name: queue/FileCopy
+2025-01-23 14:14:22,603 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.PurgeStudy] Bound to JNDI name: queue/PurgeStudy
+2025-01-23 14:14:22,630 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.HL7Send] Bound to JNDI name: queue/HL7Send
+2025-01-23 14:14:22,633 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.IANScu] Bound to JNDI name: queue/IANScu
+2025-01-23 14:14:22,639 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.MCMScu] Bound to JNDI name: queue/MCMScu
+2025-01-23 14:14:22,646 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.MoveScu] Bound to JNDI name: queue/MoveScu
+2025-01-23 14:14:22,654 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.MPPSScu] Bound to JNDI name: queue/MPPSScu
+2025-01-23 14:14:22,657 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.PPSExceptionMgt] Bound to JNDI name: queue/PPSExceptionMgt
+2025-01-23 14:14:22,663 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.PPSScu] Bound to JNDI name: queue/PPSScu
+2025-01-23 14:14:22,666 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.Prefetch] Bound to JNDI name: queue/Prefetch
+2025-01-23 14:14:22,668 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.Sendmail] Bound to JNDI name: queue/Sendmail
+2025-01-23 14:14:22,671 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.StgCmtScuScp] Bound to JNDI name: queue/StgCmtScuScp
+2025-01-23 14:14:22,674 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.StudyMgtScu] Bound to JNDI name: queue/StudyMgtScu
+2025-01-23 14:14:22,676 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.A] Bound to JNDI name: queue/A
+2025-01-23 14:14:22,678 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.B] Bound to JNDI name: queue/B
+2025-01-23 14:14:22,680 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.C] Bound to JNDI name: queue/C
+2025-01-23 14:14:22,682 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.D] Bound to JNDI name: queue/D
+2025-01-23 14:14:22,684 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.ex] Bound to JNDI name: queue/ex
+2025-01-23 14:14:22,752 INFO  -> (main) [org.jboss.mq.il.uil2.UILServerILService] JBossMQ UIL service available at : /0.0.0.0:8093
+2025-01-23 14:14:22,779 INFO  -> (main) [org.jboss.mq.server.jmx.Topic.testTopic] Bound to JNDI name: topic/testTopic
+2025-01-23 14:14:22,780 INFO  -> (main) [org.jboss.mq.server.jmx.Topic.securedTopic] Bound to JNDI name: topic/securedTopic
+2025-01-23 14:14:22,781 INFO  -> (main) [org.jboss.mq.server.jmx.Topic.testDurableTopic] Bound to JNDI name: topic/testDurableTopic
+2025-01-23 14:14:22,783 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.testQueue] Bound to JNDI name: queue/testQueue
+2025-01-23 14:14:22,784 INFO  -> (main) [org.jboss.mq.server.jmx.Queue.DLQ] Bound to JNDI name: queue/DLQ
+2025-01-23 14:14:23,200 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying AuditRecord
+2025-01-23 14:14:23,262 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying QueryAuditRecord
+2025-01-23 14:14:23,272 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying StoreAuditRecord
+2025-01-23 14:14:23,684 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'AuditRecord' to jndi 'ejb/AuditRecord'
+2025-01-23 14:14:23,693 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'QueryAuditRecord' to jndi 'ejb/QueryAuditRecord'
+2025-01-23 14:14:23,700 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'StoreAuditRecord' to jndi 'ejb/StoreAuditRecord'
+2025-01-23 14:14:23,709 INFO  -> (Thread-8) [org.dcm4cheri.server.UDPServerImpl] Started UDP Server listening on 0.0.0.0/0.0.0.0:4000
+2025-01-23 14:14:23,740 INFO  -> (main) [org.dcm4chex.arr.ejb.session.StoreAuditRecordBean] Store AuditRecord[type=ActorStartStop, host=atvdi, timestamp=2025-01-23 14:14:23.739]
+2025-01-23 14:14:23,768 INFO  -> (main) [org.jboss.ejb.EJBDeployer] Deployed: file:/home/ahis/AmritaPACS_2/jboss-4.0.5.GA/server/apacs/deploy/dcm4chee-arr-ejb.jar
+2025-01-23 14:14:24,040 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying MWLItem
+2025-01-23 14:14:24,045 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Device
+2025-01-23 14:14:24,048 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying AE
+2025-01-23 14:14:24,051 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Study
+2025-01-23 14:14:24,054 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Series
+2025-01-23 14:14:24,059 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying HPDefinition
+2025-01-23 14:14:24,062 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying MPPS
+2025-01-23 14:14:24,065 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying File
+2025-01-23 14:14:24,068 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying GPSPSRequest
+2025-01-23 14:14:24,072 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying GPSPS
+2025-01-23 14:14:24,075 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying FileSystem
+2025-01-23 14:14:24,079 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Instance
+2025-01-23 14:14:24,082 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying PrivateSeries
+2025-01-23 14:14:24,086 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying SeriesRequest
+2025-01-23 14:14:24,089 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Patient
+2025-01-23 14:14:24,094 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying HP
+2025-01-23 14:14:24,098 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying PrivatePatient
+2025-01-23 14:14:24,101 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying StudyOnFileSystem
+2025-01-23 14:14:24,104 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Media
+2025-01-23 14:14:24,107 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying PrivateInstance
+2025-01-23 14:14:24,110 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying PrivateStudy
+2025-01-23 14:14:24,115 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying GPSPSPerformer
+2025-01-23 14:14:24,118 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Code
+2025-01-23 14:14:24,122 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying GPPPS
+2025-01-23 14:14:24,125 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying PrivateFile
+2025-01-23 14:14:24,128 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying GPPPSManager
+2025-01-23 14:14:24,133 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying HPStorage
+2025-01-23 14:14:24,135 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying PrivateManager
+2025-01-23 14:14:24,138 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying ConsistencyCheck
+2025-01-23 14:14:24,140 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying CheckStudyPatient
+2025-01-23 14:14:24,143 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying StudyReconciliation
+2025-01-23 14:14:24,146 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying ContentManager
+2025-01-23 14:14:24,148 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying UserManager
+2025-01-23 14:14:24,151 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying FixPatientAttributes
+2025-01-23 14:14:24,153 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying StudyMgt
+2025-01-23 14:14:24,155 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying AEManager
+2025-01-23 14:14:24,158 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying CodeToDeviceMapping
+2025-01-23 14:14:24,160 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying PatientUpdate
+2025-01-23 14:14:24,162 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying MPPSManager
+2025-01-23 14:14:24,165 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying MPPSEmulator
+2025-01-23 14:14:24,167 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying ContentEdit
+2025-01-23 14:14:24,170 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying MediaComposer
+2025-01-23 14:14:24,172 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying FileSystemMgt
+2025-01-23 14:14:24,175 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying Storage
+2025-01-23 14:14:24,177 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying MWLManager
+2025-01-23 14:14:24,180 INFO  -> (main) [org.jboss.ejb.EjbModule] Deploying GPWLManager
+2025-01-23 14:14:24,648 DEBUG -> (main) [MWLItem] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=MWLItem]]
+2025-01-23 14:14:24,648 DEBUG -> (main) [MWLItem] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=MWLItem]]
+2025-01-23 14:14:24,651 DEBUG -> (main) [Study] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=Study]]
+2025-01-23 14:14:24,651 DEBUG -> (main) [Study] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=Study]]
+2025-01-23 14:14:24,653 DEBUG -> (main) [Series] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=Series]]
+2025-01-23 14:14:24,653 DEBUG -> (main) [Series] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=Series]]
+2025-01-23 14:14:24,655 DEBUG -> (main) [MPPS] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=MPPS]]
+2025-01-23 14:14:24,655 DEBUG -> (main) [MPPS] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=MPPS]]
+2025-01-23 14:14:24,656 DEBUG -> (main) [File] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=File]]
+2025-01-23 14:14:24,659 DEBUG -> (main) [Instance] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=Instance]]
+2025-01-23 14:14:24,659 DEBUG -> (main) [Instance] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=Instance]]
+2025-01-23 14:14:24,661 DEBUG -> (main) [Patient] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=Patient]]
+2025-01-23 14:14:24,661 DEBUG -> (main) [Patient] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=Patient]]
+2025-01-23 14:14:24,663 DEBUG -> (main) [Media] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=Media]]
+2025-01-23 14:14:24,663 DEBUG -> (main) [Media] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=Media]]
+2025-01-23 14:14:24,664 DEBUG -> (main) [GPPPS] created-time: [JDBCCMPFieldMetaData : fieldName=createdTime, [JDBCEntityMetaData : entityName=GPPPS]]
+2025-01-23 14:14:24,664 DEBUG -> (main) [GPPPS] updated-time: [JDBCCMPFieldMetaData : fieldName=updatedTime, [JDBCEntityMetaData : entityName=GPPPS]]
+2025-01-23 14:14:25,108 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'MWLItem' to jndi 'ejb/MWLItem'
+2025-01-23 14:14:25,112 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'Device' to jndi 'ejb/Device'
+2025-01-23 14:14:25,115 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'AE' to jndi 'ejb/AE'
+2025-01-23 14:14:25,121 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'Study' to jndi 'ejb/Study'
+2025-01-23 14:14:25,126 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'Series' to jndi 'ejb/Series'
+2025-01-23 14:14:25,130 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'HPDefinition' to jndi 'ejb/HPDefinition'
+2025-01-23 14:14:25,135 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'MPPS' to jndi 'ejb/MPPS'
+2025-01-23 14:14:25,139 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'File' to jndi 'ejb/File'
+2025-01-23 14:14:25,143 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'GPSPSRequest' to jndi 'ejb/GPSPSRequest'
+2025-01-23 14:14:25,147 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'GPSPS' to jndi 'ejb/GPSPS'
+2025-01-23 14:14:25,152 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'FileSystem' to jndi 'ejb/FileSystem'
+2025-01-23 14:14:25,157 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'Instance' to jndi 'ejb/Instance'
+2025-01-23 14:14:25,160 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'PrivateSeries' to jndi 'ejb/PrivateSeries'
+2025-01-23 14:14:25,164 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'SeriesRequest' to jndi 'ejb/SeriesRequest'
+2025-01-23 14:14:25,168 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'Patient' to jndi 'ejb/Patient'
+2025-01-23 14:14:25,178 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'HP' to jndi 'ejb/HP'
+2025-01-23 14:14:25,184 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'PrivatePatient' to jndi 'ejb/PrivatePatient'
+2025-01-23 14:14:25,187 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'StudyOnFileSystem' to jndi 'ejb/StudyOnFileSystem'
+2025-01-23 14:14:25,191 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'Media' to jndi 'ejb/Media'
+2025-01-23 14:14:25,195 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'PrivateInstance' to jndi 'ejb/PrivateInstance'
+2025-01-23 14:14:25,198 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'PrivateStudy' to jndi 'ejb/PrivateStudy'
+2025-01-23 14:14:25,201 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'GPSPSPerformer' to jndi 'ejb/GPSPSPerformer'
+2025-01-23 14:14:25,205 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'Code' to jndi 'ejb/Code'
+2025-01-23 14:14:25,208 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'GPPPS' to jndi 'ejb/GPPPS'
+2025-01-23 14:14:25,212 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'PrivateFile' to jndi 'ejb/PrivateFile'
+2025-01-23 14:14:25,220 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'GPPPSManager' to jndi 'ejb/GPPPSManager'
+2025-01-23 14:14:25,227 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'HPStorage' to jndi 'ejb/HPStorage'
+2025-01-23 14:14:25,245 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'PrivateManager' to jndi 'ejb/PrivateManager'
+2025-01-23 14:14:25,262 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'ConsistencyCheck' to jndi 'ejb/ConsistencyCheck'
+2025-01-23 14:14:25,272 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'CheckStudyPatient' to jndi 'CheckStudyPatientLocal'
+2025-01-23 14:14:25,285 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'CheckStudyPatient' to jndi 'ejb/CheckStudyPatient'
+2025-01-23 14:14:25,305 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'StudyReconciliation' to jndi 'ejb/StudyReconciliation'
+2025-01-23 14:14:25,334 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'ContentManager' to jndi 'ejb/ContentManager'
+2025-01-23 14:14:25,364 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'UserManager' to jndi 'ejb/UserManager'
+2025-01-23 14:14:25,379 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'FixPatientAttributes' to jndi 'ejb/FixPatientAttributes'
+2025-01-23 14:14:25,393 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'StudyMgt' to jndi 'ejb/StudyMgt'
+2025-01-23 14:14:25,407 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'AEManager' to jndi 'ejb/AEManager'
+2025-01-23 14:14:25,503 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'CodeToDeviceMapping' to jndi 'ejb/CodeToDeviceMapping'
+2025-01-23 14:14:25,512 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'PatientUpdate' to jndi 'PatientUpdateLocal'
+2025-01-23 14:14:25,516 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'PatientUpdate' to jndi 'ejb/PatientUpdate'
+2025-01-23 14:14:25,527 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'MPPSManager' to jndi 'ejb/MPPSManager'
+2025-01-23 14:14:25,544 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'MPPSEmulator' to jndi 'ejb/MPPSEmulator'
+2025-01-23 14:14:25,554 INFO  -> (main) [org.jboss.ejb.plugins.local.BaseLocalProxyFactory] Bound EJB LocalHome 'ContentEdit' to jndi 'ContentEditLocal'
+2025-01-23 14:14:25,562 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'ContentEdit' to jndi 'ejb/ContentEdit'
+2025-01-23 14:14:25,584 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'MediaComposer' to jndi 'ejb/MediaComposer'
+2025-01-23 14:14:25,596 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'FileSystemMgt' to jndi 'ejb/FileSystemMgt'
+2025-01-23 14:14:25,597 INFO  -> (main) [org.dcm4chex.archive.mbean.SchedulerService] Start Scheduler CheckFreeDiskSpace with period of 300000ms in 1 s.
+2025-01-23 14:14:25,598 INFO  -> (main) [org.dcm4chex.archive.mbean.SchedulerService] Start Scheduler CheckFilesToPurge with period of 60000ms in 1 s.
+2025-01-23 14:14:25,612 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'Storage' to jndi 'ejb/Storage'
+2025-01-23 14:14:25,637 DEBUG -> (main) [org.amma.aitf.his.ResourceLoader] Trying to find [his_config/license.lic] using context classloader org.jboss.mx.loading.UnifiedClassLoader3@399197b{ url=null ,addedOrder=24}.
+2025-01-23 14:14:25,828 DEBUG -> (main) [org.amma.aitf.his.ResourceLoader] Trying to find [his_config/publicCerts.store] using context classloader org.jboss.mx.loading.UnifiedClassLoader3@399197b{ url=null ,addedOrder=24}.
+2025-01-23 14:14:25,852 INFO  -> (main) [STDOUT] install license certificate
+2025-01-23 14:14:25,858 DEBUG -> (main) [org.amma.aitf.his.ResourceLoader] Trying to find [his_config/publicCerts.store] using context classloader org.jboss.mx.loading.UnifiedClassLoader3@399197b{ url=null ,addedOrder=24}.
+2025-01-23 14:14:25,867 INFO  -> (main) [STDOUT] License for validity period is Present ............
+2025-01-23 14:14:25,924 INFO  -> (main) [STDOUT]  License present..... !!Mac address is 6a:50:f4:29:fb:81
+2025-01-23 14:14:25,924 INFO  -> (main) [STDOUT] LicenseServlet:: License valid till 6/2/2026
+2025-01-23 14:14:25,924 DEBUG -> (main) [org.amma.aitf.his.ResourceLoader] Trying to find [his_config/his-config.properties] using context classloader org.jboss.mx.loading.UnifiedClassLoader3@399197b{ url=null ,addedOrder=24}.
+2025-01-23 14:14:25,925 INFO  -> (main) [STDOUT] Loaded his-config.properties properties file from : /home/ahis/AmritaPACS_2/jboss-4.0.5.GA/server/apacs/conf/his_config/his-config.properties
+2025-01-23 14:14:25,925 INFO  -> (main) [org.amma.aitf.his.ResourceLoader] Loaded his-config.properties properties file from : /home/ahis/AmritaPACS_2/jboss-4.0.5.GA/server/apacs/conf/his_config/his-config.properties
+2025-01-23 14:14:25,927 INFO  -> (main) [STDOUT] License Present for all users ............
+2025-01-23 14:14:25,928 INFO  -> (main) [org.dcm4chex.archive.util.Util] License Present for Amrita PACS ............
+2025-01-23 14:14:25,928 INFO  -> (main) [org.dcm4cheri.server.ServerImpl] Start Server listening at port 104
+2025-01-23 14:14:25,941 INFO  -> (main) [org.dcm4chex.archive.mbean.SchedulerService] Start Scheduler CheckSeriesWithoutMPPS with period of 30000ms in 1 s.
+2025-01-23 14:14:25,950 DEBUG -> (main) [org.amma.aitf.his.ResourceLoader] Trying to find [his_config/license.lic] using context classloader org.jboss.mx.loading.UnifiedClassLoader3@5883de21{ url=null ,addedOrder=25}.
+2025-01-23 14:14:25,956 DEBUG -> (main) [org.amma.aitf.his.ResourceLoader] Trying to find [his_config/publicCerts.store] using context classloader org.jboss.mx.loading.UnifiedClassLoader3@5883de21{ url=null ,addedOrder=25}.
+2025-01-23 14:14:25,962 INFO  -> (main) [STDOUT] install license certificate
+2025-01-23 14:14:25,967 DEBUG -> (main) [org.amma.aitf.his.ResourceLoader] Trying to find [his_config/publicCerts.store] using context classloader org.jboss.mx.loading.UnifiedClassLoader3@5883de21{ url=null ,addedOrder=25}.
+2025-01-23 14:14:25,973 INFO  -> (main) [STDOUT] License for validity period is Present ............
+2025-01-23 14:14:26,078 INFO  -> (main) [STDOUT]  License present..... !!Mac address is 6a:50:f4:29:fb:81
+2025-01-23 14:14:26,079 INFO  -> (main) [STDOUT] LicenseServlet:: License valid till 6/2/2026
+2025-01-23 14:14:26,080 INFO  -> (main) [STDOUT] License Present for all users ............
+2025-01-23 14:14:26,080 INFO  -> (main) [org.dcm4chex.archive.util.Util] License Present for Amrita PACS ............
+2025-01-23 14:14:26,080 INFO  -> (main) [org.dcm4cheri.server.ServerImpl] Start Server listening at port 3320
+2025-01-23 14:14:26,105 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'MWLManager' to jndi 'ejb/MWLManager'
+2025-01-23 14:14:26,116 INFO  -> (main) [org.dcm4cheri.server.ServerImpl] Start Server listening at port 2575
+2025-01-23 14:14:26,160 INFO  -> (main) [org.dcm4chex.archive.mbean.SchedulerService] Start Scheduler CheckPendingSeriesStored with period of 3600000ms in 1 s.
+2025-01-23 14:14:26,210 INFO  -> (main) [org.jboss.proxy.ejb.ProxyFactory] Bound EJB Home 'GPWLManager' to jndi 'ejb/GPWLManager'
+2025-01-23 14:14:26,212 INFO  -> (main) [org.jboss.ejb.EJBDeployer] Deployed: file:/home/ahis/AmritaPACS_2/jboss-4.0.5.GA/server/apacs/deploy/dcm4chee-ejb-mysql.jar
+2025-01-23 14:14:26,473 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/dcm4chee-arr, warUrl=.../tmp/deploy/tmp7419855376928148613dcm4chee-arr-exp.war/
+2025-01-23 14:14:26,599 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check available Disk Space
+2025-01-23 14:14:26,729 INFO  -> (Timer-2) [org.dcm4chex.archive.mbean.FileSystemMgtService] Check for unreferenced private files to delete
+2025-01-23 14:14:26,886 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/dcm4chee-web, warUrl=.../tmp/deploy/tmp5858544299136888195dcm4chee-web-exp.war/
+2025-01-23 14:14:26,926 INFO  -> (main) [org.infohazard.maverick.Dispatcher] Starting configuration load
+2025-01-23 14:14:26,926 INFO  -> (main) [org.infohazard.maverick.Dispatcher] Loading config from jndi:/localhost/dcm4chee-web/WEB-INF/maverick.xml
+2025-01-23 14:14:26,943 INFO  -> (Timer-2) [org.dcm4chex.archive.dcm.mppsscu.MPPSEmulatorService] Check for received series without MPPS
+2025-01-23 14:14:26,977 INFO  -> (main) [org.infohazard.maverick.flow.MasterFactory] Transform factory for "document" is org.infohazard.maverick.transform.DocumentTransformFactory
+2025-01-23 14:14:26,979 INFO  -> (main) [org.infohazard.maverick.flow.MasterFactory] Transform factory for "xslt" is org.infohazard.maverick.transform.XSLTransformFactory
+2025-01-23 14:14:26,979 INFO  -> (main) [org.infohazard.maverick.flow.MasterFactory] View factory for "document" is org.infohazard.maverick.view.DocumentViewFactory
+2025-01-23 14:14:26,980 INFO  -> (main) [org.infohazard.maverick.flow.MasterFactory] View factory for "redirect" is org.infohazard.maverick.view.RedirectViewFactory
+2025-01-23 14:14:26,981 INFO  -> (main) [org.infohazard.maverick.flow.MasterFactory] View factory for "trivial" is org.infohazard.maverick.view.TrivialViewFactory
+2025-01-23 14:14:26,982 INFO  -> (main) [org.infohazard.maverick.flow.MasterFactory] View factory for "null" is org.infohazard.maverick.view.NullViewFactory
+2025-01-23 14:14:27,002 INFO  -> (main) [org.infohazard.maverick.flow.MasterFactory] View factory for "domify" is org.infohazard.maverick.opt.view.DomifyViewFactory
+2025-01-23 14:14:27,008 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Using shunt factory org.dcm4chex.archive.web.maverick.shunt.LanguageShuntFactory
+2025-01-23 14:14:27,160 INFO  -> (Timer-2) [org.dcm4chex.archive.dcm.storescp.StoreScpService] Check for Pending Series Stored
+2025-01-23 14:14:27,370 ERROR -> (main) [STDERR] SystemId Unknown; Line #653; Column #62; Extra illegal tokens: 'esentationDescription'
+2025-01-23 14:14:27,381 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  folder
+2025-01-23 14:14:27,384 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  folder
+2025-01-23 14:14:27,385 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  logout
+2025-01-23 14:14:27,388 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  foldersubmit
+2025-01-23 14:14:27,389 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  folder
+2025-01-23 14:14:27,390 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  merge
+2025-01-23 14:14:27,401 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  worklist
+2025-01-23 14:14:27,413 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  logout
+2025-01-23 14:14:27,413 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  exportSelector
+2025-01-23 14:14:27,414 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  xdsi_export
+2025-01-23 14:14:27,415 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandPat
+2025-01-23 14:14:27,415 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,416 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandStudy
+2025-01-23 14:14:27,417 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,417 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandSeries
+2025-01-23 14:14:27,417 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,418 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandInstance
+2025-01-23 14:14:27,418 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,418 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  patientEdit
+2025-01-23 14:14:27,418 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,430 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  patientUpdate
+2025-01-23 14:14:27,431 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,431 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-23 14:14:27,431 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  patientMerge
+2025-01-23 14:14:27,431 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,432 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  mpps_link
+2025-01-23 14:14:27,432 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-23 14:14:27,432 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  studyEdit
+2025-01-23 14:14:27,432 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,444 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  studyView
+2025-01-23 14:14:27,445 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,451 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  select
+2025-01-23 14:14:27,451 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  koView
+2025-01-23 14:14:27,451 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,456 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  addWorklist
+2025-01-23 14:14:27,457 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,470 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  cancel
+2025-01-23 14:14:27,471 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  folder
+2025-01-23 14:14:27,471 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  studyUpdate
+2025-01-23 14:14:27,472 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,473 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  seriesEdit
+2025-01-23 14:14:27,474 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,486 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  seriesUpdate
+2025-01-23 14:14:27,487 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,488 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  trashfolder
+2025-01-23 14:14:27,489 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  trash
+2025-01-23 14:14:27,489 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  folder
+2025-01-23 14:14:27,489 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  logout
+2025-01-23 14:14:27,490 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandTrashPatient
+2025-01-23 14:14:27,490 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,491 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandTrashStudy
+2025-01-23 14:14:27,491 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,492 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandTrashSeries
+2025-01-23 14:14:27,492 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,492 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  expandTrashInstance
+2025-01-23 14:14:27,493 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,493 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  ae
+2025-01-23 14:14:27,494 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,505 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  aeedit
+2025-01-23 14:14:27,506 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,517 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  failed
+2025-01-23 14:14:27,518 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-23 14:14:27,518 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  aeeditsubmit
+2025-01-23 14:14:27,519 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,519 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  failed
+2025-01-23 14:14:27,519 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-23 14:14:27,519 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  aenew
+2025-01-23 14:14:27,520 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,534 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  failed
+2025-01-23 14:14:27,535 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-23 14:14:27,535 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  aenewsubmit
+2025-01-23 14:14:27,538 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,538 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  failed
+2025-01-23 14:14:27,539 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-23 14:14:27,539 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  aedelete
+2025-01-23 14:14:27,540 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,540 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-23 14:14:27,541 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  aeecho
+2025-01-23 14:14:27,541 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  echoresult
+2025-01-23 14:14:27,545 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-23 14:14:27,545 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  mcm_console
+2025-01-23 14:14:27,546 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,566 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  mwl_console
+2025-01-23 14:14:27,575 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,601 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  cancelLink
+2025-01-23 14:14:27,601 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  linkDone
+2025-01-23 14:14:27,601 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  mergePatient
+2025-01-23 14:14:27,615 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  inspect
+2025-01-23 14:14:27,615 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  mpps_console
+2025-01-23 14:14:27,616 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,641 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-23 14:14:27,656 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  link
+2025-01-23 14:14:27,657 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  inspect
+2025-01-23 14:14:27,657 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  gpwl_console
+2025-01-23 14:14:27,658 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,669 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  linkDone
+2025-01-23 14:14:27,670 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  inspect
+2025-01-23 14:14:27,670 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  gppps_console
+2025-01-23 14:14:27,671 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,682 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  link
+2025-01-23 14:14:27,682 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  inspect
+2025-01-23 14:14:27,682 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  useradmin_console
+2025-01-23 14:14:27,684 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  userlist
+2025-01-23 14:14:27,684 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  chgpwd
+2025-01-23 14:14:27,684 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  user_list
+2025-01-23 14:14:27,685 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,694 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  user_chgpwd
+2025-01-23 14:14:27,695 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,704 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  user_chgpwdsubmit
+2025-01-23 14:14:27,705 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,706 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  chgpwd_error
+2025-01-23 14:14:27,706 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-23 14:14:27,706 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  user_edit
+2025-01-23 14:14:27,707 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,718 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-23 14:14:27,719 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  user_editsubmit
+2025-01-23 14:14:27,720 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,720 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  passwd_mismatch
+2025-01-23 14:14:27,721 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-23 14:14:27,721 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  user_new
+2025-01-23 14:14:27,723 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,733 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-23 14:14:27,733 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  user_delete
+2025-01-23 14:14:27,734 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,735 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-23 14:14:27,735 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  tfSelector
+2025-01-23 14:14:27,736 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  tfselect
+2025-01-23 14:14:27,751 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-23 14:14:27,763 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,763 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  cancel
+2025-01-23 14:14:27,764 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  xdsiExport
+2025-01-23 14:14:27,765 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  xdsi_export
+2025-01-23 14:14:27,776 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  error
+2025-01-23 14:14:27,787 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,787 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  cancel
+2025-01-23 14:14:27,787 INFO  -> (main) [org.infohazard.maverick.flow.Loader] Creating command:  arr
+2025-01-23 14:14:27,788 INFO  -> (main) [org.infohazard.maverick.flow.ViewRegistry] Has view named:  success
+2025-01-23 14:14:27,795 INFO  -> (main) [org.infohazard.maverick.Dispatcher] Finished configuration load
+2025-01-23 14:14:27,827 INFO  -> (main) [org.jboss.web.tomcat.tc5.TomcatDeployer] deploy, ctxPath=/jmx-console, warUrl=.../deploy/jmx-console.war/
+2025-01-23 14:14:27,963 INFO  -> (main) [org.apache.coyote.http11.Http11BaseProtocol] Starting Coyote HTTP/1.1 on http-0.0.0.0-8180
+2025-01-23 14:14:28,035 INFO  -> (main) [org.apache.jk.common.ChannelSocket] JK: ajp13 listening on /0.0.0.0:18009
+2025-01-23 14:14:28,052 INFO  -> (main) [org.apache.jk.server.JkMain] Jk running ID=0 time=0/51  config=null
+2025-01-23 14:14:28,067 INFO  -> (main) [org.jboss.system.server.Server] JBoss (MX MicroKernel) [4.0.5.GA (build: CVSTag=Branch_4_0 date=200610162339)] Started in 15s:99ms
+2025-01-23 14:14:56,970 INFO  -> (Timer-2) [org.dcm4chex.archive.dcm.mppsscu.MPPSEmulatorService] Check for received series without MPPS
