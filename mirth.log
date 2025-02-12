@@ -1,0 +1,775 @@
+ERROR 2025-02-12 08:56:06,708 [6f172bf1-c315-4a00-a7b5-57164dd696ed_source_connector._mllpEndpoint#1441261363.receiver.10] org.mule.impl.DefaultComponentExceptionStrategy: Caught exception in Exception Strategy for: 6f172bf1-c315-4a00-a7b5-57164dd696ed: org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1eab26e0, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#1441261363', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@24a0c1a6, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1eab26e0, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#1441261363', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@24a0c1a6, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:64)
+	at org.mule.routing.inbound.InboundMessageRouter.route(InboundMessageRouter.java:79)
+	at org.mule.providers.AbstractMessageReceiver$DefaultInternalMessageListener.onMessage(AbstractMessageReceiver.java:487)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:266)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:238)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processHL7Data(MllpMessageReceiver.java:471)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processData(MllpMessageReceiver.java:431)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.run(MllpMessageReceiver.java:348)
+	at org.mule.impl.work.WorkerContext.run(WorkerContext.java:290)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1061)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:575)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.mule.umo.transformer.TransformerException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2 (com.mirth.connect.server.mule.adaptors.AdaptorException)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:284)
+	at org.mule.transformers.AbstractEventAwareTransformer.doTransform(AbstractEventAwareTransformer.java:48)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:197)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.impl.MuleEvent.getTransformedMessage(MuleEvent.java:251)
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:61)
+	... 11 more
+Caused by: com.mirth.connect.server.mule.adaptors.AdaptorException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at com.mirth.connect.server.mule.adaptors.Adaptor.handleException(Adaptor.java:89)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:36)
+	at com.mirth.connect.server.mule.adaptors.Adaptor.getMessage(Adaptor.java:61)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:255)
+	... 17 more
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.substring(String.java:1967)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.getNodeNameFromXMLString(XMLAdaptor.java:59)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:33)
+	... 19 more
+ERROR 2025-02-12 09:09:36,323 [6f172bf1-c315-4a00-a7b5-57164dd696ed_source_connector._mllpEndpoint#1441261363.receiver.10] org.mule.impl.DefaultComponentExceptionStrategy: Caught exception in Exception Strategy for: 6f172bf1-c315-4a00-a7b5-57164dd696ed: org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1eab26e0, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#1441261363', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@24a0c1a6, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1eab26e0, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#1441261363', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@24a0c1a6, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:64)
+	at org.mule.routing.inbound.InboundMessageRouter.route(InboundMessageRouter.java:79)
+	at org.mule.providers.AbstractMessageReceiver$DefaultInternalMessageListener.onMessage(AbstractMessageReceiver.java:487)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:266)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:238)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processHL7Data(MllpMessageReceiver.java:471)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processData(MllpMessageReceiver.java:431)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.run(MllpMessageReceiver.java:348)
+	at org.mule.impl.work.WorkerContext.run(WorkerContext.java:290)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1061)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:575)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.mule.umo.transformer.TransformerException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2 (com.mirth.connect.server.mule.adaptors.AdaptorException)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:284)
+	at org.mule.transformers.AbstractEventAwareTransformer.doTransform(AbstractEventAwareTransformer.java:48)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:197)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.impl.MuleEvent.getTransformedMessage(MuleEvent.java:251)
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:61)
+	... 11 more
+Caused by: com.mirth.connect.server.mule.adaptors.AdaptorException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at com.mirth.connect.server.mule.adaptors.Adaptor.handleException(Adaptor.java:89)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:36)
+	at com.mirth.connect.server.mule.adaptors.Adaptor.getMessage(Adaptor.java:61)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:255)
+	... 17 more
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.substring(String.java:1967)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.getNodeNameFromXMLString(XMLAdaptor.java:59)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:33)
+	... 19 more
+ERROR 2025-02-12 09:56:06,809 [6f172bf1-c315-4a00-a7b5-57164dd696ed_source_connector._mllpEndpoint#1441261363.receiver.10] org.mule.impl.DefaultComponentExceptionStrategy: Caught exception in Exception Strategy for: 6f172bf1-c315-4a00-a7b5-57164dd696ed: org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1eab26e0, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#1441261363', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@24a0c1a6, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1eab26e0, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#1441261363', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@24a0c1a6, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:64)
+	at org.mule.routing.inbound.InboundMessageRouter.route(InboundMessageRouter.java:79)
+	at org.mule.providers.AbstractMessageReceiver$DefaultInternalMessageListener.onMessage(AbstractMessageReceiver.java:487)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:266)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:238)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processHL7Data(MllpMessageReceiver.java:471)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processData(MllpMessageReceiver.java:431)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.run(MllpMessageReceiver.java:348)
+	at org.mule.impl.work.WorkerContext.run(WorkerContext.java:290)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1061)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:575)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.mule.umo.transformer.TransformerException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2 (com.mirth.connect.server.mule.adaptors.AdaptorException)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:284)
+	at org.mule.transformers.AbstractEventAwareTransformer.doTransform(AbstractEventAwareTransformer.java:48)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:197)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.impl.MuleEvent.getTransformedMessage(MuleEvent.java:251)
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:61)
+	... 11 more
+Caused by: com.mirth.connect.server.mule.adaptors.AdaptorException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at com.mirth.connect.server.mule.adaptors.Adaptor.handleException(Adaptor.java:89)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:36)
+	at com.mirth.connect.server.mule.adaptors.Adaptor.getMessage(Adaptor.java:61)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:255)
+	... 17 more
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.substring(String.java:1967)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.getNodeNameFromXMLString(XMLAdaptor.java:59)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:33)
+	... 19 more
+ERROR 2025-02-12 10:09:36,422 [6f172bf1-c315-4a00-a7b5-57164dd696ed_source_connector._mllpEndpoint#1441261363.receiver.10] org.mule.impl.DefaultComponentExceptionStrategy: Caught exception in Exception Strategy for: 6f172bf1-c315-4a00-a7b5-57164dd696ed: org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1eab26e0, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#1441261363', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@24a0c1a6, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1eab26e0, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#1441261363', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@24a0c1a6, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:64)
+	at org.mule.routing.inbound.InboundMessageRouter.route(InboundMessageRouter.java:79)
+	at org.mule.providers.AbstractMessageReceiver$DefaultInternalMessageListener.onMessage(AbstractMessageReceiver.java:487)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:266)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:238)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processHL7Data(MllpMessageReceiver.java:471)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processData(MllpMessageReceiver.java:431)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.run(MllpMessageReceiver.java:348)
+	at org.mule.impl.work.WorkerContext.run(WorkerContext.java:290)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1061)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:575)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.mule.umo.transformer.TransformerException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2 (com.mirth.connect.server.mule.adaptors.AdaptorException)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:284)
+	at org.mule.transformers.AbstractEventAwareTransformer.doTransform(AbstractEventAwareTransformer.java:48)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:197)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.impl.MuleEvent.getTransformedMessage(MuleEvent.java:251)
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:61)
+	... 11 more
+Caused by: com.mirth.connect.server.mule.adaptors.AdaptorException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at com.mirth.connect.server.mule.adaptors.Adaptor.handleException(Adaptor.java:89)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:36)
+	at com.mirth.connect.server.mule.adaptors.Adaptor.getMessage(Adaptor.java:61)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:255)
+	... 17 more
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.substring(String.java:1967)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.getNodeNameFromXMLString(XMLAdaptor.java:59)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:33)
+	... 19 more
+ERROR 2025-02-12 10:56:06,923 [6f172bf1-c315-4a00-a7b5-57164dd696ed_source_connector._mllpEndpoint#1441261363.receiver.10] org.mule.impl.DefaultComponentExceptionStrategy: Caught exception in Exception Strategy for: 6f172bf1-c315-4a00-a7b5-57164dd696ed: org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1eab26e0, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#1441261363', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@24a0c1a6, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1eab26e0, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#1441261363', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@24a0c1a6, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:64)
+	at org.mule.routing.inbound.InboundMessageRouter.route(InboundMessageRouter.java:79)
+	at org.mule.providers.AbstractMessageReceiver$DefaultInternalMessageListener.onMessage(AbstractMessageReceiver.java:487)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:266)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:238)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processHL7Data(MllpMessageReceiver.java:471)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processData(MllpMessageReceiver.java:431)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.run(MllpMessageReceiver.java:348)
+	at org.mule.impl.work.WorkerContext.run(WorkerContext.java:290)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1061)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:575)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.mule.umo.transformer.TransformerException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2 (com.mirth.connect.server.mule.adaptors.AdaptorException)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:284)
+	at org.mule.transformers.AbstractEventAwareTransformer.doTransform(AbstractEventAwareTransformer.java:48)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:197)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.impl.MuleEvent.getTransformedMessage(MuleEvent.java:251)
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:61)
+	... 11 more
+Caused by: com.mirth.connect.server.mule.adaptors.AdaptorException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at com.mirth.connect.server.mule.adaptors.Adaptor.handleException(Adaptor.java:89)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:36)
+	at com.mirth.connect.server.mule.adaptors.Adaptor.getMessage(Adaptor.java:61)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:255)
+	... 17 more
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.substring(String.java:1967)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.getNodeNameFromXMLString(XMLAdaptor.java:59)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:33)
+	... 19 more
+ERROR 2025-02-12 11:09:36,521 [6f172bf1-c315-4a00-a7b5-57164dd696ed_source_connector._mllpEndpoint#1441261363.receiver.10] org.mule.impl.DefaultComponentExceptionStrategy: Caught exception in Exception Strategy for: 6f172bf1-c315-4a00-a7b5-57164dd696ed: org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1eab26e0, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#1441261363', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@24a0c1a6, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1eab26e0, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#1441261363', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@24a0c1a6, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:64)
+	at org.mule.routing.inbound.InboundMessageRouter.route(InboundMessageRouter.java:79)
+	at org.mule.providers.AbstractMessageReceiver$DefaultInternalMessageListener.onMessage(AbstractMessageReceiver.java:487)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:266)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:238)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processHL7Data(MllpMessageReceiver.java:471)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processData(MllpMessageReceiver.java:431)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.run(MllpMessageReceiver.java:348)
+	at org.mule.impl.work.WorkerContext.run(WorkerContext.java:290)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1061)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:575)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.mule.umo.transformer.TransformerException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2 (com.mirth.connect.server.mule.adaptors.AdaptorException)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:284)
+	at org.mule.transformers.AbstractEventAwareTransformer.doTransform(AbstractEventAwareTransformer.java:48)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:197)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.impl.MuleEvent.getTransformedMessage(MuleEvent.java:251)
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:61)
+	... 11 more
+Caused by: com.mirth.connect.server.mule.adaptors.AdaptorException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at com.mirth.connect.server.mule.adaptors.Adaptor.handleException(Adaptor.java:89)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:36)
+	at com.mirth.connect.server.mule.adaptors.Adaptor.getMessage(Adaptor.java:61)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:255)
+	... 17 more
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.substring(String.java:1967)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.getNodeNameFromXMLString(XMLAdaptor.java:59)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:33)
+	... 19 more
+ERROR 2025-02-12 11:41:24,681 [6f172bf1-c315-4a00-a7b5-57164dd696ed_source_connector._mllpEndpoint#1441261363.receiver.10] org.mule.impl.DefaultComponentExceptionStrategy: Caught exception in Exception Strategy for: 6f172bf1-c315-4a00-a7b5-57164dd696ed: org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1eab26e0, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#1441261363', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@24a0c1a6, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1eab26e0, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#1441261363', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@24a0c1a6, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:64)
+	at org.mule.routing.inbound.InboundMessageRouter.route(InboundMessageRouter.java:79)
+	at org.mule.providers.AbstractMessageReceiver$DefaultInternalMessageListener.onMessage(AbstractMessageReceiver.java:487)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:266)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:238)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processHL7Data(MllpMessageReceiver.java:471)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processData(MllpMessageReceiver.java:431)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.run(MllpMessageReceiver.java:348)
+	at org.mule.impl.work.WorkerContext.run(WorkerContext.java:290)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1061)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:575)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.mule.umo.transformer.TransformerException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2 (com.mirth.connect.server.mule.adaptors.AdaptorException)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:284)
+	at org.mule.transformers.AbstractEventAwareTransformer.doTransform(AbstractEventAwareTransformer.java:48)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:197)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.impl.MuleEvent.getTransformedMessage(MuleEvent.java:251)
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:61)
+	... 11 more
+Caused by: com.mirth.connect.server.mule.adaptors.AdaptorException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at com.mirth.connect.server.mule.adaptors.Adaptor.handleException(Adaptor.java:89)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:36)
+	at com.mirth.connect.server.mule.adaptors.Adaptor.getMessage(Adaptor.java:61)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:255)
+	... 17 more
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.substring(String.java:1967)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.getNodeNameFromXMLString(XMLAdaptor.java:59)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:33)
+	... 19 more
+INFO  2025-02-12 11:53:14,010 [Thread-4] com.mirth.connect.server.Mirth: shutting down mirth due to normal request
+ERROR 2025-02-12 11:53:23,551 [Thread-2] com.mirth.connect.server.controllers.DefaultConfigurationController: error loading encryption key
+com.thoughtworks.xstream.converters.ConversionException: Cannot create java.security.KeyRep by JDK serialization : unrecognized type/format combination: null/null : Cannot create java.security.KeyRep by JDK serialization : unrecognized type/format combination: null/null
+---- Debugging information ----
+message             : Cannot create java.security.KeyRep by JDK serialization : unrecognized type/format combination: null/null
+cause-exception     : com.thoughtworks.xstream.converters.reflection.ObjectAccessException
+cause-message       : Cannot create java.security.KeyRep by JDK serialization : unrecognized type/format combination: null/null
+class               : com.sun.crypto.provider.DESedeKey
+required-type       : com.sun.crypto.provider.DESedeKey
+line number         : 1
+-------------------------------
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:88)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:75)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:59)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:142)
+	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:33)
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:931)
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:917)
+	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:861)
+	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:853)
+	at com.mirth.connect.model.converters.ObjectXMLSerializer.fromXML(ObjectXMLSerializer.java:123)
+	at com.mirth.connect.server.controllers.DefaultConfigurationController.loadEncryptionKey(DefaultConfigurationController.java:287)
+	at com.mirth.connect.server.Mirth.startup(Mirth.java:206)
+	at com.mirth.connect.server.Mirth.run(Mirth.java:143)
+Caused by: com.thoughtworks.xstream.converters.reflection.ObjectAccessException: Cannot create java.security.KeyRep by JDK serialization : unrecognized type/format combination: null/null
+	at com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.instantiateUsingSerialization(PureJavaReflectionProvider.java:114)
+	at com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.newInstance(PureJavaReflectionProvider.java:69)
+	at com.thoughtworks.xstream.converters.reflection.ReflectionProviderWrapper.newInstance(ReflectionProviderWrapper.java:42)
+	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.instantiateNewInstance(AbstractReflectionConverter.java:277)
+	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshal(AbstractReflectionConverter.java:149)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:81)
+	... 12 more
+Caused by: java.io.NotSerializableException: unrecognized type/format combination: null/null
+	at java.security.KeyRep.readResolve(KeyRep.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeReadResolve(ObjectStreamClass.java:1260)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2078)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:431)
+	at com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.instantiateUsingSerialization(PureJavaReflectionProvider.java:112)
+	... 17 more
+INFO  2025-02-12 11:53:25,559 [Thread-2] com.mirth.connect.server.Mirth: Mirth Connect 2.1.1.5490 (Built on July 6, 2011) server successfully started.
+INFO  2025-02-12 11:53:25,559 [Thread-2] com.mirth.connect.server.Mirth: This product was developed by Mirth Corporation (http://www.mirthcorp.com) and its contributors (c)2005-2025.
+INFO  2025-02-12 11:53:25,560 [Thread-2] com.mirth.connect.server.Mirth: Running Java HotSpot(TM) 64-Bit Server VM 1.8.0_202 on Linux (6.8.0-52-generic, amd64), derby, with charset UTF-8.
+INFO  2025-02-12 11:55:18,929 [57d1ad87-e79e-4a1c-bb41-09671c9ac89b_source_connector._jdbcEndpoint#-911734228.receiver.1] transformer: Date :=20250212115518
+INFO  2025-02-12 11:55:18,947 [57d1ad87-e79e-4a1c-bb41-09671c9ac89b_source_connector._jdbcEndpoint#-911734228.receiver.1] transformer: name_format :=true
+INFO  2025-02-12 11:55:18,949 [57d1ad87-e79e-4a1c-bb41-09671c9ac89b_source_connector._jdbcEndpoint#-911734228.receiver.1] transformer: Patient sex from DB=1
+INFO  2025-02-12 11:55:18,951 [57d1ad87-e79e-4a1c-bb41-09671c9ac89b_source_connector._jdbcEndpoint#-911734228.receiver.1] transformer: DOB =1956-01-02 00:00:00.0
+INFO  2025-02-12 11:55:18,955 [57d1ad87-e79e-4a1c-bb41-09671c9ac89b_source_connector._jdbcEndpoint#-911734228.receiver.1] transformer: ***0****
+INFO  2025-02-12 11:55:18,955 [57d1ad87-e79e-4a1c-bb41-09671c9ac89b_source_connector._jdbcEndpoint#-911734228.receiver.1] transformer: SO Date =2025-02-12 11:55:00.0
+INFO  2025-02-12 11:55:18,958 [57d1ad87-e79e-4a1c-bb41-09671c9ac89b_source_connector._jdbcEndpoint#-911734228.receiver.1] transformer: ***0****
+INFO  2025-02-12 11:55:18,958 [57d1ad87-e79e-4a1c-bb41-09671c9ac89b_source_connector._jdbcEndpoint#-911734228.receiver.1] transformer: SO Date =2025-02-12 11:55:00.0
+INFO  2025-02-12 11:55:18,959 [57d1ad87-e79e-4a1c-bb41-09671c9ac89b_source_connector._jdbcEndpoint#-911734228.receiver.1] transformer: date_ahis =Wed Feb 12 11:55:00 IST 2025
+INFO  2025-02-12 11:55:18,960 [57d1ad87-e79e-4a1c-bb41-09671c9ac89b_source_connector._jdbcEndpoint#-911734228.receiver.1] transformer: hl7_format  =20250212115500
+INFO  2025-02-12 11:55:18,962 [57d1ad87-e79e-4a1c-bb41-09671c9ac89b_source_connector._jdbcEndpoint#-911734228.receiver.1] transformer: accession number=1324413
+INFO  2025-02-12 11:55:18,964 [57d1ad87-e79e-4a1c-bb41-09671c9ac89b_source_connector._jdbcEndpoint#-911734228.receiver.1] transformer: SPAID2272121
+INFO  2025-02-12 11:55:18,966 [57d1ad87-e79e-4a1c-bb41-09671c9ac89b_source_connector._jdbcEndpoint#-911734228.receiver.1] transformer: APACS Server IP: 192.168.180.203
+INFO  2025-02-12 11:55:18,966 [57d1ad87-e79e-4a1c-bb41-09671c9ac89b_source_connector._jdbcEndpoint#-911734228.receiver.1] transformer: APACS LLP Port: 2575
+INFO  2025-02-12 11:55:18,968 [57d1ad87-e79e-4a1c-bb41-09671c9ac89b_source_connector._jdbcEndpoint#-911734228.receiver.1] transformer: Stored SOT ID: 190
+INFO  2025-02-12 11:55:18,969 [57d1ad87-e79e-4a1c-bb41-09671c9ac89b_source_connector._jdbcEndpoint#-911734228.receiver.1] transformer: Referring Doctor - Family Name: Kumar
+INFO  2025-02-12 11:55:18,970 [57d1ad87-e79e-4a1c-bb41-09671c9ac89b_source_connector._jdbcEndpoint#-911734228.receiver.1] transformer: Referring Doctor - Given Name: Vineet
+INFO  2025-02-12 11:55:18,971 [57d1ad87-e79e-4a1c-bb41-09671c9ac89b_source_connector._jdbcEndpoint#-911734228.receiver.1] transformer: Referring Doctor - Middle Name: 
+INFO  2025-02-12 11:55:18,971 [57d1ad87-e79e-4a1c-bb41-09671c9ac89b_source_connector._jdbcEndpoint#-911734228.receiver.1] transformer: Consulting Doctor - Family Name: Kumar
+INFO  2025-02-12 11:55:18,972 [57d1ad87-e79e-4a1c-bb41-09671c9ac89b_source_connector._jdbcEndpoint#-911734228.receiver.1] transformer: Consulting Doctor - Given Name: Vineet
+INFO  2025-02-12 11:55:18,972 [57d1ad87-e79e-4a1c-bb41-09671c9ac89b_source_connector._jdbcEndpoint#-911734228.receiver.1] transformer: Consulting Doctor - Middle Name: 
+INFO  2025-02-12 11:55:18,973 [57d1ad87-e79e-4a1c-bb41-09671c9ac89b_source_connector._jdbcEndpoint#-911734228.receiver.1] transformer: Ordering Provider - Family Name: Kumar
+INFO  2025-02-12 11:55:18,973 [57d1ad87-e79e-4a1c-bb41-09671c9ac89b_source_connector._jdbcEndpoint#-911734228.receiver.1] transformer: Ordering Provider - Given Name: Vineet
+INFO  2025-02-12 11:55:18,974 [57d1ad87-e79e-4a1c-bb41-09671c9ac89b_source_connector._jdbcEndpoint#-911734228.receiver.1] transformer: Ordering Provider - Middle Name: 
+INFO  2025-02-12 11:55:18,975 [57d1ad87-e79e-4a1c-bb41-09671c9ac89b_source_connector._jdbcEndpoint#-911734228.receiver.1] transformer: OBR.44.1 (sm.description): CT Angio Brain
+INFO  2025-02-12 11:55:19,773 [3f5eb28b-d669-48d6-9d1c-22be3fcd2d1f_source_connector.3f5eb28b-d669-48d6-9d1c-22be3fcd2d1f.receiver.1] js-connector: From Process ACK 
+INFO  2025-02-12 11:55:19,774 [3f5eb28b-d669-48d6-9d1c-22be3fcd2d1f_source_connector.3f5eb28b-d669-48d6-9d1c-22be3fcd2d1f.receiver.1] js-connector: sot_id =190
+INFO  2025-02-12 11:55:19,774 [3f5eb28b-d669-48d6-9d1c-22be3fcd2d1f_source_connector.3f5eb28b-d669-48d6-9d1c-22be3fcd2d1f.receiver.1] js-connector: Message statis :AA
+INFO  2025-02-12 11:55:19,776 [3f5eb28b-d669-48d6-9d1c-22be3fcd2d1f_source_connector.3f5eb28b-d669-48d6-9d1c-22be3fcd2d1f.receiver.1] js-connector: Message text :
+INFO  2025-02-12 11:55:19,776 [3f5eb28b-d669-48d6-9d1c-22be3fcd2d1f_source_connector.3f5eb28b-d669-48d6-9d1c-22be3fcd2d1f.receiver.1] js-connector: Updating the Service order send to RIS status based on PACS HL7-ACK.
+INFO  2025-02-12 11:55:19,856 [3f5eb28b-d669-48d6-9d1c-22be3fcd2d1f_source_connector.3f5eb28b-d669-48d6-9d1c-22be3fcd2d1f.receiver.1] js-connector: SQL :UPDATE Standards.std_outbound_trxns SET Standards.std_outbound_trxns.status ='SEND' WHERE Standards.std_outbound_trxns.id =190
+INFO  2025-02-12 11:55:19,866 [3f5eb28b-d669-48d6-9d1c-22be3fcd2d1f_source_connector.3f5eb28b-d669-48d6-9d1c-22be3fcd2d1f.receiver.1] js-connector: SQL :UPDATE Standards.document_series SET Standards.document_series.max_number = Standards.document_series.max_number+1 WHERE Standards.document_series.series='SUID'
+ERROR 2025-02-12 11:56:07,406 [6f172bf1-c315-4a00-a7b5-57164dd696ed_source_connector._mllpEndpoint#-2116840931.receiver.2] org.mule.impl.DefaultComponentExceptionStrategy: Caught exception in Exception Strategy for: 6f172bf1-c315-4a00-a7b5-57164dd696ed: org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1d4992e8, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#-2116840931', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@52166e4b, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1d4992e8, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#-2116840931', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@52166e4b, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:64)
+	at org.mule.routing.inbound.InboundMessageRouter.route(InboundMessageRouter.java:79)
+	at org.mule.providers.AbstractMessageReceiver$DefaultInternalMessageListener.onMessage(AbstractMessageReceiver.java:487)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:266)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:238)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processHL7Data(MllpMessageReceiver.java:471)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processData(MllpMessageReceiver.java:431)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.run(MllpMessageReceiver.java:348)
+	at org.mule.impl.work.WorkerContext.run(WorkerContext.java:290)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1061)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:575)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.mule.umo.transformer.TransformerException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2 (com.mirth.connect.server.mule.adaptors.AdaptorException)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:284)
+	at org.mule.transformers.AbstractEventAwareTransformer.doTransform(AbstractEventAwareTransformer.java:48)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:197)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.impl.MuleEvent.getTransformedMessage(MuleEvent.java:251)
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:61)
+	... 11 more
+Caused by: com.mirth.connect.server.mule.adaptors.AdaptorException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at com.mirth.connect.server.mule.adaptors.Adaptor.handleException(Adaptor.java:89)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:36)
+	at com.mirth.connect.server.mule.adaptors.Adaptor.getMessage(Adaptor.java:61)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:255)
+	... 17 more
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.substring(String.java:1967)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.getNodeNameFromXMLString(XMLAdaptor.java:59)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:33)
+	... 19 more
+ERROR 2025-02-12 11:58:29,730 [6f172bf1-c315-4a00-a7b5-57164dd696ed_source_connector._mllpEndpoint#-2116840931.receiver.3] org.mule.impl.DefaultComponentExceptionStrategy: Caught exception in Exception Strategy for: 6f172bf1-c315-4a00-a7b5-57164dd696ed: org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1d4992e8, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#-2116840931', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@52166e4b, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1d4992e8, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#-2116840931', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@52166e4b, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:64)
+	at org.mule.routing.inbound.InboundMessageRouter.route(InboundMessageRouter.java:79)
+	at org.mule.providers.AbstractMessageReceiver$DefaultInternalMessageListener.onMessage(AbstractMessageReceiver.java:487)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:266)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:238)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processHL7Data(MllpMessageReceiver.java:471)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processData(MllpMessageReceiver.java:431)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.run(MllpMessageReceiver.java:348)
+	at org.mule.impl.work.WorkerContext.run(WorkerContext.java:290)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1061)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:575)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.mule.umo.transformer.TransformerException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2 (com.mirth.connect.server.mule.adaptors.AdaptorException)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:284)
+	at org.mule.transformers.AbstractEventAwareTransformer.doTransform(AbstractEventAwareTransformer.java:48)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:197)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.impl.MuleEvent.getTransformedMessage(MuleEvent.java:251)
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:61)
+	... 11 more
+Caused by: com.mirth.connect.server.mule.adaptors.AdaptorException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at com.mirth.connect.server.mule.adaptors.Adaptor.handleException(Adaptor.java:89)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:36)
+	at com.mirth.connect.server.mule.adaptors.Adaptor.getMessage(Adaptor.java:61)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:255)
+	... 17 more
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.substring(String.java:1967)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.getNodeNameFromXMLString(XMLAdaptor.java:59)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:33)
+	... 19 more
+ERROR 2025-02-12 11:59:29,849 [6f172bf1-c315-4a00-a7b5-57164dd696ed_source_connector._mllpEndpoint#-2116840931.receiver.4] org.mule.impl.DefaultComponentExceptionStrategy: Caught exception in Exception Strategy for: 6f172bf1-c315-4a00-a7b5-57164dd696ed: org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1d4992e8, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#-2116840931', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@52166e4b, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1d4992e8, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#-2116840931', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@52166e4b, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:64)
+	at org.mule.routing.inbound.InboundMessageRouter.route(InboundMessageRouter.java:79)
+	at org.mule.providers.AbstractMessageReceiver$DefaultInternalMessageListener.onMessage(AbstractMessageReceiver.java:487)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:266)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:238)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processHL7Data(MllpMessageReceiver.java:471)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processData(MllpMessageReceiver.java:431)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.run(MllpMessageReceiver.java:348)
+	at org.mule.impl.work.WorkerContext.run(WorkerContext.java:290)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1061)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:575)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.mule.umo.transformer.TransformerException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2 (com.mirth.connect.server.mule.adaptors.AdaptorException)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:284)
+	at org.mule.transformers.AbstractEventAwareTransformer.doTransform(AbstractEventAwareTransformer.java:48)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:197)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.impl.MuleEvent.getTransformedMessage(MuleEvent.java:251)
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:61)
+	... 11 more
+Caused by: com.mirth.connect.server.mule.adaptors.AdaptorException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at com.mirth.connect.server.mule.adaptors.Adaptor.handleException(Adaptor.java:89)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:36)
+	at com.mirth.connect.server.mule.adaptors.Adaptor.getMessage(Adaptor.java:61)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:255)
+	... 17 more
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.substring(String.java:1967)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.getNodeNameFromXMLString(XMLAdaptor.java:59)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:33)
+	... 19 more
+ERROR 2025-02-12 12:00:06,066 [6f172bf1-c315-4a00-a7b5-57164dd696ed_source_connector._mllpEndpoint#-2116840931.receiver.5] com.mirth.connect.connectors.mllp.protocols.LlpProtocol: Bytes received violate the MLLP: no start of message indicator received.
+
+ERROR 2025-02-12 12:00:12,828 [6f172bf1-c315-4a00-a7b5-57164dd696ed_source_connector._mllpEndpoint#-2116840931.receiver.6] com.mirth.connect.connectors.mllp.protocols.LlpProtocol: Bytes received violate the MLLP: no start of message indicator received.
+
+ERROR 2025-02-12 12:00:20,407 [6f172bf1-c315-4a00-a7b5-57164dd696ed_source_connector._mllpEndpoint#-2116840931.receiver.7] com.mirth.connect.connectors.mllp.protocols.LlpProtocol: Bytes received violate the MLLP: no start of message indicator received.
+
+ERROR 2025-02-12 12:00:29,942 [6f172bf1-c315-4a00-a7b5-57164dd696ed_source_connector._mllpEndpoint#-2116840931.receiver.8] org.mule.impl.DefaultComponentExceptionStrategy: Caught exception in Exception Strategy for: 6f172bf1-c315-4a00-a7b5-57164dd696ed: org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1d4992e8, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#-2116840931', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@52166e4b, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1d4992e8, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#-2116840931', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@52166e4b, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:64)
+	at org.mule.routing.inbound.InboundMessageRouter.route(InboundMessageRouter.java:79)
+	at org.mule.providers.AbstractMessageReceiver$DefaultInternalMessageListener.onMessage(AbstractMessageReceiver.java:487)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:266)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:238)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processHL7Data(MllpMessageReceiver.java:471)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processData(MllpMessageReceiver.java:431)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.run(MllpMessageReceiver.java:348)
+	at org.mule.impl.work.WorkerContext.run(WorkerContext.java:290)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1061)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:575)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.mule.umo.transformer.TransformerException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2 (com.mirth.connect.server.mule.adaptors.AdaptorException)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:284)
+	at org.mule.transformers.AbstractEventAwareTransformer.doTransform(AbstractEventAwareTransformer.java:48)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:197)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.impl.MuleEvent.getTransformedMessage(MuleEvent.java:251)
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:61)
+	... 11 more
+Caused by: com.mirth.connect.server.mule.adaptors.AdaptorException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at com.mirth.connect.server.mule.adaptors.Adaptor.handleException(Adaptor.java:89)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:36)
+	at com.mirth.connect.server.mule.adaptors.Adaptor.getMessage(Adaptor.java:61)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:255)
+	... 17 more
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.substring(String.java:1967)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.getNodeNameFromXMLString(XMLAdaptor.java:59)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:33)
+	... 19 more
+ERROR 2025-02-12 12:01:30,068 [6f172bf1-c315-4a00-a7b5-57164dd696ed_source_connector._mllpEndpoint#-2116840931.receiver.10] org.mule.impl.DefaultComponentExceptionStrategy: Caught exception in Exception Strategy for: 6f172bf1-c315-4a00-a7b5-57164dd696ed: org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1d4992e8, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#-2116840931', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@52166e4b, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1d4992e8, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#-2116840931', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@52166e4b, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:64)
+	at org.mule.routing.inbound.InboundMessageRouter.route(InboundMessageRouter.java:79)
+	at org.mule.providers.AbstractMessageReceiver$DefaultInternalMessageListener.onMessage(AbstractMessageReceiver.java:487)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:266)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:238)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processHL7Data(MllpMessageReceiver.java:471)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processData(MllpMessageReceiver.java:431)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.run(MllpMessageReceiver.java:348)
+	at org.mule.impl.work.WorkerContext.run(WorkerContext.java:290)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1061)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:575)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.mule.umo.transformer.TransformerException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2 (com.mirth.connect.server.mule.adaptors.AdaptorException)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:284)
+	at org.mule.transformers.AbstractEventAwareTransformer.doTransform(AbstractEventAwareTransformer.java:48)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:197)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.impl.MuleEvent.getTransformedMessage(MuleEvent.java:251)
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:61)
+	... 11 more
+Caused by: com.mirth.connect.server.mule.adaptors.AdaptorException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at com.mirth.connect.server.mule.adaptors.Adaptor.handleException(Adaptor.java:89)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:36)
+	at com.mirth.connect.server.mule.adaptors.Adaptor.getMessage(Adaptor.java:61)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:255)
+	... 17 more
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.substring(String.java:1967)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.getNodeNameFromXMLString(XMLAdaptor.java:59)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:33)
+	... 19 more
+ERROR 2025-02-12 12:01:36,963 [6f172bf1-c315-4a00-a7b5-57164dd696ed_source_connector._mllpEndpoint#-2116840931.receiver.9] com.mirth.connect.connectors.mllp.protocols.LlpProtocol: Bytes received violate the MLLP: no start of message indicator received.
+
+ERROR 2025-02-12 12:01:42,427 [6f172bf1-c315-4a00-a7b5-57164dd696ed_source_connector._mllpEndpoint#-2116840931.receiver.10] com.mirth.connect.connectors.mllp.protocols.LlpProtocol: Bytes received violate the MLLP: no start of message indicator received.
+
+ERROR 2025-02-12 12:02:30,155 [6f172bf1-c315-4a00-a7b5-57164dd696ed_source_connector._mllpEndpoint#-2116840931.receiver.10] org.mule.impl.DefaultComponentExceptionStrategy: Caught exception in Exception Strategy for: 6f172bf1-c315-4a00-a7b5-57164dd696ed: org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1d4992e8, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#-2116840931', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@52166e4b, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1d4992e8, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#-2116840931', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@52166e4b, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:64)
+	at org.mule.routing.inbound.InboundMessageRouter.route(InboundMessageRouter.java:79)
+	at org.mule.providers.AbstractMessageReceiver$DefaultInternalMessageListener.onMessage(AbstractMessageReceiver.java:487)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:266)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:238)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processHL7Data(MllpMessageReceiver.java:471)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processData(MllpMessageReceiver.java:431)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.run(MllpMessageReceiver.java:348)
+	at org.mule.impl.work.WorkerContext.run(WorkerContext.java:290)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1061)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:575)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.mule.umo.transformer.TransformerException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2 (com.mirth.connect.server.mule.adaptors.AdaptorException)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:284)
+	at org.mule.transformers.AbstractEventAwareTransformer.doTransform(AbstractEventAwareTransformer.java:48)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:197)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.impl.MuleEvent.getTransformedMessage(MuleEvent.java:251)
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:61)
+	... 11 more
+Caused by: com.mirth.connect.server.mule.adaptors.AdaptorException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at com.mirth.connect.server.mule.adaptors.Adaptor.handleException(Adaptor.java:89)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:36)
+	at com.mirth.connect.server.mule.adaptors.Adaptor.getMessage(Adaptor.java:61)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:255)
+	... 17 more
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.substring(String.java:1967)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.getNodeNameFromXMLString(XMLAdaptor.java:59)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:33)
+	... 19 more
+ERROR 2025-02-12 12:03:12,286 [6f172bf1-c315-4a00-a7b5-57164dd696ed_source_connector._mllpEndpoint#-2116840931.receiver.10] org.mule.impl.DefaultComponentExceptionStrategy: Caught exception in Exception Strategy for: 6f172bf1-c315-4a00-a7b5-57164dd696ed: org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1d4992e8, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#-2116840931', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@52166e4b, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1d4992e8, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#-2116840931', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@52166e4b, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:64)
+	at org.mule.routing.inbound.InboundMessageRouter.route(InboundMessageRouter.java:79)
+	at org.mule.providers.AbstractMessageReceiver$DefaultInternalMessageListener.onMessage(AbstractMessageReceiver.java:487)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:266)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:238)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processHL7Data(MllpMessageReceiver.java:471)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processData(MllpMessageReceiver.java:431)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.run(MllpMessageReceiver.java:348)
+	at org.mule.impl.work.WorkerContext.run(WorkerContext.java:290)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1061)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:575)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.mule.umo.transformer.TransformerException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2 (com.mirth.connect.server.mule.adaptors.AdaptorException)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:284)
+	at org.mule.transformers.AbstractEventAwareTransformer.doTransform(AbstractEventAwareTransformer.java:48)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:197)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.impl.MuleEvent.getTransformedMessage(MuleEvent.java:251)
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:61)
+	... 11 more
+Caused by: com.mirth.connect.server.mule.adaptors.AdaptorException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at com.mirth.connect.server.mule.adaptors.Adaptor.handleException(Adaptor.java:89)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:36)
+	at com.mirth.connect.server.mule.adaptors.Adaptor.getMessage(Adaptor.java:61)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:255)
+	... 17 more
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.substring(String.java:1967)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.getNodeNameFromXMLString(XMLAdaptor.java:59)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:33)
+	... 19 more
+ERROR 2025-02-12 12:03:30,240 [6f172bf1-c315-4a00-a7b5-57164dd696ed_source_connector._mllpEndpoint#-2116840931.receiver.10] org.mule.impl.DefaultComponentExceptionStrategy: Caught exception in Exception Strategy for: 6f172bf1-c315-4a00-a7b5-57164dd696ed: org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1d4992e8, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#-2116840931', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@52166e4b, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1d4992e8, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#-2116840931', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@52166e4b, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:64)
+	at org.mule.routing.inbound.InboundMessageRouter.route(InboundMessageRouter.java:79)
+	at org.mule.providers.AbstractMessageReceiver$DefaultInternalMessageListener.onMessage(AbstractMessageReceiver.java:487)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:266)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:238)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processHL7Data(MllpMessageReceiver.java:471)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processData(MllpMessageReceiver.java:431)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.run(MllpMessageReceiver.java:348)
+	at org.mule.impl.work.WorkerContext.run(WorkerContext.java:290)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1061)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:575)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.mule.umo.transformer.TransformerException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2 (com.mirth.connect.server.mule.adaptors.AdaptorException)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:284)
+	at org.mule.transformers.AbstractEventAwareTransformer.doTransform(AbstractEventAwareTransformer.java:48)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:197)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.impl.MuleEvent.getTransformedMessage(MuleEvent.java:251)
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:61)
+	... 11 more
+Caused by: com.mirth.connect.server.mule.adaptors.AdaptorException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at com.mirth.connect.server.mule.adaptors.Adaptor.handleException(Adaptor.java:89)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:36)
+	at com.mirth.connect.server.mule.adaptors.Adaptor.getMessage(Adaptor.java:61)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:255)
+	... 17 more
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.substring(String.java:1967)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.getNodeNameFromXMLString(XMLAdaptor.java:59)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:33)
+	... 19 more
+ERROR 2025-02-12 12:04:10,400 [6f172bf1-c315-4a00-a7b5-57164dd696ed_source_connector._mllpEndpoint#-2116840931.receiver.10] com.mirth.connect.connectors.mllp.protocols.LlpProtocol: Bytes received violate the MLLP: no start of message indicator received.
+
+ERROR 2025-02-12 12:05:19,618 [6f172bf1-c315-4a00-a7b5-57164dd696ed_source_connector._mllpEndpoint#-2116840931.receiver.10] com.mirth.connect.connectors.mllp.protocols.LlpProtocol: Bytes received violate the MLLP: no start of message indicator received.
+
+ERROR 2025-02-12 12:08:30,333 [6f172bf1-c315-4a00-a7b5-57164dd696ed_source_connector._mllpEndpoint#-2116840931.receiver.10] org.mule.impl.DefaultComponentExceptionStrategy: Caught exception in Exception Strategy for: 6f172bf1-c315-4a00-a7b5-57164dd696ed: org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1d4992e8, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#-2116840931', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@52166e4b, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1d4992e8, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#-2116840931', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@52166e4b, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:64)
+	at org.mule.routing.inbound.InboundMessageRouter.route(InboundMessageRouter.java:79)
+	at org.mule.providers.AbstractMessageReceiver$DefaultInternalMessageListener.onMessage(AbstractMessageReceiver.java:487)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:266)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:238)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processHL7Data(MllpMessageReceiver.java:471)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processData(MllpMessageReceiver.java:431)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.run(MllpMessageReceiver.java:348)
+	at org.mule.impl.work.WorkerContext.run(WorkerContext.java:290)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1061)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:575)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.mule.umo.transformer.TransformerException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2 (com.mirth.connect.server.mule.adaptors.AdaptorException)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:284)
+	at org.mule.transformers.AbstractEventAwareTransformer.doTransform(AbstractEventAwareTransformer.java:48)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:197)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.impl.MuleEvent.getTransformedMessage(MuleEvent.java:251)
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:61)
+	... 11 more
+Caused by: com.mirth.connect.server.mule.adaptors.AdaptorException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at com.mirth.connect.server.mule.adaptors.Adaptor.handleException(Adaptor.java:89)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:36)
+	at com.mirth.connect.server.mule.adaptors.Adaptor.getMessage(Adaptor.java:61)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:255)
+	... 17 more
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.substring(String.java:1967)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.getNodeNameFromXMLString(XMLAdaptor.java:59)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:33)
+	... 19 more
+ERROR 2025-02-12 12:09:36,607 [6f172bf1-c315-4a00-a7b5-57164dd696ed_source_connector._mllpEndpoint#-2116840931.receiver.10] org.mule.impl.DefaultComponentExceptionStrategy: Caught exception in Exception Strategy for: 6f172bf1-c315-4a00-a7b5-57164dd696ed: org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1d4992e8, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#-2116840931', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@52166e4b, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1d4992e8, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#-2116840931', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@52166e4b, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:64)
+	at org.mule.routing.inbound.InboundMessageRouter.route(InboundMessageRouter.java:79)
+	at org.mule.providers.AbstractMessageReceiver$DefaultInternalMessageListener.onMessage(AbstractMessageReceiver.java:487)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:266)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:238)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processHL7Data(MllpMessageReceiver.java:471)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processData(MllpMessageReceiver.java:431)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.run(MllpMessageReceiver.java:348)
+	at org.mule.impl.work.WorkerContext.run(WorkerContext.java:290)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1061)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:575)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.mule.umo.transformer.TransformerException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2 (com.mirth.connect.server.mule.adaptors.AdaptorException)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:284)
+	at org.mule.transformers.AbstractEventAwareTransformer.doTransform(AbstractEventAwareTransformer.java:48)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:197)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.impl.MuleEvent.getTransformedMessage(MuleEvent.java:251)
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:61)
+	... 11 more
+Caused by: com.mirth.connect.server.mule.adaptors.AdaptorException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at com.mirth.connect.server.mule.adaptors.Adaptor.handleException(Adaptor.java:89)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:36)
+	at com.mirth.connect.server.mule.adaptors.Adaptor.getMessage(Adaptor.java:61)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:255)
+	... 17 more
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.substring(String.java:1967)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.getNodeNameFromXMLString(XMLAdaptor.java:59)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:33)
+	... 19 more
+ERROR 2025-02-12 12:10:31,748 [6f172bf1-c315-4a00-a7b5-57164dd696ed_source_connector._mllpEndpoint#-2116840931.receiver.10] com.mirth.connect.connectors.mllp.protocols.LlpProtocol: Bytes received violate the MLLP: no start of message indicator received.
+
+ERROR 2025-02-12 12:13:30,409 [6f172bf1-c315-4a00-a7b5-57164dd696ed_source_connector._mllpEndpoint#-2116840931.receiver.10] org.mule.impl.DefaultComponentExceptionStrategy: Caught exception in Exception Strategy for: 6f172bf1-c315-4a00-a7b5-57164dd696ed: org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1d4992e8, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#-2116840931', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@52166e4b, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1d4992e8, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#-2116840931', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@52166e4b, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:64)
+	at org.mule.routing.inbound.InboundMessageRouter.route(InboundMessageRouter.java:79)
+	at org.mule.providers.AbstractMessageReceiver$DefaultInternalMessageListener.onMessage(AbstractMessageReceiver.java:487)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:266)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:238)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processHL7Data(MllpMessageReceiver.java:471)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processData(MllpMessageReceiver.java:431)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.run(MllpMessageReceiver.java:348)
+	at org.mule.impl.work.WorkerContext.run(WorkerContext.java:290)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1061)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:575)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.mule.umo.transformer.TransformerException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2 (com.mirth.connect.server.mule.adaptors.AdaptorException)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:284)
+	at org.mule.transformers.AbstractEventAwareTransformer.doTransform(AbstractEventAwareTransformer.java:48)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:197)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.impl.MuleEvent.getTransformedMessage(MuleEvent.java:251)
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:61)
+	... 11 more
+Caused by: com.mirth.connect.server.mule.adaptors.AdaptorException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at com.mirth.connect.server.mule.adaptors.Adaptor.handleException(Adaptor.java:89)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:36)
+	at com.mirth.connect.server.mule.adaptors.Adaptor.getMessage(Adaptor.java:61)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:255)
+	... 17 more
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.substring(String.java:1967)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.getNodeNameFromXMLString(XMLAdaptor.java:59)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:33)
+	... 19 more
+ERROR 2025-02-12 12:18:30,493 [6f172bf1-c315-4a00-a7b5-57164dd696ed_source_connector._mllpEndpoint#-2116840931.receiver.10] org.mule.impl.DefaultComponentExceptionStrategy: Caught exception in Exception Strategy for: 6f172bf1-c315-4a00-a7b5-57164dd696ed: org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1d4992e8, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#-2116840931', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@52166e4b, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1d4992e8, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#-2116840931', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@52166e4b, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:64)
+	at org.mule.routing.inbound.InboundMessageRouter.route(InboundMessageRouter.java:79)
+	at org.mule.providers.AbstractMessageReceiver$DefaultInternalMessageListener.onMessage(AbstractMessageReceiver.java:487)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:266)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:238)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processHL7Data(MllpMessageReceiver.java:471)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processData(MllpMessageReceiver.java:431)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.run(MllpMessageReceiver.java:348)
+	at org.mule.impl.work.WorkerContext.run(WorkerContext.java:290)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1061)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:575)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.mule.umo.transformer.TransformerException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2 (com.mirth.connect.server.mule.adaptors.AdaptorException)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:284)
+	at org.mule.transformers.AbstractEventAwareTransformer.doTransform(AbstractEventAwareTransformer.java:48)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:197)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.impl.MuleEvent.getTransformedMessage(MuleEvent.java:251)
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:61)
+	... 11 more
+Caused by: com.mirth.connect.server.mule.adaptors.AdaptorException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at com.mirth.connect.server.mule.adaptors.Adaptor.handleException(Adaptor.java:89)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:36)
+	at com.mirth.connect.server.mule.adaptors.Adaptor.getMessage(Adaptor.java:61)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:255)
+	... 17 more
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.substring(String.java:1967)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.getNodeNameFromXMLString(XMLAdaptor.java:59)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:33)
+	... 19 more
+ERROR 2025-02-12 12:23:30,582 [6f172bf1-c315-4a00-a7b5-57164dd696ed_source_connector._mllpEndpoint#-2116840931.receiver.10] org.mule.impl.DefaultComponentExceptionStrategy: Caught exception in Exception Strategy for: 6f172bf1-c315-4a00-a7b5-57164dd696ed: org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1d4992e8, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#-2116840931', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@52166e4b, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+org.mule.umo.routing.RoutingException: Failed to transform message before applying the filter. Failed to route event via endpoint: ImmutableMuleEndpoint{connector=com.mirth.connect.connectors.mllp.MllpConnector@1d4992e8, endpointUri=mllp://127.0.0.1:6661, transformer=Transformer{name='ByteArrayToString', returnClass=false, returnClass=false, sourceTypes=[class [B, class java.lang.String]}, name='_mllpEndpoint#-2116840931', type='receiver', properties={}, transactionConfig=org.mule.impl.MuleTransactionConfig@52166e4b, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0}. Message payload is of type: java.lang.String
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:64)
+	at org.mule.routing.inbound.InboundMessageRouter.route(InboundMessageRouter.java:79)
+	at org.mule.providers.AbstractMessageReceiver$DefaultInternalMessageListener.onMessage(AbstractMessageReceiver.java:487)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:266)
+	at org.mule.providers.AbstractMessageReceiver.routeMessage(AbstractMessageReceiver.java:238)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processHL7Data(MllpMessageReceiver.java:471)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.processData(MllpMessageReceiver.java:431)
+	at com.mirth.connect.connectors.mllp.MllpMessageReceiver$TcpWorker.run(MllpMessageReceiver.java:348)
+	at org.mule.impl.work.WorkerContext.run(WorkerContext.java:290)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1061)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:575)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.mule.umo.transformer.TransformerException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2 (com.mirth.connect.server.mule.adaptors.AdaptorException)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:284)
+	at org.mule.transformers.AbstractEventAwareTransformer.doTransform(AbstractEventAwareTransformer.java:48)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:197)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.transformers.AbstractTransformer.transform(AbstractTransformer.java:200)
+	at org.mule.impl.MuleEvent.getTransformedMessage(MuleEvent.java:251)
+	at org.mule.routing.inbound.SelectiveConsumer.isMatch(SelectiveConsumer.java:61)
+	... 11 more
+Caused by: com.mirth.connect.server.mule.adaptors.AdaptorException: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at com.mirth.connect.server.mule.adaptors.Adaptor.handleException(Adaptor.java:89)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:36)
+	at com.mirth.connect.server.mule.adaptors.Adaptor.getMessage(Adaptor.java:61)
+	at com.mirth.connect.server.mule.transformers.JavaScriptTransformer.transform(JavaScriptTransformer.java:255)
+	... 17 more
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.substring(String.java:1967)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.getNodeNameFromXMLString(XMLAdaptor.java:59)
+	at com.mirth.connect.server.mule.adaptors.XMLAdaptor.populateMessage(XMLAdaptor.java:33)
+	... 19 more
